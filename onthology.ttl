@@ -1,0 +1,62 @@
+@prefix lib: <http://www.lib.org/schema#> .
+@prefix : <http://www.bremen-lib.org> .
+
+:library lib:location "Bremen" .
+
+:jlb lib:name "Jorge Luis Borges" .
+
+:b1 lib:author :jlb ,
+    lib:title "Labyrinths" .
+
+:b2 lib:author :jlb ,
+    lib:title "Doctor Brodie's Report" .
+
+:b3 lib:author :jlb ,
+    lib:title "The Garden of Forking Paths" .
+
+:abc lib:name "Adolfo Bioy Casares" .
+
+:b4 lib:author :jlb ,
+    lib:title "The Invention of Morel" .
+
+:jc lib:name "Julio Cortázar" .
+
+:b5 lib:author :jlb ,
+    lib:title "Bestiario" .
+
+:b6 lib:author :jlb ,
+    lib:title "Un tal Lucas" .
+
+
+#
+# VERSIÓN QUE PUSIMOS EN "Virtuoso SPARQL"
+#
+
+@prefix <http://www.lib.org/schema# <http://www.lib.org/schema#> .
+@prefix : <http://www.bremen-lib.org> .
+
+<http://www.bremen-lib.org/library> <http://www.lib.org/schema#location> "Bremen" .
+
+<http://www.bremen-lib.org/jlb> <http://www.lib.org/schema#name> „Jorge Luis Borges“ .
+
+<http://www.bremen-lib.org/b1> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "Labyrinths" .
+
+<http://www.bremen-lib.org/b2> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "Doctor Brodie's Report" .
+
+<http://www.bremen-lib.org/b3> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "The Garden of Forking Paths" .
+
+<http://www.bremen-lib.org/abc> <http://www.lib.org/schema#name> "Adolfo Bioy Casares" .
+
+<http://www.bremen-lib.org/b4> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "The Invention of Morel" .
+
+<http://www.bremen-lib.org/jc> <http://www.lib.org/schema#name> "Julio Cortázar" .
+
+<http://www.bremen-lib.org/b5> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "Bestiario" .
+
+<http://www.bremen-lib.org/b6> <http://www.lib.org/schema#author> <http://www.bremen-lib.org/jlb> ,
+    <http://www.lib.org/schema#title> "Un tal Lucas" .
