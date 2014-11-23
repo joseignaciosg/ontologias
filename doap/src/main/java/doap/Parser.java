@@ -14,9 +14,9 @@ import org.json.simple.JSONValue;
 public class Parser {
 
 	static String[] users = { 
-			"ConcoMB", "mannias", "daniel-lobo",
+//			"ConcoMB", "mannias", "daniel-lobo",
 //			"akarpovsky", "Dinuuu", "farolfo",
-//			"epintos", "FedericoHomovc", "mdesanti",
+			"epintos", "FedericoHomovc", "mdesanti",
 //			"acrespo", "fnmartinez", "gcastigl", 
 //			"msturla", "nloreti", "eordano",
 //			"kshmir", "maximovs", "ealtamir", "joseignaciosg"

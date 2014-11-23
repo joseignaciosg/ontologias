@@ -2,7 +2,6 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-
 _:epintos a foaf:Person ;
 	 foaf:name "Esteban Pintos" ;
 	 foaf:mbox "epintos7@gmail.com" ;
@@ -233,3 +232,8 @@ doap:Project
 	 doap:maintainer _:mdesanti ;
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bioinf" ;
+	 doap:homepage "https://github.com/mdesanti/bioinf" ;
+	 doap:shortdesc "T
