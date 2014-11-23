@@ -16,14 +16,14 @@ public class Parser {
 	static String[] users = { "ConcoMB", "mannias", "daniel-lobo",
 			"akarpovsky", "Dinuuu", "farolfo", "epintos", "FedericoHomovc",
 			"mdesanti", "acrespo", "fnmartinez", "gcastigl", "msturla",
-			"nloreti", "eordano", "kshmir", "maximovs", "ealtamir" };
+			"nloreti", "eordano", "kshmir", "maximovs", "ealtamir", "joseignaciosg"};
 
 
-	private static String readUrl(String user) throws Exception {
+	private static String readUrl(String s) throws Exception {
 
 		BufferedReader reader = null;
 		try {
-			URL url = new URL("https://api.github.com/users/" + user + "/repos");
+			URL url = new URL(s);
 			reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			StringBuffer buffer = new StringBuffer();
 			int read;
@@ -44,6 +44,7 @@ public class Parser {
 		FileWriter fr = new FileWriter(file);
 		BufferedWriter br = new BufferedWriter(fr);
 
+		
 			
 		br.write("@prefix doap: <http://usefulinc.com/ns/doap#> .\n");
 		br.write("@prefix foaf: <http://xmlns.com/foaf/0.1/> .\n");
@@ -51,14 +52,18 @@ public class Parser {
 		
 		for (String user : users) {
 	
-			Object obj = JSONValue.parse(readUrl(user));
+			Object obj = JSONValue.parse(readUrl("https://api.github.com/users/" + user + "/repos"));
 			JSONArray array = (JSONArray) obj;
 	
 			System.out.println(array);
 			
+			Object obj2 = JSONValue.parse(readUrl("https://api.github.com/users/" + user));
+			JSONObject userObj  = (JSONObject) obj2;
+			
+						
 			br.write("_:" +user+" a foaf:Person ;\n");
-			br.write("\t foaf:name \"name\" ;\n");
-			br.write("\t foaf:mbox \"mbox\" ;\n");
+			br.write("\t foaf:name \""+userObj.get("name")+"\" ;\n");
+			br.write("\t foaf:mbox \""+userObj.get("email")+"\" ;\n");
 			br.write("\t foaf:homepage \"https://github.com/"+user+"\" .\n");
 			br.write("\n");
 		    
@@ -72,13 +77,16 @@ public class Parser {
 				br.write("\t doap:name '" + object.get("name") + "' ;\n");
 				br.write("\t doap:homepage \"https://github.com/" + user +"/"+ object.get("name") + "\" ;\n");
 				br.write("\t doap:shortdesc '" + object.get("description") + "' ;\n");
-				br.write("\t doap:maintainer '" + "_:" + user + "' ;\n");
+				br.write("\t doap:maintainer " + "_:" + user + " ;\n");
 				br.write("\t doap:repository _:repo .\n");
 				br.write("\n");
 				
 				
 			}
 		}
+		
+		br.write("_:repo a doap:GitRepository .\n");
+		
 		br.close();
 		fr.close();
 
