@@ -78,6 +78,29 @@ public class Parser {
 				br.write("\t doap:homepage \"https://github.com/" + user +"/"+ object.get("name") + "\" ;\n");
 				br.write("\t doap:shortdesc '" + object.get("description") + "' ;\n");
 				br.write("\t doap:maintainer " + "_:" + user + " ;\n");
+				
+				String developers =  "";
+				if (object.get("contributors_url") != null){
+					System.out.println(object.get("contributors_url"));
+					Object obj3 = JSONValue.parse(readUrl(object.get("contributors_url").toString()));
+					JSONArray contributorArray = (JSONArray) obj3;
+					if (contributorArray != null  && contributorArray.size() > 1){
+						for (int i = 0; i < contributorArray.size(); i++) {
+							JSONObject dev = (JSONObject) contributorArray.get(i);
+							developers += "_:"+ dev.get("login");
+							if (i < contributorArray.size()-1){
+								developers += ", ";	
+							}
+						}
+					}else{
+						developers += "_:"  +user;
+					}
+				}else{
+					developers += "_:"  +user;
+				}
+			
+				
+				br.write("\t doap:developer " + developers + " ;\n");
 				br.write("\t doap:repository _:repo .\n");
 				br.write("\n");
 				
