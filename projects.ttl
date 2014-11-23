@@ -895,5 +895,4 @@ doap:Project
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
 
-
 _:repo a doap:GitRepository .

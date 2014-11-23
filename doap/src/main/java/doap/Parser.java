@@ -14,9 +14,9 @@ import org.json.simple.JSONValue;
 public class Parser {
 
 	static String[] users = { 
-//			"ConcoMB", "mannias", "daniel-lobo",
+			"ConcoMB", "mannias", "daniel-lobo",
 //			"akarpovsky", "Dinuuu", "farolfo",
-			"epintos", "FedericoHomovc", "mdesanti",
+//			"epintos", "FedericoHomovc", "mdesanti",
 //			"acrespo", "fnmartinez", "gcastigl", 
 //			"msturla", "nloreti", "eordano",
 //			"kshmir", "maximovs", "ealtamir", "joseignaciosg"
@@ -48,7 +48,6 @@ public class Parser {
 		FileWriter fr = new FileWriter(file);
 		BufferedWriter br = new BufferedWriter(fr);
 
-		
 			
 		br.write("@prefix doap: <http://usefulinc.com/ns/doap#> .\n");
 		br.write("@prefix foaf: <http://xmlns.com/foaf/0.1/> .\n");
