@@ -13,10 +13,13 @@ import org.json.simple.JSONValue;
 
 public class Parser {
 
-	static String[] users = { "ConcoMB", "mannias", "daniel-lobo",
-			"akarpovsky", "Dinuuu", "farolfo", "epintos", "FedericoHomovc",
-			"mdesanti", "acrespo", "fnmartinez", "gcastigl", "msturla",
-			"nloreti", "eordano", "kshmir", "maximovs", "ealtamir", "joseignaciosg"};
+	static String[] users = { 
+			"ConcoMB", "mannias", "daniel-lobo",
+//			"akarpovsky", "Dinuuu", "farolfo", "epintos",
+//			"FedericoHomovc", "mdesanti", "acrespo", "fnmartinez", 
+//			"gcastigl", "msturla", "nloreti", "eordano",
+//			"kshmir", "maximovs", "ealtamir", "joseignaciosg"
+			};
 
 
 	private static String readUrl(String s) throws Exception {
@@ -74,9 +77,9 @@ public class Parser {
 				System.out.println("####NAME :" + object.get("name"));
 				
 				br.write("doap:Project\n");
-				br.write("\t doap:name '" + object.get("name") + "' ;\n");
+				br.write("\t doap:name \"" + object.get("name") + "\" ;\n");
 				br.write("\t doap:homepage \"https://github.com/" + user +"/"+ object.get("name") + "\" ;\n");
-				br.write("\t doap:shortdesc '" + object.get("description") + "' ;\n");
+				br.write("\t doap:shortdesc \"" + object.get("description") + "\" ;\n");
 				br.write("\t doap:maintainer " + "_:" + user + " ;\n");
 				
 				String developers =  "";
