@@ -2,387 +2,234 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:ConcoMB a foaf:Person ;
+
+_:epintos a foaf:Person ;
+	 foaf:name "Esteban Pintos" ;
+	 foaf:mbox "epintos7@gmail.com" ;
+	 foaf:homepage "https://github.com/epintos" .
+
+doap:Project
+	 doap:name "auctions-dci" ;
+	 doap:homepage "https://github.com/epintos/auctions-dci" ;
+	 doap:shortdesc "Rails example app applying Data Context Interaction (DCI) paradigm" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:santisamra ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bioinformatics" ;
+	 doap:homepage "https://github.com/epintos/bioinformatics" ;
+	 doap:shortdesc "First project for Bioinformatic course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinux" ;
+	 doap:homepage "https://github.com/epintos/dinux" ;
+	 doap:shortdesc "Final project for Computer Architecture course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v1" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
+	 doap:shortdesc "First project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v2" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
+	 doap:shortdesc "Second project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v3" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
+	 doap:shortdesc "Third project for Web Applications Project course at ITBA. Year 2012" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dungeon-crawler" ;
+	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
+	 doap:shortdesc "Final project for Imperative Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "face-detection" ;
+	 doap:homepage "https://github.com/epintos/face-detection" ;
+	 doap:shortdesc "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "fajita" ;
+	 doap:homepage "https://github.com/epintos/fajita" ;
+	 doap:shortdesc "Final project for Software Engineering at ITBA. Year 2013-2014." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "image-treatment" ;
+	 doap:homepage "https://github.com/epintos/image-treatment" ;
+	 doap:shortdesc "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "mediclink" ;
+	 doap:homepage "https://github.com/epintos/mediclink" ;
+	 doap:shortdesc "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p1" ;
+	 doap:homepage "https://github.com/epintos/os-p1" ;
+	 doap:shortdesc "First Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p2" ;
+	 doap:homepage "https://github.com/epintos/os-p2" ;
+	 doap:shortdesc "Second Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p3" ;
+	 doap:homepage "https://github.com/epintos/os-p3" ;
+	 doap:shortdesc "Third project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "pipedreamsolver" ;
+	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
+	 doap:shortdesc "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "proxy-http" ;
+	 doap:homepage "https://github.com/epintos/proxy-http" ;
+	 doap:shortdesc "Final project for Communication Protocols course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "shopping" ;
+	 doap:homepage "https://github.com/epintos/shopping" ;
+	 doap:shortdesc "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "sia" ;
+	 doap:homepage "https://github.com/epintos/sia" ;
+	 doap:shortdesc "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "signal" ;
+	 doap:homepage "https://github.com/epintos/signal" ;
+	 doap:shortdesc "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "slip-slide" ;
+	 doap:homepage "https://github.com/epintos/slip-slide" ;
+	 doap:shortdesc "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "software-factory-simulator" ;
+	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
+	 doap:shortdesc "Final Project for Systems Simulation course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "stenography" ;
+	 doap:homepage "https://github.com/epintos/stenography" ;
+	 doap:shortdesc "Final project for Cryptography and Security course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "wogger" ;
+	 doap:homepage "https://github.com/epintos/wogger" ;
+	 doap:shortdesc "Time logger for different projects and teams" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+_:FedericoHomovc a foaf:Person ;
 	 foaf:name "null" ;
 	 foaf:mbox "null" ;
-	 foaf:homepage "https://github.com/ConcoMB" .
+	 foaf:homepage "https://github.com/FedericoHomovc" .
 
 doap:Project
-	 doap:name "ATI" ;
-	 doap:homepage "https://github.com/ConcoMB/ATI" ;
-	 doap:shortdesc "AT-AT" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:FedericoHomovc ;
+	 doap:name "pdc-2012" ;
+	 doap:homepage "https://github.com/FedericoHomovc/pdc-2012" ;
+	 doap:shortdesc "TP Protocolos de Comunicación" ;
+	 doap:maintainer _:FedericoHomovc ;
+	 doap:developer _:FedericoHomovc ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "CF-OS" ;
-	 doap:homepage "https://github.com/ConcoMB/CF-OS" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:framundo, _:tomymehdi ;
+	 doap:name "tpeSO1" ;
+	 doap:homepage "https://github.com/FedericoHomovc/tpeSO1" ;
+	 doap:shortdesc "distribución de alimentos entre ciudades" ;
+	 doap:maintainer _:FedericoHomovc ;
+	 doap:developer _:FedericoHomovc, _:joseignaciosg, _:nloreti ;
+	 doap:repository _:repo .
+
+_:mdesanti a foaf:Person ;
+	 foaf:name "" ;
+	 foaf:mbox "mdesanti90@gmail.com" ;
+	 foaf:homepage "https://github.com/mdesanti" .
+
+doap:Project
+	 doap:name "arcanist-extensions" ;
+	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
+	 doap:shortdesc "Awesome Arcanist extensions!" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:reu, _:mpelos, _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "ChileGames" ;
-	 doap:homepage "https://github.com/ConcoMB/ChileGames" ;
-	 doap:shortdesc "Videogames with earthquakes" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:joseignaciosg ;
+	 doap:name "bigdata" ;
+	 doap:homepage "https://github.com/mdesanti/bigdata" ;
+	 doap:shortdesc "Trabajos Prácticos de Big Data" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "DungeonDesktops" ;
-	 doap:homepage "https://github.com/ConcoMB/DungeonDesktops" ;
-	 doap:shortdesc "Tp de Programacion orientada a objetos" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "esteganography" ;
-	 doap:homepage "https://github.com/ConcoMB/esteganography" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:FedericoHomovc ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "FanClub" ;
-	 doap:homepage "https://github.com/ConcoMB/FanClub" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "Haster" ;
-	 doap:homepage "https://github.com/ConcoMB/Haster" ;
-	 doap:shortdesc "Twitter like app in Haskell" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "HCI" ;
-	 doap:homepage "https://github.com/ConcoMB/HCI" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:vickymesalcorta, _:framundo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "iOS-2D" ;
-	 doap:homepage "https://github.com/ConcoMB/iOS-2D" ;
-	 doap:shortdesc "gilada iOS" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "mgmt" ;
-	 doap:homepage "https://github.com/ConcoMB/mgmt" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "Multiparty" ;
-	 doap:homepage "https://github.com/ConcoMB/Multiparty" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "NoSQL" ;
-	 doap:homepage "https://github.com/ConcoMB/NoSQL" ;
-	 doap:shortdesc "TP Neo4j" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "olap-spatial" ;
-	 doap:homepage "https://github.com/ConcoMB/olap-spatial" ;
-	 doap:shortdesc "dOLAPe" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:amarseillan, _:ConcoMB, _:framundo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "POPeye" ;
-	 doap:homepage "https://github.com/ConcoMB/POPeye" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB, _:framundo, _:jonatansve ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "SS" ;
-	 doap:homepage "https://github.com/ConcoMB/SS" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "SuperMongo" ;
-	 doap:homepage "https://github.com/ConcoMB/SuperMongo" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "w-prixes" ;
-	 doap:homepage "https://github.com/ConcoMB/w-prixes" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:ConcoMB ;
-	 doap:developer _:ConcoMB ;
-	 doap:repository _:repo .
-
-_:mannias a foaf:Person ;
-	 foaf:name "Matias Domingues" ;
-	 foaf:mbox "mannias@gmail.com" ;
-	 foaf:homepage "https://github.com/mannias" .
-
-doap:Project
-	 doap:name "Cripto" ;
-	 doap:homepage "https://github.com/mannias/Cripto" ;
-	 doap:shortdesc "Trabajo Practico de Criptografia y Seguridad" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:fnmartinez, _:mannias, _:TereFDS ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "EDA" ;
-	 doap:homepage "https://github.com/mannias/EDA" ;
-	 doap:shortdesc "Ejercicios - Estructura de Datos y Algoritmos" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "hyttrop" ;
-	 doap:homepage "https://github.com/mannias/hyttrop" ;
-	 doap:shortdesc "An HTTP v1.1 proxy using our thorium framework" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:fnmartinez, _:mannias, _:facualderete ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "MNA" ;
-	 doap:homepage "https://github.com/mannias/MNA" ;
-	 doap:shortdesc "Trabajo Practico Especial de Métodos Numéricos Avanzados" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias, _:lulirez ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "olap" ;
-	 doap:homepage "https://github.com/mannias/olap" ;
-	 doap:shortdesc "Trabajo Practico Especial - OLAP Espacial" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "paw" ;
-	 doap:homepage "https://github.com/mannias/paw" ;
-	 doap:shortdesc "Trabajo Practico Especial Proyecto de Aplicaciones Web" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias, _:fnmartinez ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "SIA" ;
-	 doap:homepage "https://github.com/mannias/SIA" ;
-	 doap:shortdesc "Sistemas de Inteligencia Artificial" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:fnmartinez, _:TereFDS, _:mannias ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "SO" ;
-	 doap:homepage "https://github.com/mannias/SO" ;
-	 doap:shortdesc "Trabajo Practico Especial - Sistemas Operativos" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:Federelli, _:mannias ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TLA-1C2013" ;
-	 doap:homepage "https://github.com/mannias/TLA-1C2013" ;
-	 doap:shortdesc "Trabajo Practico Especial - Teoria de Lenguajes, Automatas y Compiladores" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "tp-eda-2011" ;
-	 doap:homepage "https://github.com/mannias/tp-eda-2011" ;
-	 doap:shortdesc "Trabajo Practico Especial - Estructura de Datos y Algoritmos" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias, _:vickymesalcorta, _:SebaMaio ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TPEArqui-2C2012" ;
-	 doap:homepage "https://github.com/mannias/TPEArqui-2C2012" ;
-	 doap:shortdesc "Trabajo Practico Especial - Arquitecturas de Computadoras" ;
-	 doap:maintainer _:mannias ;
-	 doap:developer _:mannias ;
-	 doap:repository _:repo .
-
-_:daniel-lobo a foaf:Person ;
-	 foaf:name "Daniel Lobo" ;
-	 foaf:mbox "dlobo@itba.edu.ar" ;
-	 foaf:homepage "https://github.com/daniel-lobo" .
-
-doap:Project
-	 doap:name "cheatsheets" ;
-	 doap:homepage "https://github.com/daniel-lobo/cheatsheets" ;
-	 doap:shortdesc "My cheatsheets" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "craigscraper" ;
-	 doap:homepage "https://github.com/daniel-lobo/craigscraper" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "cwwav" ;
-	 doap:homepage "https://github.com/daniel-lobo/cwwav" ;
-	 doap:shortdesc "Command line tool to generate morse code sound files from text or stdin" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "domaincli" ;
-	 doap:homepage "https://github.com/daniel-lobo/domaincli" ;
-	 doap:shortdesc "A simple command-line interface for registering domain names" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "first_app" ;
-	 doap:homepage "https://github.com/daniel-lobo/first_app" ;
-	 doap:shortdesc "Learning Rails" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "fnordmetric" ;
-	 doap:homepage "https://github.com/daniel-lobo/fnordmetric" ;
-	 doap:shortdesc "FnordMetric is a redis/ruby-based realtime Event-Tracking app" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:paulasmuth, _:lgierth, _:mborromeo, _:kazjote, _:fd, _:alindeman, _:nono, _:kirs, _:jurriaan, _:DamianCaruso, _:JohnMurray, _:oleriesenberg, _:laserlemon, _:l4u ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "gdn" ;
-	 doap:homepage "https://github.com/daniel-lobo/gdn" ;
-	 doap:shortdesc " A command line program that encodes mathematical notation into a Gödel numbers and decodes Gödel numbers into mathematical notation. " ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "learnstreet" ;
-	 doap:homepage "https://github.com/daniel-lobo/learnstreet" ;
-	 doap:shortdesc "Coding starts here" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "lightsaber" ;
-	 doap:homepage "https://github.com/daniel-lobo/lightsaber" ;
-	 doap:shortdesc "An elegant stack to ship civic apps that are mobile and open" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:html5cat, _:wolfmat, _:davo, _:Quadramma, _:p4bloch ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "parser-of-C-declarations" ;
-	 doap:homepage "https://github.com/daniel-lobo/parser-of-C-declarations" ;
-	 doap:shortdesc "The Piece of Code that Understandeth All Parsing" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "play" ;
-	 doap:homepage "https://github.com/daniel-lobo/play" ;
-	 doap:shortdesc "play ► — your company's dj" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:holman, _:medwards, _:tmm1, _:bleikamp, _:tombell, _:defunkt, _:dtorres, _:mtodd, _:dhiemstra, _:benburkert, _:paulcbetts, _:trobrock ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "pyrdiostream" ;
-	 doap:homepage "https://github.com/daniel-lobo/pyrdiostream" ;
-	 doap:shortdesc "Python library for streaming content from Rdio" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "Silversphere2" ;
-	 doap:homepage "https://github.com/daniel-lobo/Silversphere2" ;
-	 doap:shortdesc "Silversphere game for an OOP course assignment at ITBA." ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:asciglia, _:fmart318 ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "smaz" ;
-	 doap:homepage "https://github.com/daniel-lobo/smaz" ;
-	 doap:shortdesc "Small strings encryption library" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "smoke.js" ;
-	 doap:homepage "https://github.com/daniel-lobo/smoke.js" ;
-	 doap:shortdesc "framework-agnostic styled alert system for javascript" ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "sms-fu" ;
-	 doap:homepage "https://github.com/daniel-lobo/sms-fu" ;
-	 doap:shortdesc "Allows you to send an SMS in the form of an e-mail to a cell phone." ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:jezdez, _:medwards ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "Sokoban" ;
-	 doap:homepage "https://github.com/daniel-lobo/Sokoban" ;
-	 doap:shortdesc "Sokoban game for an OOP course assignment at ITBA." ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "util" ;
-	 doap:homepage "https://github.com/daniel-lobo/util" ;
-	 doap:shortdesc "Utilities that I'd want to carry around." ;
-	 doap:maintainer _:daniel-lobo ;
-	 doap:developer _:daniel-lobo ;
-	 doap:repository _:repo .
-
-_:repo a doap:GitRepository .

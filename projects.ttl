@@ -385,4 +385,515 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
+_:akarpovsky a foaf:Person ;
+	 foaf:name "Alan Karpovsky" ;
+	 foaf:mbox "" ;
+	 foaf:homepage "https://github.com/akarpovsky" .
+
+doap:Project
+	 doap:name "Estructuras-de-Datos-y-Algoritmos" ;
+	 doap:homepage "https://github.com/akarpovsky/Estructuras-de-Datos-y-Algoritmos" ;
+	 doap:shortdesc "Algunos ejercicios de guias, parciales y finales resueltos." ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:akarpovsky ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SharedSecret" ;
+	 doap:homepage "https://github.com/akarpovsky/SharedSecret" ;
+	 doap:shortdesc "Shared secret algorithm, using steganography." ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:paulballesty, _:nicomagni ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SO_TPE" ;
+	 doap:homepage "https://github.com/akarpovsky/SO_TPE" ;
+	 doap:shortdesc "Fantasy league implementation in C using IPCs, filesystems and concurrent servers" ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:fnmartinez, _:akarpovsky, _:vickymesalcorta ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPFinal-QOS" ;
+	 doap:homepage "https://github.com/akarpovsky/TPFinal-QOS" ;
+	 doap:shortdesc "Medición de la calidad de servicio de internet. TP Final - ITBA" ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:akarpovsky, _:joseignaciosg, _:nloreti ;
+	 doap:repository _:repo .
+
+_:Dinuuu a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/Dinuuu" .
+
+doap:Project
+	 doap:name "JavaDFS" ;
+	 doap:homepage "https://github.com/Dinuuu/JavaDFS" ;
+	 doap:shortdesc "Sistemas de Ficheros Distribuidos usando JavaDFS" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "JavaDSM" ;
+	 doap:homepage "https://github.com/Dinuuu/JavaDSM" ;
+	 doap:shortdesc "Sistema de memoria compartida distribuida en Java" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "MiddlewareProyect" ;
+	 doap:homepage "https://github.com/Dinuuu/MiddlewareProyect" ;
+	 doap:shortdesc "Aplicacion tipo Facebook distribuida." ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SDSockets" ;
+	 doap:homepage "https://github.com/Dinuuu/SDSockets" ;
+	 doap:shortdesc "Arquitectura Editor/Suscriptor son Sockets en C" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE3-SO" ;
+	 doap:homepage "https://github.com/Dinuuu/TPE3-SO" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "woloxBlog" ;
+	 doap:homepage "https://github.com/Dinuuu/woloxBlog" ;
+	 doap:shortdesc "Tutorial de training para Wolox" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+_:farolfo a foaf:Person ;
+	 foaf:name "Franco Arolfo" ;
+	 foaf:mbox "francoarolfo@hotmail.com" ;
+	 foaf:homepage "https://github.com/farolfo" .
+
+doap:Project
+	 doap:name ".zshrc" ;
+	 doap:homepage "https://github.com/farolfo/.zshrc" ;
+	 doap:shortdesc "My personal modification to the robbyrussel(oh-my-zsh) theme for the zsh terminal" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "al.fa.jor--OperatingSystem" ;
+	 doap:homepage "https://github.com/farolfo/al.fa.jor--OperatingSystem" ;
+	 doap:shortdesc "Sistema operativo desarrollado para distintas cátedras del ITBA. Primera iteracion: sistema booteable, uso de syscalls e interrupciones, paginacion de memoria y otras funcionalidades. Seg. iteracion: multitasking, terminales y uso de estados en los procesos. Tercera iteracion: filesystem. Desarrollado junto a Jorge Mozzino y Alan Pomerantz (1ra iteracion) y junto a Jorge Mozzino (2da y 3ra iteracion)." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "angular.js" ;
+	 doap:homepage "https://github.com/farolfo/angular.js" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:IgorMinar, _:mhevery, _:vojtajina, _:matsko, _:petebacondarwin, _:btford, _:chirayuk, _:ksheedlo, _:jdavisp3, _:esprehn, _:brettcannon, _:mernen, _:abrons, _:lgalfaso, _:jankuca, _:krculp, _:jbdeboer, _:fredsa, _:mzgol, _:brent-morrow, _:shyamseshadri, _:gdennie, _:pkozlowski-opensource, _:dmanek, _:jeffbcross, _:naomiblack, _:ProLoser, _:alkis, _:dbinit, _:Ore4444 ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "david-www" ;
+	 doap:homepage "https://github.com/farolfo/david-www" ;
+	 doap:shortdesc "David helps keep your Nodejs project dependencies up to date." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:alanshaw, _:XhmikosR, _:olizilla ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "donde-ensayo-beta" ;
+	 doap:homepage "https://github.com/farolfo/donde-ensayo-beta" ;
+	 doap:shortdesc "Aplicación web que brinda servicios para bandas "de garage". Mediante APIs encuentra servicios tales como lugares para tocar, salas de ensayo, estudios de grabación o profesores de música. Desarrollado en Java con Spring MVC." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "fantasy-league--SO-TPE1" ;
+	 doap:homepage "https://github.com/farolfo/fantasy-league--SO-TPE1" ;
+	 doap:shortdesc "Una liga de fantasía desarrollada en C para la cátedra de Sistemas Operativos del ITBA, con el propósito de practicar servidores concurrentes, IPCs y filesystems. Desarrollado con Jorge Mozzino." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "fill-zone" ;
+	 doap:homepage "https://github.com/farolfo/fill-zone" ;
+	 doap:shortdesc "Implementación de un motor de inferencias para resolver el juego Fill Zone. Utiliza algoritmos no informados (DFS, BFS, ID) y informados (A* y Greedy Search). Desarrollado junto a Francisco Pagliaricci y Jorge Mozzino para la cátedra de Sistemas de Inteligencia Artificial del ITBA" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "foolsCracker-API" ;
+	 doap:homepage "https://github.com/farolfo/foolsCracker-API" ;
+	 doap:shortdesc "A  RestAPI that tries 'ids' and 'passwords' in many authentication systems, such as Facebook, Twitter, etc. If you have one person's password of a site and this person REPEATS that password in another account, this API will help you cracking the fool" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "functional-tps" ;
+	 doap:homepage "https://github.com/farolfo/functional-tps" ;
+	 doap:shortdesc "TPs for the functional programming subject at ITBA, using Haskell" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "gemfury-updater" ;
+	 doap:homepage "https://github.com/farolfo/gemfury-updater" ;
+	 doap:shortdesc "Automatic updater for your private remote NPM registry (that runs in Gemfury)" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "github-recruiter" ;
+	 doap:homepage "https://github.com/farolfo/github-recruiter" ;
+	 doap:shortdesc "Recruiting tool that searches for the persons that got involved with some particular GitHub™ repos of yours" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "hackathons-api" ;
+	 doap:homepage "https://github.com/farolfo/hackathons-api" ;
+	 doap:shortdesc "A public API that provides upcomming hackathons based on data from Twitter, Facebook, Eventbrite, etc." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "harmonica-tunner" ;
+	 doap:homepage "https://github.com/farolfo/harmonica-tunner" ;
+	 doap:shortdesc "A web app to display which note is played in a harmonica" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "houseOfHorror--iOS-game" ;
+	 doap:homepage "https://github.com/farolfo/houseOfHorror--iOS-game" ;
+	 doap:shortdesc "iOS game developed with cocos2d for the iOS development subject at ITBA" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "IOL-Hacker" ;
+	 doap:homepage "https://github.com/farolfo/IOL-Hacker" ;
+	 doap:shortdesc "(THIS APP HAS EVOLVED TO THE "uCracker" https://github.com/farolfo/uCracker )A basic IOL (ITBA-On-Line) hacker, a program that sniffs the network and shows the plain text in the POST HTTP requests. " ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "mahout" ;
+	 doap:homepage "https://github.com/farolfo/mahout" ;
+	 doap:shortdesc "Mirror of Apache Mahout" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:srowen, _:gsingers, _:tdunning, _:robinanil, _:bimargulies, _:dlyubimov, _:jakemannix, _:MaineC, _:pferrel, _:andrewpalumbo, _:andrewmusselman, _:smarthi ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "music-fiddle" ;
+	 doap:homepage "https://github.com/farolfo/music-fiddle" ;
+	 doap:shortdesc "Share music online in a simple and quick way, record with multitracks at the same time and share it without even being logged in. (The jsfiddle for music)" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "pop3proxy" ;
+	 doap:homepage "https://github.com/farolfo/pop3proxy" ;
+	 doap:shortdesc "A pop3 proxy developed in java for Networking Protocols (ITBA), with Jorge Mozzino & Tomas Mehdi. It can transform messages if needed, as l33t, rotate images in the body of the mail, set the mail as anon, restrict some IPs, etc." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "subasta-ya" ;
+	 doap:homepage "https://github.com/farolfo/subasta-ya" ;
+	 doap:shortdesc "Mobile app desarrollada para el Desafio Mobile 2014 de MercadoLibre.com." ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "the-Dorian-Gray-Experiment" ;
+	 doap:homepage "https://github.com/farolfo/the-Dorian-Gray-Experiment" ;
+	 doap:shortdesc "Open source experiment to reach an interactive experience where the user can interact with video and music in the browser" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP-Players" ;
+	 doap:homepage "https://github.com/farolfo/TP-Players" ;
+	 doap:shortdesc "TP para players y referee" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:marianobntz, _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "uCracker" ;
+	 doap:homepage "https://github.com/farolfo/uCracker" ;
+	 doap:shortdesc "A very simple sniffer app that displays passwords of many sites that deliver their data without any encoding" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "zombies-shooter--iOS-game" ;
+	 doap:homepage "https://github.com/farolfo/zombies-shooter--iOS-game" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:farolfo ;
+	 doap:developer _:farolfo ;
+	 doap:repository _:repo .
+
+_:epintos a foaf:Person ;
+	 foaf:name "Esteban Pintos" ;
+	 foaf:mbox "epintos7@gmail.com" ;
+	 foaf:homepage "https://github.com/epintos" .
+
+doap:Project
+	 doap:name "auctions-dci" ;
+	 doap:homepage "https://github.com/epintos/auctions-dci" ;
+	 doap:shortdesc "Rails example app applying Data Context Interaction (DCI) paradigm" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:santisamra ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bioinformatics" ;
+	 doap:homepage "https://github.com/epintos/bioinformatics" ;
+	 doap:shortdesc "First project for Bioinformatic course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinux" ;
+	 doap:homepage "https://github.com/epintos/dinux" ;
+	 doap:shortdesc "Final project for Computer Architecture course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v1" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
+	 doap:shortdesc "First project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v2" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
+	 doap:shortdesc "Second project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v3" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
+	 doap:shortdesc "Third project for Web Applications Project course at ITBA. Year 2012" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dungeon-crawler" ;
+	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
+	 doap:shortdesc "Final project for Imperative Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "face-detection" ;
+	 doap:homepage "https://github.com/epintos/face-detection" ;
+	 doap:shortdesc "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "fajita" ;
+	 doap:homepage "https://github.com/epintos/fajita" ;
+	 doap:shortdesc "Final project for Software Engineering at ITBA. Year 2013-2014." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "image-treatment" ;
+	 doap:homepage "https://github.com/epintos/image-treatment" ;
+	 doap:shortdesc "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "mediclink" ;
+	 doap:homepage "https://github.com/epintos/mediclink" ;
+	 doap:shortdesc "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p1" ;
+	 doap:homepage "https://github.com/epintos/os-p1" ;
+	 doap:shortdesc "First Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p2" ;
+	 doap:homepage "https://github.com/epintos/os-p2" ;
+	 doap:shortdesc "Second Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p3" ;
+	 doap:homepage "https://github.com/epintos/os-p3" ;
+	 doap:shortdesc "Third project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "pipedreamsolver" ;
+	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
+	 doap:shortdesc "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "proxy-http" ;
+	 doap:homepage "https://github.com/epintos/proxy-http" ;
+	 doap:shortdesc "Final project for Communication Protocols course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "shopping" ;
+	 doap:homepage "https://github.com/epintos/shopping" ;
+	 doap:shortdesc "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "sia" ;
+	 doap:homepage "https://github.com/epintos/sia" ;
+	 doap:shortdesc "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "signal" ;
+	 doap:homepage "https://github.com/epintos/signal" ;
+	 doap:shortdesc "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "slip-slide" ;
+	 doap:homepage "https://github.com/epintos/slip-slide" ;
+	 doap:shortdesc "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "software-factory-simulator" ;
+	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
+	 doap:shortdesc "Final Project for Systems Simulation course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "stenography" ;
+	 doap:homepage "https://github.com/epintos/stenography" ;
+	 doap:shortdesc "Final project for Cryptography and Security course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "wogger" ;
+	 doap:homepage "https://github.com/epintos/wogger" ;
+	 doap:shortdesc "Time logger for different projects and teams" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+_:FedericoHomovc a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/FedericoHomovc" .
+
+doap:Project
+	 doap:name "pdc-2012" ;
+	 doap:homepage "https://github.com/FedericoHomovc/pdc-2012" ;
+	 doap:shortdesc "TP Protocolos de Comunicación" ;
+	 doap:maintainer _:FedericoHomovc ;
+	 doap:developer _:FedericoHomovc ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "tpeSO1" ;
+	 doap:homepage "https://github.com/FedericoHomovc/tpeSO1" ;
+	 doap:shortdesc "distribución de alimentos entre ciudades" ;
+	 doap:maintainer _:FedericoHomovc ;
+	 doap:developer _:FedericoHomovc, _:joseignaciosg, _:nloreti ;
+	 doap:repository _:repo .
+
+_:mdesanti a foaf:Person ;
+	 foaf:name "" ;
+	 foaf:mbox "mdesanti90@gmail.com" ;
+	 foaf:homepage "https://github.com/mdesanti" .
+
+doap:Project
+	 doap:name "arcanist-extensions" ;
+	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
+	 doap:shortdesc "Awesome Arcanist extensions!" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:reu, _:mpelos, _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bigdata" ;
+	 doap:homepage "https://github.com/mdesanti/bigdata" ;
+	 doap:shortdesc "Trabajos Prácticos de Big Data" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:repository _:repo .
+
+
 _:repo a doap:GitRepository .
