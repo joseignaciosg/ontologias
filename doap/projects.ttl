@@ -2,208 +2,233 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:epintos a foaf:Person ;
-	 foaf:name "Esteban Pintos" ;
-	 foaf:mbox "epintos7@gmail.com" ;
-	 foaf:homepage "https://github.com/epintos" .
+_:mdesanti a foaf:Person ;
+	 foaf:name "" ;
+	 foaf:mbox "mdesanti90@gmail.com" ;
+	 foaf:homepage "https://github.com/mdesanti" .
 
 doap:Project
-	 doap:name "auctions-dci" ;
-	 doap:homepage "https://github.com/epintos/auctions-dci" ;
-	 doap:description "Rails example app applying Data Context Interaction (DCI) paradigm" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos, _:santisamra ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "arcanist-extensions" ;
+	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
+	 doap:description "Awesome Arcanist extensions!" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:reu, _:mpelos, _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "bioinformatics" ;
-	 doap:homepage "https://github.com/epintos/bioinformatics" ;
-	 doap:description "First project for Bioinformatic course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "bigdata" ;
+	 doap:homepage "https://github.com/mdesanti/bigdata" ;
+	 doap:description "Trabajos Prácticos de Big Data" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinux" ;
-	 doap:homepage "https://github.com/epintos/dinux" ;
-	 doap:description "Final project for Computer Architecture course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "bioinf" ;
+	 doap:homepage "https://github.com/mdesanti/bioinf" ;
+	 doap:description "Trabajo práctico de Introducción a la BioInformática" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v1" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
-	 doap:description "First project for Web Applications Project course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "file_management" ;
+	 doap:homepage "https://github.com/mdesanti/file_management" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v2" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
-	 doap:description "Second project for Web Applications Project course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "funcional" ;
+	 doap:homepage "https://github.com/mdesanti/funcional" ;
+	 doap:description "Programación Funcional" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v3" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
-	 doap:description "Third project for Web Applications Project course at ITBA. Year 2012" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
+	 doap:name "Hackathon_2_1" ;
+	 doap:homepage "https://github.com/mdesanti/Hackathon_2_1" ;
+	 doap:description "Repo test para hackathon 2" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dungeon-crawler" ;
-	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
-	 doap:description "Final project for Imperative Programming course at ITBA. Year 2010." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "jQuery-Knob" ;
+	 doap:homepage "https://github.com/mdesanti/jQuery-Knob" ;
+	 doap:description "Nice, downward compatible, touchable, jQuery dial" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:aterrien, _:eskimoblood, _:jaketrent, _:mal, _:amuino, _:fidothe, _:pioul, _:jwalton, _:T2L, _:NinjaTux, _:brunjo, _:fadomire ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "face-detection" ;
-	 doap:homepage "https://github.com/epintos/face-detection" ;
-	 doap:description "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:name "mgmt" ;
+	 doap:homepage "https://github.com/mdesanti/mgmt" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "fajita" ;
-	 doap:homepage "https://github.com/epintos/fajita" ;
-	 doap:description "Final project for Software Engineering at ITBA. Year 2013-2014." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
-	 doap:programming-language  <http://dbpedia.org/resource/Alloy>, <http://dbpedia.org/resource/GAP>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Java> ;
+	 doap:name "pf" ;
+	 doap:homepage "https://github.com/mdesanti/pf" ;
+	 doap:description "Trabajo Practico Final - Programación Funcional" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "image-treatment" ;
-	 doap:homepage "https://github.com/epintos/image-treatment" ;
-	 doap:description "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:name "pod-2012-client" ;
+	 doap:homepage "https://github.com/mdesanti/pod-2012-client" ;
+	 doap:description "Client code for the pod tp" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "mediclink" ;
-	 doap:homepage "https://github.com/epintos/mediclink" ;
-	 doap:description "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos, _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "Practicas-EDA" ;
+	 doap:homepage "https://github.com/mdesanti/Practicas-EDA" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p1" ;
-	 doap:homepage "https://github.com/epintos/os-p1" ;
-	 doap:description "First Project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
+	 doap:name "rspecfromphp" ;
+	 doap:homepage "https://github.com/mdesanti/rspecfromphp" ;
+	 doap:description "Rspec tests from php for phabricator" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p2" ;
-	 doap:homepage "https://github.com/epintos/os-p2" ;
-	 doap:description "Second Project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "sdk-ruby" ;
+	 doap:homepage "https://github.com/mdesanti/sdk-ruby" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:hcasatti, _:matiascompiano, _:chrismo, _:fpiruzi ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p3" ;
-	 doap:homepage "https://github.com/epintos/os-p3" ;
-	 doap:description "Third project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "pipedreamsolver" ;
-	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
-	 doap:description "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "proxy-http" ;
-	 doap:homepage "https://github.com/epintos/proxy-http" ;
-	 doap:description "Final project for Communication Protocols course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "shopping" ;
-	 doap:homepage "https://github.com/epintos/shopping" ;
-	 doap:description "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "sia" ;
-	 doap:homepage "https://github.com/epintos/sia" ;
-	 doap:description "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
+	 doap:name "SIA-TP2" ;
+	 doap:homepage "https://github.com/mdesanti/SIA-TP2" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
 	 doap:developer _:kshmir, _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/Java> ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "signal" ;
-	 doap:homepage "https://github.com/epintos/signal" ;
-	 doap:description "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "slip-slide" ;
-	 doap:homepage "https://github.com/epintos/slip-slide" ;
-	 doap:description "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "software-factory-simulator" ;
-	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
-	 doap:description "Final Project for Systems Simulation course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
+	 doap:name "simulacion" ;
+	 doap:homepage "https://github.com/mdesanti/simulacion" ;
+	 doap:description "Simulación De Sistemas" ;
+	 doap:maintainer _:mdesanti ;
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "stenography" ;
-	 doap:homepage "https://github.com/epintos/stenography" ;
-	 doap:description "Final project for Cryptography and Security course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell> ;
+	 doap:name "SimuladorColas" ;
+	 doap:homepage "https://github.com/mdesanti/SimuladorColas" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "wogger" ;
-	 doap:homepage "https://github.com/epintos/wogger" ;
-	 doap:description "Time logger for different projects and teams" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "SocialNetworksJam" ;
+	 doap:homepage "https://github.com/mdesanti/SocialNetworksJam" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-_:repo a doap:GitRepository .
+doap:Project
+	 doap:name "test_talk" ;
+	 doap:homepage "https://github.com/mdesanti/test_talk" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP2-Cripto" ;
+	 doap:homepage "https://github.com/mdesanti/TP2-Cripto" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE-Protos" ;
+	 doap:homepage "https://github.com/mdesanti/TPE-Protos" ;
+	 doap:description "TPE - Protocolos de comunicación - Proxy HTTP" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE1-TLA" ;
+	 doap:homepage "https://github.com/mdesanti/TPE1-TLA" ;
+	 doap:description "Trabajo práctico especial 1 de Teoria de Lenguajes, Autómatas y Compiladores" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE3-SO" ;
+	 doap:homepage "https://github.com/mdesanti/TPE3-SO" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPS-ATI" ;
+	 doap:homepage "https://github.com/mdesanti/TPS-ATI" ;
+	 doap:description "Trabajos prácticos de análisis y tratamiento de imágenes" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:kshmir ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "trello-release-manager" ;
+	 doap:homepage "https://github.com/mdesanti/trello-release-manager" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti, _:epintos, _:santisamra ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Twitter" ;
+	 doap:homepage "https://github.com/mdesanti/Twitter" ;
+	 doap:description "Twitter Tests" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "twitter-client" ;
+	 doap:homepage "https://github.com/mdesanti/twitter-client" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "unstackme" ;
+	 doap:homepage "https://github.com/mdesanti/unstackme" ;
+	 doap:description "" ;
+	 doap:maintainer _:mdesanti ;
+	 doap:developer _:mdesanti ;
+	 doa
