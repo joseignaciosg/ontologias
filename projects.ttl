@@ -800,7 +800,7 @@ doap:Project
 doap:Project
 	 doap:name "IOL-Hacker" ;
 	 doap:homepage "https://github.com/farolfo/IOL-Hacker" ;
-	 doap:description "(THIS APP HAS EVOLVED TO THE "uCracker" https://github.com/farolfo/uCracker )A basic IOL (ITBA-On-Line) hacker, a program that sniffs the network and shows the plain text in the POST HTTP requests. " ;
+	 doap:description "(THIS APP HAS EVOLVED TO THE uCracker https://github.com/farolfo/uCracker )A basic IOL (ITBA-On-Line) hacker, a program that sniffs the network and shows the plain text in the POST HTTP requests. " ;
 	 doap:maintainer _:farolfo ;
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
