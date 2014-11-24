@@ -326,4 +326,103 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript> ;
 	 doap:repository _:repo .
 
+_:mannias a foaf:Person ;
+	 foaf:name "Matias Domingues" ;
+	 foaf:mbox "mannias@gmail.com" ;
+	 foaf:homepage "https://github.com/mannias" .
+
+doap:Project
+	 doap:name "Cripto" ;
+	 doap:homepage "https://github.com/mannias/Cripto" ;
+	 doap:description "Trabajo Practico de Criptografia y Seguridad" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:fnmartinez, _:mannias, _:TereFDS ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "EDA" ;
+	 doap:homepage "https://github.com/mannias/EDA" ;
+	 doap:description "Ejercicios - Estructura de Datos y Algoritmos" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "hyttrop" ;
+	 doap:homepage "https://github.com/mannias/hyttrop" ;
+	 doap:description "An HTTP v1.1 proxy using our thorium framework" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:fnmartinez, _:mannias, _:facualderete ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "MNA" ;
+	 doap:homepage "https://github.com/mannias/MNA" ;
+	 doap:description "Trabajo Practico Especial de Métodos Numéricos Avanzados" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias, _:lulirez ;
+	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "olap" ;
+	 doap:homepage "https://github.com/mannias/olap" ;
+	 doap:description "Trabajo Practico Especial - OLAP Espacial" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "paw" ;
+	 doap:homepage "https://github.com/mannias/paw" ;
+	 doap:description "Trabajo Practico Especial Proyecto de Aplicaciones Web" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias, _:fnmartinez ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SIA" ;
+	 doap:homepage "https://github.com/mannias/SIA" ;
+	 doap:description "Sistemas de Inteligencia Artificial" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:fnmartinez, _:TereFDS, _:mannias ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SO" ;
+	 doap:homepage "https://github.com/mannias/SO" ;
+	 doap:description "Trabajo Practico Especial - Sistemas Operativos" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:Federelli, _:mannias ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TLA-1C2013" ;
+	 doap:homepage "https://github.com/mannias/TLA-1C2013" ;
+	 doap:description "Trabajo Practico Especial - Teoria de Lenguajes, Automatas y Compiladores" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "tp-eda-2011" ;
+	 doap:homepage "https://github.com/mannias/tp-eda-2011" ;
+	 doap:description "Trabajo Practico Especial - Estructura de Datos y Algoritmos" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias, _:vickymesalcorta, _:SebaMaio ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPEArqui-2C2012" ;
+	 doap:homepage "https://github.com/mannias/TPEArqui-2C2012" ;
+	 doap:description "Trabajo Practico Especial - Arquitecturas de Computadoras" ;
+	 doap:maintainer _:mannias ;
+	 doap:developer _:mannias ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
 _:repo a doap:GitRepository .
