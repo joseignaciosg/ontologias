@@ -714,7 +714,7 @@ doap:Project
 doap:Project
 	 doap:name "donde-ensayo-beta" ;
 	 doap:homepage "https://github.com/farolfo/donde-ensayo-beta" ;
-	 doap:description "Aplicación web que brinda servicios para bandas "de garage". Mediante APIs encuentra servicios tales como lugares para tocar, salas de ensayo, estudios de grabación o profesores de música. Desarrollado en Java con Spring MVC." ;
+	 doap:description "Aplicación web que brinda servicios para bandas de garage. Mediante APIs encuentra servicios tales como lugares para tocar, salas de ensayo, estudios de grabación o profesores de música. Desarrollado en Java con Spring MVC." ;
 	 doap:maintainer _:farolfo ;
 	 doap:developer _:farolfo ;
 	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
