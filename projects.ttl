@@ -575,4 +575,43 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
+_:akarpovsky a foaf:Person ;
+	 foaf:name "Alan Karpovsky" ;
+	 foaf:mbox "" ;
+	 foaf:homepage "https://github.com/akarpovsky" .
+
+doap:Project
+	 doap:name "Estructuras-de-Datos-y-Algoritmos" ;
+	 doap:homepage "https://github.com/akarpovsky/Estructuras-de-Datos-y-Algoritmos" ;
+	 doap:description "Algunos ejercicios de guias, parciales y finales resueltos." ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:akarpovsky ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SharedSecret" ;
+	 doap:homepage "https://github.com/akarpovsky/SharedSecret" ;
+	 doap:description "Shared secret algorithm, using steganography." ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:paulballesty, _:nicomagni ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SO_TPE" ;
+	 doap:homepage "https://github.com/akarpovsky/SO_TPE" ;
+	 doap:description "Fantasy league implementation in C using IPCs, filesystems and concurrent servers" ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:fnmartinez, _:akarpovsky, _:vickymesalcorta ;
+	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPFinal-QOS" ;
+	 doap:homepage "https://github.com/akarpovsky/TPFinal-QOS" ;
+	 doap:description "Medición de la calidad de servicio de internet. TP Final - ITBA" ;
+	 doap:maintainer _:akarpovsky ;
+	 doap:developer _:akarpovsky, _:joseignaciosg, _:nloreti ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/R>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
 _:repo a doap:GitRepository .
