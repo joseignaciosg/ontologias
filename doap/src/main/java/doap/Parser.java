@@ -6,6 +6,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -14,12 +17,18 @@ import org.json.simple.JSONValue;
 public class Parser {
 
 	static String[] users = { 
-//			"ConcoMB", "mannias", "daniel-lobo",
-//			"akarpovsky", "Dinuuu", "farolfo",
+			"ConcoMB",
+//			"mannias", 
+//			"daniel-lobo",
+//			"akarpovsky", 
+//			"Dinuuu", 
+//			"farolfo",
 //			"epintos", "FedericoHomovc", "mdesanti",
-//			"acrespo", "fnmartinez", "gcastigl", 
+//			"acrespo", 
+//			"fnmartinez", 
+//			"gcastigl", 
 //			"msturla", "nloreti", "eordano",
-			"kshmir", "maximovs", "ealtamir", 
+//			"kshmir", "maximovs", "ealtamir", 
 //			"joseignaciosg"
 			};
 
@@ -80,9 +89,9 @@ public class Parser {
 				br.write("doap:Project\n");
 				br.write("\t doap:name \"" + object.get("name") + "\" ;\n");
 				br.write("\t doap:homepage \"https://github.com/" + user +"/"+ object.get("name") + "\" ;\n");
-				br.write("\t doap:shortdesc \"" + object.get("description") + "\" ;\n");
+				br.write("\t doap:description \"" + object.get("description") + "\" ;\n");
 				br.write("\t doap:maintainer " + "_:" + user + " ;\n");
-				
+				//DEVELOPERS
 				String developers =  "";
 				if (object.get("contributors_url") != null){
 					System.out.println(object.get("contributors_url"));
@@ -102,13 +111,31 @@ public class Parser {
 				}else{
 					developers += "_:"  +user;
 				}
-			
-				
 				br.write("\t doap:developer " + developers + " ;\n");
+				//DEVELOPERS END 
+				//LANGUAGES
+				String langs =  "";
+				if (object.get("languages_url") != null){
+					System.out.println(object.get("languages_url"));
+					Object obj3 = JSONValue.parse(readUrl(object.get("languages_url").toString()));
+					JSONObject langsArray = (JSONObject) obj3;
+					Collection<String> langcol = langsArray.keySet();
+					Iterator<String> it =  langcol.iterator();;
+					if (langcol != null  && langcol.size() > 1){
+						int i=0;
+						while ( it.hasNext() ) {
+							langs += "<http://dbpedia.org/resource/"+it.next() +">";
+							if (i < langcol.size()-1){
+								langs += ", ";	
+							}
+							i++;
+						}
+						br.write("\t doap:programming-language  " + langs + " ;\n");
+					}
+				}
+				//DEVELOPERS END 
 				br.write("\t doap:repository _:repo .\n");
 				br.write("\n");
-				
-				
 			}
 		}
 		

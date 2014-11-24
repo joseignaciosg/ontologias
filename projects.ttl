@@ -173,4 +173,157 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
+_:ConcoMB a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/ConcoMB" .
+
+doap:Project
+	 doap:name "ATI" ;
+	 doap:homepage "https://github.com/ConcoMB/ATI" ;
+	 doap:description "AT-AT" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:FedericoHomovc ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "CF-OS" ;
+	 doap:homepage "https://github.com/ConcoMB/CF-OS" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:framundo, _:tomymehdi ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Racket>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ChileGames" ;
+	 doap:homepage "https://github.com/ConcoMB/ChileGames" ;
+	 doap:description "Videogames with earthquakes" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:joseignaciosg ;
+	 doap:programming-language  <http://dbpedia.org/resource/C#>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "DungeonDesktops" ;
+	 doap:homepage "https://github.com/ConcoMB/DungeonDesktops" ;
+	 doap:description "Tp de Programacion orientada a objetos" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "esteganography" ;
+	 doap:homepage "https://github.com/ConcoMB/esteganography" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:FedericoHomovc ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "FanClub" ;
+	 doap:homepage "https://github.com/ConcoMB/FanClub" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Haster" ;
+	 doap:homepage "https://github.com/ConcoMB/Haster" ;
+	 doap:description "Twitter like app in Haskell" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "HCI" ;
+	 doap:homepage "https://github.com/ConcoMB/HCI" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:vickymesalcorta, _:framundo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "iOS-2D" ;
+	 doap:homepage "https://github.com/ConcoMB/iOS-2D" ;
+	 doap:description "gilada iOS" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C++>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "mgmt" ;
+	 doap:homepage "https://github.com/ConcoMB/mgmt" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Multiparty" ;
+	 doap:homepage "https://github.com/ConcoMB/Multiparty" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "NoSQL" ;
+	 doap:homepage "https://github.com/ConcoMB/NoSQL" ;
+	 doap:description "TP Neo4j" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "olap-spatial" ;
+	 doap:homepage "https://github.com/ConcoMB/olap-spatial" ;
+	 doap:description "dOLAPe" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:amarseillan, _:ConcoMB, _:framundo ;
+	 doap:programming-language  <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "POPeye" ;
+	 doap:homepage "https://github.com/ConcoMB/POPeye" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:framundo, _:jonatansve ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SS" ;
+	 doap:homepage "https://github.com/ConcoMB/SS" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SuperMongo" ;
+	 doap:homepage "https://github.com/ConcoMB/SuperMongo" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "w-prixes" ;
+	 doap:homepage "https://github.com/ConcoMB/w-prixes" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript> ;
+	 doap:repository _:repo .
+
 _:repo a doap:GitRepository .

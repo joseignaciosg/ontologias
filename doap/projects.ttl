@@ -2,175 +2,157 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:acrespo a foaf:Person ;
-	 foaf:name "acrespo" ;
-	 foaf:mbox "alvaro.andres.crespo@gmail.com" ;
-	 foaf:homepage "https://github.com/acrespo" .
+_:ConcoMB a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/ConcoMB" .
 
 doap:Project
-	 doap:name "ArqvengerOS" ;
-	 doap:homepage "https://github.com/acrespo/ArqvengerOS" ;
-	 doap:description "The Arqvengers" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:dariosus, _:acrespo, _:eordano ;
+	 doap:name "ATI" ;
+	 doap:homepage "https://github.com/ConcoMB/ATI" ;
+	 doap:description "AT-AT" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:FedericoHomovc ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "ati-2013-1c" ;
-	 doap:homepage "https://github.com/acrespo/ati-2013-1c" ;
-	 doap:description "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "ati2013" ;
-	 doap:homepage "https://github.com/acrespo/ati2013" ;
-	 doap:description "Mi tp de ati y el de alvaro" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo, _:msturla ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "bigdata-practicas" ;
-	 doap:homepage "https://github.com/acrespo/bigdata-practicas" ;
-	 doap:description "Repositorio para las prácticas de la materia Big Data del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "cripto-2013-1c" ;
-	 doap:homepage "https://github.com/acrespo/cripto-2013-1c" ;
-	 doap:description "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:acrespo, _:dariosus, _:axelwass ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "EAC2" ;
-	 doap:homepage "https://github.com/acrespo/EAC2" ;
+	 doap:name "CF-OS" ;
+	 doap:homepage "https://github.com/ConcoMB/CF-OS" ;
 	 doap:description "" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo, _:eordano ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:framundo, _:tomymehdi ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Racket>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "EDA" ;
-	 doap:homepage "https://github.com/acrespo/EDA" ;
-	 doap:description "Estructuras de Datos y Algoritmos" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
+	 doap:name "ChileGames" ;
+	 doap:homepage "https://github.com/ConcoMB/ChileGames" ;
+	 doap:description "Videogames with earthquakes" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:joseignaciosg ;
+	 doap:programming-language  <http://dbpedia.org/resource/C#>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "ITBA_TLA_12_rg2nfa" ;
-	 doap:homepage "https://github.com/acrespo/ITBA_TLA_12_rg2nfa" ;
-	 doap:description "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:esneider, _:champo ;
+	 doap:name "DungeonDesktops" ;
+	 doap:homepage "https://github.com/ConcoMB/DungeonDesktops" ;
+	 doap:description "Tp de Programacion orientada a objetos" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "esteganography" ;
+	 doap:homepage "https://github.com/ConcoMB/esteganography" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:FedericoHomovc ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "FanClub" ;
+	 doap:homepage "https://github.com/ConcoMB/FanClub" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Haster" ;
+	 doap:homepage "https://github.com/ConcoMB/Haster" ;
+	 doap:description "Twitter like app in Haskell" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "HCI" ;
+	 doap:homepage "https://github.com/ConcoMB/HCI" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:vickymesalcorta, _:framundo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "iOS-2D" ;
+	 doap:homepage "https://github.com/ConcoMB/iOS-2D" ;
+	 doap:description "gilada iOS" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C++>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
 doap:Project
 	 doap:name "mgmt" ;
-	 doap:homepage "https://github.com/acrespo/mgmt" ;
+	 doap:homepage "https://github.com/ConcoMB/mgmt" ;
 	 doap:description "" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "MNA-TPs" ;
-	 doap:homepage "https://github.com/acrespo/MNA-TPs" ;
-	 doap:description "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo, _:champo, _:eordano ;
-	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:name "Multiparty" ;
+	 doap:homepage "https://github.com/ConcoMB/Multiparty" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "olap-espacial" ;
-	 doap:homepage "https://github.com/acrespo/olap-espacial" ;
-	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
+	 doap:name "NoSQL" ;
+	 doap:homepage "https://github.com/ConcoMB/NoSQL" ;
+	 doap:description "TP Neo4j" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "pod-2012" ;
-	 doap:homepage "https://github.com/acrespo/pod-2012" ;
-	 doap:description "Trabajo Práctico de Programación de Objetos Distribuidos" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
+	 doap:name "olap-spatial" ;
+	 doap:homepage "https://github.com/ConcoMB/olap-spatial" ;
+	 doap:description "dOLAPe" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:amarseillan, _:ConcoMB, _:framundo ;
+	 doap:programming-language  <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "sia-2013-1c" ;
-	 doap:homepage "https://github.com/acrespo/sia-2013-1c" ;
-	 doap:description "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:acrespo, _:eordano ;
-	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:name "POPeye" ;
+	 doap:homepage "https://github.com/ConcoMB/POPeye" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB, _:framundo, _:jonatansve ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "Simulaciones" ;
-	 doap:homepage "https://github.com/acrespo/Simulaciones" ;
-	 doap:description "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:acrespo, _:amarseillan ;
-	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:name "SS" ;
+	 doap:homepage "https://github.com/ConcoMB/SS" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "TLA_TPE2" ;
-	 doap:homepage "https://github.com/acrespo/TLA_TPE2" ;
-	 doap:description "Second assigment for TLA" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:esneider, _:champo ;
+	 doap:name "SuperMongo" ;
+	 doap:homepage "https://github.com/ConcoMB/SuperMongo" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "TP1-SO-2c2011" ;
-	 doap:homepage "https://github.com/acrespo/TP1-SO-2c2011" ;
-	 doap:description "TP1 for Operating Systems in the 2nd quarter of 2011" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:acrespo, _:dariosus ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TPE-PAW" ;
-	 doap:homepage "https://github.com/acrespo/TPE-PAW" ;
-	 doap:description "Trabajo practico especial para Proyectos de Aplicacion Web" ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:champo, _:acrespo, _:dariosus, _:esneider ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "tpe-pod-2c2012" ;
-	 doap:homepage "https://github.com/acrespo/tpe-pod-2c2012" ;
-	 doap:description "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "vj-ios-2013-2" ;
-	 doap:homepage "https://github.com/acrespo/vj-ios-2013-2" ;
-	 doap:description "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
-	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "vj-unity-2013-2" ;
-	 doap:homepage "https://github.com/acrespo/vj-unity-2013-2" ;
-	 doap:description "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
-	 doap:maintainer _:acrespo ;
-	 doap:developer _:acrespo ;
+	 doap:name "w-prixes" ;
+	 doap:homepage "https://github.com/ConcoMB/w-prixes" ;
+	 doap:description "" ;
+	 doap:maintainer _:ConcoMB ;
+	 doap:developer _:ConcoMB ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript> ;
 	 doap:repository _:repo .
 
 _:repo a doap:GitRepository .
