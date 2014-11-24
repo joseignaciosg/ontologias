@@ -10,7 +10,7 @@ _:epintos a foaf:Person ;
 doap:Project
 	 doap:name "auctions-dci" ;
 	 doap:homepage "https://github.com/epintos/auctions-dci" ;
-	 doap:shortdesc "Rails example app applying Data Context Interaction (DCI) paradigm" ;
+	 doap:description "Rails example app applying Data Context Interaction (DCI) paradigm" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos, _:santisamra ;
 	 doap:repository _:repo .
@@ -18,7 +18,7 @@ doap:Project
 doap:Project
 	 doap:name "bioinformatics" ;
 	 doap:homepage "https://github.com/epintos/bioinformatics" ;
-	 doap:shortdesc "First project for Bioinformatic course at ITBA. Year 2013." ;
+	 doap:description "First project for Bioinformatic course at ITBA. Year 2013." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -26,7 +26,7 @@ doap:Project
 doap:Project
 	 doap:name "dinux" ;
 	 doap:homepage "https://github.com/epintos/dinux" ;
-	 doap:shortdesc "Final project for Computer Architecture course at ITBA. Year 2011." ;
+	 doap:description "Final project for Computer Architecture course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -34,7 +34,7 @@ doap:Project
 doap:Project
 	 doap:name "dinuxpropiedades-v1" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
-	 doap:shortdesc "First project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:description "First project for Web Applications Project course at ITBA. Year 2012." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -42,7 +42,7 @@ doap:Project
 doap:Project
 	 doap:name "dinuxpropiedades-v2" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
-	 doap:shortdesc "Second project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:description "Second project for Web Applications Project course at ITBA. Year 2012." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -50,7 +50,7 @@ doap:Project
 doap:Project
 	 doap:name "dinuxpropiedades-v3" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
-	 doap:shortdesc "Third project for Web Applications Project course at ITBA. Year 2012" ;
+	 doap:description "Third project for Web Applications Project course at ITBA. Year 2012" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -58,7 +58,7 @@ doap:Project
 doap:Project
 	 doap:name "dungeon-crawler" ;
 	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
-	 doap:shortdesc "Final project for Imperative Programming course at ITBA. Year 2010." ;
+	 doap:description "Final project for Imperative Programming course at ITBA. Year 2010." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -66,7 +66,7 @@ doap:Project
 doap:Project
 	 doap:name "face-detection" ;
 	 doap:homepage "https://github.com/epintos/face-detection" ;
-	 doap:shortdesc "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:description "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
 	 doap:repository _:repo .
@@ -74,7 +74,7 @@ doap:Project
 doap:Project
 	 doap:name "fajita" ;
 	 doap:homepage "https://github.com/epintos/fajita" ;
-	 doap:shortdesc "Final project for Software Engineering at ITBA. Year 2013-2014." ;
+	 doap:description "Final project for Software Engineering at ITBA. Year 2013-2014." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
 	 doap:repository _:repo .
@@ -82,7 +82,7 @@ doap:Project
 doap:Project
 	 doap:name "image-treatment" ;
 	 doap:homepage "https://github.com/epintos/image-treatment" ;
-	 doap:shortdesc "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:description "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
 	 doap:repository _:repo .
@@ -90,7 +90,7 @@ doap:Project
 doap:Project
 	 doap:name "mediclink" ;
 	 doap:homepage "https://github.com/epintos/mediclink" ;
-	 doap:shortdesc "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
+	 doap:description "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos, _:mdesanti ;
 	 doap:repository _:repo .
@@ -98,7 +98,7 @@ doap:Project
 doap:Project
 	 doap:name "os-p1" ;
 	 doap:homepage "https://github.com/epintos/os-p1" ;
-	 doap:shortdesc "First Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:description "First Project for Operating Systems course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -106,7 +106,7 @@ doap:Project
 doap:Project
 	 doap:name "os-p2" ;
 	 doap:homepage "https://github.com/epintos/os-p2" ;
-	 doap:shortdesc "Second Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:description "Second Project for Operating Systems course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -114,7 +114,7 @@ doap:Project
 doap:Project
 	 doap:name "os-p3" ;
 	 doap:homepage "https://github.com/epintos/os-p3" ;
-	 doap:shortdesc "Third project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:description "Third project for Operating Systems course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -122,7 +122,7 @@ doap:Project
 doap:Project
 	 doap:name "pipedreamsolver" ;
 	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
-	 doap:shortdesc "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
+	 doap:description "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -130,7 +130,7 @@ doap:Project
 doap:Project
 	 doap:name "proxy-http" ;
 	 doap:homepage "https://github.com/epintos/proxy-http" ;
-	 doap:shortdesc "Final project for Communication Protocols course at ITBA. Year 2012." ;
+	 doap:description "Final project for Communication Protocols course at ITBA. Year 2012." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -138,7 +138,7 @@ doap:Project
 doap:Project
 	 doap:name "shopping" ;
 	 doap:homepage "https://github.com/epintos/shopping" ;
-	 doap:shortdesc "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
+	 doap:description "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -146,7 +146,7 @@ doap:Project
 doap:Project
 	 doap:name "sia" ;
 	 doap:homepage "https://github.com/epintos/sia" ;
-	 doap:shortdesc "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
+	 doap:description "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:kshmir, _:mdesanti ;
 	 doap:repository _:repo .
@@ -154,7 +154,7 @@ doap:Project
 doap:Project
 	 doap:name "signal" ;
 	 doap:homepage "https://github.com/epintos/signal" ;
-	 doap:shortdesc "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
+	 doap:description "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -162,7 +162,7 @@ doap:Project
 doap:Project
 	 doap:name "slip-slide" ;
 	 doap:homepage "https://github.com/epintos/slip-slide" ;
-	 doap:shortdesc "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
+	 doap:description "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -170,7 +170,7 @@ doap:Project
 doap:Project
 	 doap:name "software-factory-simulator" ;
 	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
-	 doap:shortdesc "Final Project for Systems Simulation course at ITBA. Year 2013" ;
+	 doap:description "Final Project for Systems Simulation course at ITBA. Year 2013" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
@@ -178,7 +178,7 @@ doap:Project
 doap:Project
 	 doap:name "stenography" ;
 	 doap:homepage "https://github.com/epintos/stenography" ;
-	 doap:shortdesc "Final project for Cryptography and Security course at ITBA. Year 2013." ;
+	 doap:description "Final project for Cryptography and Security course at ITBA. Year 2013." ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -186,7 +186,7 @@ doap:Project
 doap:Project
 	 doap:name "wogger" ;
 	 doap:homepage "https://github.com/epintos/wogger" ;
-	 doap:shortdesc "Time logger for different projects and teams" ;
+	 doap:description "Time logger for different projects and teams" ;
 	 doap:maintainer _:epintos ;
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
@@ -199,7 +199,7 @@ _:FedericoHomovc a foaf:Person ;
 doap:Project
 	 doap:name "pdc-2012" ;
 	 doap:homepage "https://github.com/FedericoHomovc/pdc-2012" ;
-	 doap:shortdesc "TP Protocolos de Comunicación" ;
+	 doap:description "TP Protocolos de Comunicación" ;
 	 doap:maintainer _:FedericoHomovc ;
 	 doap:developer _:FedericoHomovc ;
 	 doap:repository _:repo .
@@ -207,7 +207,7 @@ doap:Project
 doap:Project
 	 doap:name "tpeSO1" ;
 	 doap:homepage "https://github.com/FedericoHomovc/tpeSO1" ;
-	 doap:shortdesc "distribución de alimentos entre ciudades" ;
+	 doap:description "distribución de alimentos entre ciudades" ;
 	 doap:maintainer _:FedericoHomovc ;
 	 doap:developer _:FedericoHomovc, _:joseignaciosg, _:nloreti ;
 	 doap:repository _:repo .
@@ -220,7 +220,7 @@ _:mdesanti a foaf:Person ;
 doap:Project
 	 doap:name "arcanist-extensions" ;
 	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
-	 doap:shortdesc "Awesome Arcanist extensions!" ;
+	 doap:description "Awesome Arcanist extensions!" ;
 	 doap:maintainer _:mdesanti ;
 	 doap:developer _:reu, _:mpelos, _:mdesanti ;
 	 doap:repository _:repo .
@@ -228,7 +228,7 @@ doap:Project
 doap:Project
 	 doap:name "bigdata" ;
 	 doap:homepage "https://github.com/mdesanti/bigdata" ;
-	 doap:shortdesc "Trabajos Prácticos de Big Data" ;
+	 doap:description "Trabajos Prácticos de Big Data" ;
 	 doap:maintainer _:mdesanti ;
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
@@ -241,7 +241,7 @@ _:acrespo a foaf:Person ;
 doap:Project
 	 doap:name "ArqvengerOS" ;
 	 doap:homepage "https://github.com/acrespo/ArqvengerOS" ;
-	 doap:shortdesc "The Arqvengers" ;
+	 doap:description "The Arqvengers" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:dariosus, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
@@ -249,7 +249,7 @@ doap:Project
 doap:Project
 	 doap:name "ati-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/ati-2013-1c" ;
-	 doap:shortdesc "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
+	 doap:description "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -257,7 +257,7 @@ doap:Project
 doap:Project
 	 doap:name "ati2013" ;
 	 doap:homepage "https://github.com/acrespo/ati2013" ;
-	 doap:shortdesc "Mi tp de ati y el de alvaro" ;
+	 doap:description "Mi tp de ati y el de alvaro" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo, _:msturla ;
 	 doap:repository _:repo .
@@ -265,7 +265,7 @@ doap:Project
 doap:Project
 	 doap:name "bigdata-practicas" ;
 	 doap:homepage "https://github.com/acrespo/bigdata-practicas" ;
-	 doap:shortdesc "Repositorio para las prácticas de la materia Big Data del ITBA." ;
+	 doap:description "Repositorio para las prácticas de la materia Big Data del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -273,7 +273,7 @@ doap:Project
 doap:Project
 	 doap:name "cripto-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/cripto-2013-1c" ;
-	 doap:shortdesc "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
+	 doap:description "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:acrespo, _:dariosus, _:axelwass ;
 	 doap:repository _:repo .
@@ -281,7 +281,7 @@ doap:Project
 doap:Project
 	 doap:name "EAC2" ;
 	 doap:homepage "https://github.com/acrespo/EAC2" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo, _:eordano ;
 	 doap:repository _:repo .
@@ -289,7 +289,7 @@ doap:Project
 doap:Project
 	 doap:name "EDA" ;
 	 doap:homepage "https://github.com/acrespo/EDA" ;
-	 doap:shortdesc "Estructuras de Datos y Algoritmos" ;
+	 doap:description "Estructuras de Datos y Algoritmos" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -297,7 +297,7 @@ doap:Project
 doap:Project
 	 doap:name "ITBA_TLA_12_rg2nfa" ;
 	 doap:homepage "https://github.com/acrespo/ITBA_TLA_12_rg2nfa" ;
-	 doap:shortdesc "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
+	 doap:description "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
@@ -305,7 +305,7 @@ doap:Project
 doap:Project
 	 doap:name "mgmt" ;
 	 doap:homepage "https://github.com/acrespo/mgmt" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -313,7 +313,7 @@ doap:Project
 doap:Project
 	 doap:name "MNA-TPs" ;
 	 doap:homepage "https://github.com/acrespo/MNA-TPs" ;
-	 doap:shortdesc "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
+	 doap:description "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo, _:champo, _:eordano ;
 	 doap:repository _:repo .
@@ -321,7 +321,7 @@ doap:Project
 doap:Project
 	 doap:name "olap-espacial" ;
 	 doap:homepage "https://github.com/acrespo/olap-espacial" ;
-	 doap:shortdesc "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -329,7 +329,7 @@ doap:Project
 doap:Project
 	 doap:name "pod-2012" ;
 	 doap:homepage "https://github.com/acrespo/pod-2012" ;
-	 doap:shortdesc "Trabajo Práctico de Programación de Objetos Distribuidos" ;
+	 doap:description "Trabajo Práctico de Programación de Objetos Distribuidos" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -337,7 +337,7 @@ doap:Project
 doap:Project
 	 doap:name "sia-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/sia-2013-1c" ;
-	 doap:shortdesc "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
+	 doap:description "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
@@ -345,7 +345,7 @@ doap:Project
 doap:Project
 	 doap:name "Simulaciones" ;
 	 doap:homepage "https://github.com/acrespo/Simulaciones" ;
-	 doap:shortdesc "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
+	 doap:description "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:acrespo, _:amarseillan ;
 	 doap:repository _:repo .
@@ -353,7 +353,7 @@ doap:Project
 doap:Project
 	 doap:name "TLA_TPE2" ;
 	 doap:homepage "https://github.com/acrespo/TLA_TPE2" ;
-	 doap:shortdesc "Second assigment for TLA" ;
+	 doap:description "Second assigment for TLA" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
@@ -361,7 +361,7 @@ doap:Project
 doap:Project
 	 doap:name "TP1-SO-2c2011" ;
 	 doap:homepage "https://github.com/acrespo/TP1-SO-2c2011" ;
-	 doap:shortdesc "TP1 for Operating Systems in the 2nd quarter of 2011" ;
+	 doap:description "TP1 for Operating Systems in the 2nd quarter of 2011" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:acrespo, _:dariosus ;
 	 doap:repository _:repo .
@@ -369,7 +369,7 @@ doap:Project
 doap:Project
 	 doap:name "TPE-PAW" ;
 	 doap:homepage "https://github.com/acrespo/TPE-PAW" ;
-	 doap:shortdesc "Trabajo practico especial para Proyectos de Aplicacion Web" ;
+	 doap:description "Trabajo practico especial para Proyectos de Aplicacion Web" ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:champo, _:acrespo, _:dariosus, _:esneider ;
 	 doap:repository _:repo .
@@ -377,7 +377,7 @@ doap:Project
 doap:Project
 	 doap:name "tpe-pod-2c2012" ;
 	 doap:homepage "https://github.com/acrespo/tpe-pod-2c2012" ;
-	 doap:shortdesc "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
+	 doap:description "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -385,7 +385,7 @@ doap:Project
 doap:Project
 	 doap:name "vj-ios-2013-2" ;
 	 doap:homepage "https://github.com/acrespo/vj-ios-2013-2" ;
-	 doap:shortdesc "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
+	 doap:description "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -393,7 +393,7 @@ doap:Project
 doap:Project
 	 doap:name "vj-unity-2013-2" ;
 	 doap:homepage "https://github.com/acrespo/vj-unity-2013-2" ;
-	 doap:shortdesc "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
+	 doap:description "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
 	 doap:maintainer _:acrespo ;
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
@@ -406,7 +406,7 @@ _:fnmartinez a foaf:Person ;
 doap:Project
 	 doap:name "Embebidos" ;
 	 doap:homepage "https://github.com/fnmartinez/Embebidos" ;
-	 doap:shortdesc "Playing with Atmel microcontrollers" ;
+	 doap:description "Playing with Atmel microcontrollers" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -414,7 +414,7 @@ doap:Project
 doap:Project
 	 doap:name "HTabs" ;
 	 doap:homepage "https://github.com/fnmartinez/HTabs" ;
-	 doap:shortdesc "A Simple Haskell Tabs and Account Manager." ;
+	 doap:description "A Simple Haskell Tabs and Account Manager." ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -422,7 +422,7 @@ doap:Project
 doap:Project
 	 doap:name "hyttrop" ;
 	 doap:homepage "https://github.com/fnmartinez/hyttrop" ;
-	 doap:shortdesc "An HTTP v1.1 proxy using our thorium framework" ;
+	 doap:description "An HTTP v1.1 proxy using our thorium framework" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez, _:mannias, _:facualderete ;
 	 doap:repository _:repo .
@@ -430,7 +430,7 @@ doap:Project
 doap:Project
 	 doap:name "Jabxy" ;
 	 doap:homepage "https://github.com/fnmartinez/Jabxy" ;
-	 doap:shortdesc "A Jabber Proxy" ;
+	 doap:description "A Jabber Proxy" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez, _:facualderete ;
 	 doap:repository _:repo .
@@ -438,7 +438,7 @@ doap:Project
 doap:Project
 	 doap:name "Project-POPXY" ;
 	 doap:homepage "https://github.com/fnmartinez/Project-POPXY" ;
-	 doap:shortdesc "A POP3 Proxy" ;
+	 doap:description "A POP3 Proxy" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:vickymesalcorta, _:fnmartinez, _:kvnknny ;
 	 doap:repository _:repo .
@@ -446,7 +446,7 @@ doap:Project
 doap:Project
 	 doap:name "project-sensecar" ;
 	 doap:homepage "https://github.com/fnmartinez/project-sensecar" ;
-	 doap:shortdesc "An embedded system for parking lots." ;
+	 doap:description "An embedded system for parking lots." ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -454,7 +454,7 @@ doap:Project
 doap:Project
 	 doap:name "thorium" ;
 	 doap:homepage "https://github.com/fnmartinez/thorium" ;
-	 doap:shortdesc "A Network Server/Proxy Framework modeled with Reactor Pattern." ;
+	 doap:description "A Network Server/Proxy Framework modeled with Reactor Pattern." ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -462,7 +462,7 @@ doap:Project
 doap:Project
 	 doap:name "TLATPE" ;
 	 doap:homepage "https://github.com/fnmartinez/TLATPE" ;
-	 doap:shortdesc "Regular Grammars - DFA converter." ;
+	 doap:description "Regular Grammars - DFA converter." ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:joseignaciosg, _:fnmartinez, _:maximovs ;
 	 doap:repository _:repo .
@@ -470,7 +470,7 @@ doap:Project
 doap:Project
 	 doap:name "TP-Sube" ;
 	 doap:homepage "https://github.com/fnmartinez/TP-Sube" ;
-	 doap:shortdesc "TP SUBE: Sistema Útil para Berificar Estudiantes" ;
+	 doap:description "TP SUBE: Sistema Útil para Berificar Estudiantes" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -478,7 +478,7 @@ doap:Project
 doap:Project
 	 doap:name "TP-Tweet-Wars" ;
 	 doap:homepage "https://github.com/fnmartinez/TP-Tweet-Wars" ;
-	 doap:shortdesc "TP POD Tweet Wars" ;
+	 doap:description "TP POD Tweet Wars" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -486,7 +486,7 @@ doap:Project
 doap:Project
 	 doap:name "TPHCI-Q2Y2011" ;
 	 doap:homepage "https://github.com/fnmartinez/TPHCI-Q2Y2011" ;
-	 doap:shortdesc "AndroidApp" ;
+	 doap:description "AndroidApp" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
@@ -494,7 +494,7 @@ doap:Project
 doap:Project
 	 doap:name "ZenithOS" ;
 	 doap:homepage "https://github.com/fnmartinez/ZenithOS" ;
-	 doap:shortdesc "Cotinuation for my own Operating System Proyect" ;
+	 doap:description "Cotinuation for my own Operating System Proyect" ;
 	 doap:maintainer _:fnmartinez ;
 	 doap:developer _:fnmartinez, _:akarpovsky, _:vickymesalcorta ;
 	 doap:repository _:repo .
@@ -507,7 +507,7 @@ _:gcastigl a foaf:Person ;
 doap:Project
 	 doap:name "ArquiQ1Y2011" ;
 	 doap:homepage "https://github.com/gcastigl/ArquiQ1Y2011" ;
-	 doap:shortdesc "Tp de arqui" ;
+	 doap:description "Tp de arqui" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl ;
 	 doap:repository _:repo .
@@ -515,7 +515,7 @@ doap:Project
 doap:Project
 	 doap:name "ATLC2011C2_TP1" ;
 	 doap:homepage "https://github.com/gcastigl/ATLC2011C2_TP1" ;
-	 doap:shortdesc "trabajo practico uno de automatas. " ;
+	 doap:description "trabajo practico uno de automatas. " ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:eordano, _:dariosus, _:gcastigl ;
 	 doap:repository _:repo .
@@ -523,7 +523,7 @@ doap:Project
 doap:Project
 	 doap:name "ATLC2011C2_TP2" ;
 	 doap:homepage "https://github.com/gcastigl/ATLC2011C2_TP2" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:eordano, _:dariosus, _:gcastigl ;
 	 doap:repository _:repo .
@@ -531,7 +531,7 @@ doap:Project
 doap:Project
 	 doap:name "intro-video-juegos" ;
 	 doap:homepage "https://github.com/gcastigl/intro-video-juegos" ;
-	 doap:shortdesc "Tps para Introduccion a videojuegos" ;
+	 doap:description "Tps para Introduccion a videojuegos" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:Federelli ;
 	 doap:repository _:repo .
@@ -539,7 +539,7 @@ doap:Project
 doap:Project
 	 doap:name "JavaGameDev" ;
 	 doap:homepage "https://github.com/gcastigl/JavaGameDev" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:jporsay ;
 	 doap:repository _:repo .
@@ -547,7 +547,7 @@ doap:Project
 doap:Project
 	 doap:name "MNA-1C" ;
 	 doap:homepage "https://github.com/gcastigl/MNA-1C" ;
-	 doap:shortdesc "Trabajos practicos para MNA" ;
+	 doap:description "Trabajos practicos para MNA" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:axelwass, _:goncastrop ;
 	 doap:repository _:repo .
@@ -555,7 +555,7 @@ doap:Project
 doap:Project
 	 doap:name "POD" ;
 	 doap:homepage "https://github.com/gcastigl/POD" ;
-	 doap:shortdesc "Trabajos precticos para POD" ;
+	 doap:description "Trabajos precticos para POD" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl ;
 	 doap:repository _:repo .
@@ -563,7 +563,7 @@ doap:Project
 doap:Project
 	 doap:name "SIA1C2012" ;
 	 doap:homepage "https://github.com/gcastigl/SIA1C2012" ;
-	 doap:shortdesc "TPs para materia SIA" ;
+	 doap:description "TPs para materia SIA" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:akarpovsky ;
 	 doap:repository _:repo .
@@ -571,7 +571,7 @@ doap:Project
 doap:Project
 	 doap:name "SO2C2011" ;
 	 doap:homepage "https://github.com/gcastigl/SO2C2011" ;
-	 doap:shortdesc "TP 1 de S.O." ;
+	 doap:description "TP 1 de S.O." ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:jporsay, _:qcho ;
 	 doap:repository _:repo .
@@ -579,7 +579,7 @@ doap:Project
 doap:Project
 	 doap:name "SO2C2011TP2" ;
 	 doap:homepage "https://github.com/gcastigl/SO2C2011TP2" ;
-	 doap:shortdesc "Scheduler that runs using GRUB" ;
+	 doap:description "Scheduler that runs using GRUB" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl, _:jporsay, _:qcho ;
 	 doap:repository _:repo .
@@ -587,7 +587,7 @@ doap:Project
 doap:Project
 	 doap:name "TPProtos2cuat2012" ;
 	 doap:homepage "https://github.com/gcastigl/TPProtos2cuat2012" ;
-	 doap:shortdesc "Pop 3 proxy" ;
+	 doap:description "Pop 3 proxy" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:joseignaciosg, _:akarpovsky, _:gcastigl ;
 	 doap:repository _:repo .
@@ -595,7 +595,7 @@ doap:Project
 doap:Project
 	 doap:name "TrabajosPracticos" ;
 	 doap:homepage "https://github.com/gcastigl/TrabajosPracticos" ;
-	 doap:shortdesc "repositorio par guardar trabajos practicos de las distintas materias" ;
+	 doap:description "repositorio par guardar trabajos practicos de las distintas materias" ;
 	 doap:maintainer _:gcastigl ;
 	 doap:developer _:gcastigl ;
 	 doap:repository _:repo .
@@ -608,7 +608,7 @@ _:msturla a foaf:Person ;
 doap:Project
 	 doap:name "ati2013" ;
 	 doap:homepage "https://github.com/msturla/ati2013" ;
-	 doap:shortdesc "Mi tp de ati y el de alvaro" ;
+	 doap:description "Mi tp de ati y el de alvaro" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:acrespo, _:msturla ;
 	 doap:repository _:repo .
@@ -616,7 +616,7 @@ doap:Project
 doap:Project
 	 doap:name "bigdatatp1" ;
 	 doap:homepage "https://github.com/msturla/bigdatatp1" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:msturla, _:amarseillan ;
 	 doap:repository _:repo .
@@ -624,7 +624,7 @@ doap:Project
 doap:Project
 	 doap:name "bigdatatp2" ;
 	 doap:homepage "https://github.com/msturla/bigdatatp2" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:msturla, _:amarseillan ;
 	 doap:repository _:repo .
@@ -632,7 +632,7 @@ doap:Project
 doap:Project
 	 doap:name "hciapi2014" ;
 	 doap:homepage "https://github.com/msturla/hciapi2014" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:msturla ;
 	 doap:repository _:repo .
@@ -640,7 +640,7 @@ doap:Project
 doap:Project
 	 doap:name "htilc" ;
 	 doap:homepage "https://github.com/msturla/htilc" ;
-	 doap:shortdesc "Haskell Type Inferrer for Lambda Calculus" ;
+	 doap:description "Haskell Type Inferrer for Lambda Calculus" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:msturla ;
 	 doap:repository _:repo .
@@ -648,7 +648,7 @@ doap:Project
 doap:Project
 	 doap:name "ml2013" ;
 	 doap:homepage "https://github.com/msturla/ml2013" ;
-	 doap:shortdesc "Machine Learning 2013" ;
+	 doap:description "Machine Learning 2013" ;
 	 doap:maintainer _:msturla ;
 	 doap:developer _:msturla ;
 	 doap:repository _:repo .
@@ -661,7 +661,7 @@ _:nloreti a foaf:Person ;
 doap:Project
 	 doap:name "Arqui" ;
 	 doap:homepage "https://github.com/nloreti/Arqui" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -669,7 +669,7 @@ doap:Project
 doap:Project
 	 doap:name "infovis-final" ;
 	 doap:homepage "https://github.com/nloreti/infovis-final" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -677,7 +677,7 @@ doap:Project
 doap:Project
 	 doap:name "memeCrack" ;
 	 doap:homepage "https://github.com/nloreti/memeCrack" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti, _:akarpovsky ;
 	 doap:repository _:repo .
@@ -685,7 +685,7 @@ doap:Project
 doap:Project
 	 doap:name "ProtoProxyHTTP" ;
 	 doap:homepage "https://github.com/nloreti/ProtoProxyHTTP" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:amarseillan, _:maximovs ;
 	 doap:repository _:repo .
@@ -693,7 +693,7 @@ doap:Project
 doap:Project
 	 doap:name "SIA-TP1" ;
 	 doap:homepage "https://github.com/nloreti/SIA-TP1" ;
-	 doap:shortdesc "SIA" ;
+	 doap:description "SIA" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -701,7 +701,7 @@ doap:Project
 doap:Project
 	 doap:name "tlaTP2" ;
 	 doap:homepage "https://github.com/nloreti/tlaTP2" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -709,7 +709,7 @@ doap:Project
 doap:Project
 	 doap:name "tla_lex" ;
 	 doap:homepage "https://github.com/nloreti/tla_lex" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -717,7 +717,7 @@ doap:Project
 doap:Project
 	 doap:name "TP-Players" ;
 	 doap:homepage "https://github.com/nloreti/TP-Players" ;
-	 doap:shortdesc "TP para players y referee" ;
+	 doap:description "TP para players y referee" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti ;
 	 doap:repository _:repo .
@@ -725,7 +725,7 @@ doap:Project
 doap:Project
 	 doap:name "TPE_InfoVis" ;
 	 doap:homepage "https://github.com/nloreti/TPE_InfoVis" ;
-	 doap:shortdesc "Google Charts" ;
+	 doap:description "Google Charts" ;
 	 doap:maintainer _:nloreti ;
 	 doap:developer _:nloreti, _:dariosus ;
 	 doap:repository _:repo .
@@ -738,7 +738,7 @@ _:eordano a foaf:Person ;
 doap:Project
 	 doap:name "agilefant" ;
 	 doap:homepage "https://github.com/eordano/agilefant" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:jebaldwin, _:phyper, _:bradens, _:infiro, _:jordanell, _:heinx, _:betelgeuse, _:lekksi, _:dwfennell, _:metermaid, _:jvahanii, _:DDB-, _:Sanaz, _:amcallister, _:danbolt, _:Gekkio, _:mike1072, _:Aduno, _:seanws, _:psaalton, _:djbchepe ;
 	 doap:repository _:repo .
@@ -746,7 +746,7 @@ doap:Project
 doap:Project
 	 doap:name "backbone" ;
 	 doap:homepage "https://github.com/eordano/backbone" ;
-	 doap:shortdesc "Give your JS App some Backbone with Models, Views, Collections, and Events" ;
+	 doap:description "Give your JS App some Backbone with Models, Views, Collections, and Events" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:jashkenas, _:braddunbar, _:samuelclay, _:thejefflarson, _:tbranyen, _:wookiehangover, _:iros, _:PaulUithol, _:two-bit-fool, _:caseywebdev, _:JoeGermuska, _:sstephenson, _:andrewschaaf, _:aterris, _:alexgraul, _:hswolff, _:dira, _:jasonm, _:fitzgen, _:christopherwright, _:gsamokovarov, _:jrolfs, _:jasondavies, _:lorensr, _:paulmillr, _:philfreo, _:rsim, _:tomasztunik, _:vlazzle, _:afeld ;
 	 doap:repository _:repo .
@@ -754,7 +754,7 @@ doap:Project
 doap:Project
 	 doap:name "bitcore" ;
 	 doap:homepage "https://github.com/eordano/bitcore" ;
-	 doap:shortdesc "A bitcoin library." ;
+	 doap:description "A bitcoin library." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:ryanxcharles, _:maraoz, _:chjj, _:matiu, _:gasteve, _:jgarzik, _:olalonde, _:gordonwritescode, _:bitjson, _:martindale, _:yemel, _:MattFaus, _:eordano, _:devrandom, _:sagivo, _:rubensayshi, _:dthorpe, _:felipecsl, _:ethers, _:trapp, _:manan19, _:kyledrake, _:cmgustavo, _:curtislacy, _:bitdeli-chef, _:cimm, _:SomeoneWeird, _:yangit, _:LinusU, _:Aaron1011 ;
 	 doap:repository _:repo .
@@ -762,7 +762,7 @@ doap:Project
 doap:Project
 	 doap:name "bitcore-channel" ;
 	 doap:homepage "https://github.com/eordano/bitcore-channel" ;
-	 doap:shortdesc "A library for building payment channels smart contracts." ;
+	 doap:description "A library for building payment channels smart contracts." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano, _:maraoz ;
 	 doap:repository _:repo .
@@ -770,7 +770,7 @@ doap:Project
 doap:Project
 	 doap:name "bitpay-oss-stats" ;
 	 doap:homepage "https://github.com/eordano/bitpay-oss-stats" ;
-	 doap:shortdesc "Track bitpay's open source stats" ;
+	 doap:description "Track bitpay's open source stats" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -778,7 +778,7 @@ doap:Project
 doap:Project
 	 doap:name "bitpay-team" ;
 	 doap:homepage "https://github.com/eordano/bitpay-team" ;
-	 doap:shortdesc "BitPay's Team Data" ;
+	 doap:description "BitPay's Team Data" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:bitjson, _:martindale, _:colkito, _:gordonwritescode, _:matiu, _:cmgustavo, _:ionux, _:tonysakich, _:unusualbob, _:Operavangelist, _:eordano, _:JoshuaEstes, _:maraoz ;
 	 doap:repository _:repo .
@@ -786,7 +786,7 @@ doap:Project
 doap:Project
 	 doap:name "blogActivity" ;
 	 doap:homepage "https://github.com/eordano/blogActivity" ;
-	 doap:shortdesc "A collection of Android tools" ;
+	 doap:description "A collection of Android tools" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -794,7 +794,7 @@ doap:Project
 doap:Project
 	 doap:name "bootstrap" ;
 	 doap:homepage "https://github.com/eordano/bootstrap" ;
-	 doap:shortdesc "HTML, CSS, and JS toolkit from Twitter" ;
+	 doap:description "HTML, CSS, and JS toolkit from Twitter" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:mdo, _:fat, _:phopkins, _:smerik, _:lookfirst, _:andriijas, _:purwandi, _:Synchro, _:jacobrask, _:buraktuyan, _:caniszczyk, _:smaboshe, _:cgunther, _:SSPMark, _:rvagg, _:ansman, _:Calvein, _:MGaetan89, _:tobz, _:Lalem001, _:necolas, _:pthrasher, _:sankage, _:tinyfly, _:aaronj1335, _:benjaminoakes, _:tierra, _:DHS, _:evnm, _:wrightlabs ;
 	 doap:repository _:repo .
@@ -802,7 +802,7 @@ doap:Project
 doap:Project
 	 doap:name "btc-simulation" ;
 	 doap:homepage "https://github.com/eordano/btc-simulation" ;
-	 doap:shortdesc "Simulation of data propagation in the Bitcoin network (spanish)" ;
+	 doap:description "Simulation of data propagation in the Bitcoin network (spanish)" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:esneider, _:eordano ;
 	 doap:repository _:repo .
@@ -810,7 +810,7 @@ doap:Project
 doap:Project
 	 doap:name "btcd" ;
 	 doap:homepage "https://github.com/eordano/btcd" ;
-	 doap:shortdesc "An alternative full node bitcoin implementation written in Go (golang)" ;
+	 doap:description "An alternative full node bitcoin implementation written in Go (golang)" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:davecgh, _:dajohi, _:jrick, _:flammit, _:jcvernaleo, _:marcopeereboom, _:tsenart, _:drahn, _:toddfries, _:decred, _:jimmysong, _:gsalgado, _:tuxcanfly, _:carryforward, _:Roasbeef, _:mischief, _:ortutay ;
 	 doap:repository _:repo .
@@ -818,7 +818,7 @@ doap:Project
 doap:Project
 	 doap:name "closure-compiler-jar" ;
 	 doap:homepage "https://github.com/eordano/closure-compiler-jar" ;
-	 doap:shortdesc "A virtual package to retrieve closure-compiler with npm." ;
+	 doap:description "A virtual package to retrieve closure-compiler with npm." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -826,7 +826,7 @@ doap:Project
 doap:Project
 	 doap:name "copay" ;
 	 doap:homepage "https://github.com/eordano/copay" ;
-	 doap:shortdesc "A multisignature wallet." ;
+	 doap:description "A multisignature wallet." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:matiu, _:cmgustavo, _:maraoz, _:colkito, _:yemel, _:chjj, _:bechi, _:ryanxcharles, _:isocolsky, _:eordano, _:ssotomayor, _:gordonwritescode, _:greggzigler, _:marianorod, _:dthorpe, _:matiaspando, _:bitpayalan, _:robjohnson189, _:davbritt, _:martindale, _:waffle-iron, _:ethers, _:gabegattis ;
 	 doap:repository _:repo .
@@ -834,7 +834,7 @@ doap:Project
 doap:Project
 	 doap:name "copay-mobile" ;
 	 doap:homepage "https://github.com/eordano/copay-mobile" ;
-	 doap:shortdesc "A bitcoin wallet for mobiles" ;
+	 doap:description "A bitcoin wallet for mobiles" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:yemel, _:eordano, _:bechi ;
 	 doap:repository _:repo .
@@ -842,7 +842,7 @@ doap:Project
 doap:Project
 	 doap:name "cripto_tp2" ;
 	 doap:homepage "https://github.com/eordano/cripto_tp2" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -850,7 +850,7 @@ doap:Project
 doap:Project
 	 doap:name "explain-git-with-d3" ;
 	 doap:homepage "https://github.com/eordano/explain-git-with-d3" ;
-	 doap:shortdesc "Use D3 to visualize simple git branching operations." ;
+	 doap:description "Use D3 to visualize simple git branching operations." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -858,7 +858,7 @@ doap:Project
 doap:Project
 	 doap:name "funkytest" ;
 	 doap:homepage "https://github.com/eordano/funkytest" ;
-	 doap:shortdesc "A functional test framework to test HTTP APIs responses" ;
+	 doap:description "A functional test framework to test HTTP APIs responses" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -866,7 +866,7 @@ doap:Project
 doap:Project
 	 doap:name "g4-itba-hci-2010b" ;
 	 doap:homepage "https://github.com/eordano/g4-itba-hci-2010b" ;
-	 doap:shortdesc "Trabajo Práctico Número 1" ;
+	 doap:description "Trabajo Práctico Número 1" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -874,7 +874,7 @@ doap:Project
 doap:Project
 	 doap:name "gulp-closure-compiler" ;
 	 doap:homepage "https://github.com/eordano/gulp-closure-compiler" ;
-	 doap:shortdesc "Gulp plugin for Google Closure Compiler" ;
+	 doap:description "Gulp plugin for Google Closure Compiler" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:steida, _:mCzolko, _:jrabek, _:eordano, _:Gobie, _:pvolok, _:agalazis ;
 	 doap:repository _:repo .
@@ -882,7 +882,7 @@ doap:Project
 doap:Project
 	 doap:name "insight" ;
 	 doap:homepage "https://github.com/eordano/insight" ;
-	 doap:shortdesc "A bitcoin blockchain API for web wallets. #bitcore on Freenode." ;
+	 doap:description "A bitcoin blockchain API for web wallets. #bitcore on Freenode." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:bechi, _:martindale, _:ryanxcharles, _:Eveiv, _:ionux, _:drak, _:jyap808, _:Lennie, _:pierrerochard, _:slavik0329, _:yemel, _:sandakersmann, _:wozz ;
 	 doap:repository _:repo .
@@ -890,7 +890,7 @@ doap:Project
 doap:Project
 	 doap:name "insight-api" ;
 	 doap:homepage "https://github.com/eordano/insight-api" ;
-	 doap:shortdesc "A bitcoin blockchain API for web wallets" ;
+	 doap:description "A bitcoin blockchain API for web wallets" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:eordano, _:bechi, _:martindale, _:ryanxcharles, _:iancoleman, _:Eveiv, _:lordhelmut, _:pelim, _:updatesthepoolist, _:koirikivi, _:ionux, _:abbshr, _:drak, _:bitstein, _:shesek, _:olalonde, _:skddc, _:slavik0329, _:wtogami, _:yemel, _:devlo, _:igarciaes, _:periodic1236, _:ralphtheninja, _:ssotomayor ;
 	 doap:repository _:repo .
@@ -898,7 +898,7 @@ doap:Project
 doap:Project
 	 doap:name "iol2-flaws" ;
 	 doap:homepage "https://github.com/eordano/iol2-flaws" ;
-	 doap:shortdesc "Informe sobre fallas encontradas en IOL²" ;
+	 doap:description "Informe sobre fallas encontradas en IOL²" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -906,7 +906,7 @@ doap:Project
 doap:Project
 	 doap:name "itba-ss-2014a" ;
 	 doap:homepage "https://github.com/eordano/itba-ss-2014a" ;
-	 doap:shortdesc "" ;
+	 doap:description "" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -914,7 +914,7 @@ doap:Project
 doap:Project
 	 doap:name "lch" ;
 	 doap:homepage "https://github.com/eordano/lch" ;
-	 doap:shortdesc "Lightweight C Httpserver" ;
+	 doap:description "Lightweight C Httpserver" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -922,7 +922,7 @@ doap:Project
 doap:Project
 	 doap:name "node-corsproxy" ;
 	 doap:homepage "https://github.com/eordano/node-corsproxy" ;
-	 doap:shortdesc "über-simple node.js-Proxy to enable CORS request for any website." ;
+	 doap:description "über-simple node.js-Proxy to enable CORS request for any website." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:gr2m, _:eordano ;
 	 doap:repository _:repo .
@@ -930,7 +930,7 @@ doap:Project
 doap:Project
 	 doap:name "node-style-guide" ;
 	 doap:homepage "https://github.com/eordano/node-style-guide" ;
-	 doap:shortdesc "A guide for styling your node.js / JavaScript code. Fork & adjust to your taste." ;
+	 doap:description "A guide for styling your node.js / JavaScript code. Fork & adjust to your taste." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:felixge, _:kentcdodds, _:wilmoore, _:mathieug, _:mitogh, _:branneman, _:caffeinewriter, _:alanjames1987, _:coderangerdan, _:esneider, _:ooflorent, _:matthewpalmer, _:nolanlawson, _:focusaurus, _:tanepiper ;
 	 doap:repository _:repo .
@@ -938,7 +938,7 @@ doap:Project
 doap:Project
 	 doap:name "node-traderbot-bitcoin" ;
 	 doap:homepage "https://github.com/eordano/node-traderbot-bitcoin" ;
-	 doap:shortdesc "A trading bot with bitcoin" ;
+	 doap:description "A trading bot with bitcoin" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano, _:slezica ;
 	 doap:repository _:repo .
@@ -946,7 +946,7 @@ doap:Project
 doap:Project
 	 doap:name "nophp" ;
 	 doap:homepage "https://github.com/eordano/nophp" ;
-	 doap:shortdesc "NoPHP Framework" ;
+	 doap:description "NoPHP Framework" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -954,7 +954,7 @@ doap:Project
 doap:Project
 	 doap:name "olap-espacial" ;
 	 doap:homepage "https://github.com/eordano/olap-espacial" ;
-	 doap:shortdesc "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -962,7 +962,7 @@ doap:Project
 doap:Project
 	 doap:name "OpenTLD" ;
 	 doap:homepage "https://github.com/eordano/OpenTLD" ;
-	 doap:shortdesc "Official source code for TLD" ;
+	 doap:description "Official source code for TLD" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
@@ -970,7 +970,7 @@ doap:Project
 doap:Project
 	 doap:name "paystream" ;
 	 doap:homepage "https://github.com/eordano/paystream" ;
-	 doap:shortdesc "Decentralized trustless video streaming using bitcoin payment channels" ;
+	 doap:description "Decentralized trustless video streaming using bitcoin payment channels" ;
 	 doap:maintainer _:eordano ;
 	 doap:developer _:maraoz, _:yemel, _:fortefranco, _:eordano, _:esneider ;
 	 doap:repository _:repo .

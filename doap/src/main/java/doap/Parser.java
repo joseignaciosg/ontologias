@@ -18,8 +18,9 @@ public class Parser {
 //			"akarpovsky", "Dinuuu", "farolfo",
 //			"epintos", "FedericoHomovc", "mdesanti",
 //			"acrespo", "fnmartinez", "gcastigl", 
-			"msturla", "nloreti", "eordano",
-//			"kshmir", "maximovs", "ealtamir", "joseignaciosg"
+//			"msturla", "nloreti", "eordano",
+			"kshmir", "maximovs", "ealtamir", 
+//			"joseignaciosg"
 			};
 
 
