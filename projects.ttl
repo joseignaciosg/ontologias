@@ -614,4 +614,61 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/R>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
+_:Dinuuu a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/Dinuuu" .
+
+doap:Project
+	 doap:name "JavaDFS" ;
+	 doap:homepage "https://github.com/Dinuuu/JavaDFS" ;
+	 doap:description "Sistemas de Ficheros Distribuidos usando JavaDFS" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "JavaDSM" ;
+	 doap:homepage "https://github.com/Dinuuu/JavaDSM" ;
+	 doap:description "Sistema de memoria compartida distribuida en Java" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "MiddlewareProyect" ;
+	 doap:homepage "https://github.com/Dinuuu/MiddlewareProyect" ;
+	 doap:description "Aplicacion tipo Facebook distribuida." ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SDSockets" ;
+	 doap:homepage "https://github.com/Dinuuu/SDSockets" ;
+	 doap:description "Arquitectura Editor/Suscriptor son Sockets en C" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE3-SO" ;
+	 doap:homepage "https://github.com/Dinuuu/TPE3-SO" ;
+	 doap:description "" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "woloxBlog" ;
+	 doap:homepage "https://github.com/Dinuuu/woloxBlog" ;
+	 doap:description "Tutorial de training para Wolox" ;
+	 doap:maintainer _:Dinuuu ;
+	 doap:developer _:Dinuuu ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
 _:repo a doap:GitRepository .
