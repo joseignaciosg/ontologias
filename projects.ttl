@@ -872,4 +872,208 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
+_:epintos a foaf:Person ;
+	 foaf:name "Esteban Pintos" ;
+	 foaf:mbox "epintos7@gmail.com" ;
+	 foaf:homepage "https://github.com/epintos" .
+
+doap:Project
+	 doap:name "auctions-dci" ;
+	 doap:homepage "https://github.com/epintos/auctions-dci" ;
+	 doap:description "Rails example app applying Data Context Interaction (DCI) paradigm" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:santisamra ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bioinformatics" ;
+	 doap:homepage "https://github.com/epintos/bioinformatics" ;
+	 doap:description "First project for Bioinformatic course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinux" ;
+	 doap:homepage "https://github.com/epintos/dinux" ;
+	 doap:description "Final project for Computer Architecture course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v1" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
+	 doap:description "First project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v2" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
+	 doap:description "Second project for Web Applications Project course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dinuxpropiedades-v3" ;
+	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
+	 doap:description "Third project for Web Applications Project course at ITBA. Year 2012" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "dungeon-crawler" ;
+	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
+	 doap:description "Final project for Imperative Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "face-detection" ;
+	 doap:homepage "https://github.com/epintos/face-detection" ;
+	 doap:description "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "fajita" ;
+	 doap:homepage "https://github.com/epintos/fajita" ;
+	 doap:description "Final project for Software Engineering at ITBA. Year 2013-2014." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
+	 doap:programming-language  <http://dbpedia.org/resource/Alloy>, <http://dbpedia.org/resource/GAP>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "image-treatment" ;
+	 doap:homepage "https://github.com/epintos/image-treatment" ;
+	 doap:description "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "mediclink" ;
+	 doap:homepage "https://github.com/epintos/mediclink" ;
+	 doap:description "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos, _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p1" ;
+	 doap:homepage "https://github.com/epintos/os-p1" ;
+	 doap:description "First Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p2" ;
+	 doap:homepage "https://github.com/epintos/os-p2" ;
+	 doap:description "Second Project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "os-p3" ;
+	 doap:homepage "https://github.com/epintos/os-p3" ;
+	 doap:description "Third project for Operating Systems course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "pipedreamsolver" ;
+	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
+	 doap:description "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "proxy-http" ;
+	 doap:homepage "https://github.com/epintos/proxy-http" ;
+	 doap:description "Final project for Communication Protocols course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "shopping" ;
+	 doap:homepage "https://github.com/epintos/shopping" ;
+	 doap:description "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "sia" ;
+	 doap:homepage "https://github.com/epintos/sia" ;
+	 doap:description "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:kshmir, _:mdesanti ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "signal" ;
+	 doap:homepage "https://github.com/epintos/signal" ;
+	 doap:description "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "slip-slide" ;
+	 doap:homepage "https://github.com/epintos/slip-slide" ;
+	 doap:description "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "software-factory-simulator" ;
+	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
+	 doap:description "Final Project for Systems Simulation course at ITBA. Year 2013" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:mdesanti, _:epintos ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "stenography" ;
+	 doap:homepage "https://github.com/epintos/stenography" ;
+	 doap:description "Final project for Cryptography and Security course at ITBA. Year 2013." ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "wogger" ;
+	 doap:homepage "https://github.com/epintos/wogger" ;
+	 doap:description "Time logger for different projects and teams" ;
+	 doap:maintainer _:epintos ;
+	 doap:developer _:epintos ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
 _:repo a doap:GitRepository .
