@@ -682,7 +682,7 @@ doap:Project
 	 doap:description "My personal modification to the robbyrussel(oh-my-zsh) theme for the zsh terminal" ;
 	 doap:maintainer _:farolfo ;
 	 doap:developer _:farolfo ;
-	 doap:programming-language  <http://dbpedia.org/resource/VimL>, <http://dbpedia.org/resource/Emacs Lisp>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:programming-language  <http://dbpedia.org/resource/VimL>, <http://dbpedia.org/resource/EmacsLisp>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
