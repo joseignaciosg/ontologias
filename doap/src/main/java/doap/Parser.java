@@ -16,8 +16,8 @@ public class Parser {
 	static String[] users = { 
 //			"ConcoMB", "mannias", "daniel-lobo",
 //			"akarpovsky", "Dinuuu", "farolfo",
-			"epintos", "FedericoHomovc", "mdesanti",
-//			"acrespo", "fnmartinez", "gcastigl", 
+//			"epintos", "FedericoHomovc", "mdesanti",
+			"acrespo", "fnmartinez", "gcastigl", 
 //			"msturla", "nloreti", "eordano",
 //			"kshmir", "maximovs", "ealtamir", "joseignaciosg"
 			};

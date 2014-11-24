@@ -2,238 +2,371 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:epintos a foaf:Person ;
-	 foaf:name "Esteban Pintos" ;
-	 foaf:mbox "epintos7@gmail.com" ;
-	 foaf:homepage "https://github.com/epintos" .
+_:acrespo a foaf:Person ;
+	 foaf:name "acrespo" ;
+	 foaf:mbox "alvaro.andres.crespo@gmail.com" ;
+	 foaf:homepage "https://github.com/acrespo" .
 
 doap:Project
-	 doap:name "auctions-dci" ;
-	 doap:homepage "https://github.com/epintos/auctions-dci" ;
-	 doap:shortdesc "Rails example app applying Data Context Interaction (DCI) paradigm" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos, _:santisamra ;
+	 doap:name "ArqvengerOS" ;
+	 doap:homepage "https://github.com/acrespo/ArqvengerOS" ;
+	 doap:shortdesc "The Arqvengers" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:dariosus, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "bioinformatics" ;
-	 doap:homepage "https://github.com/epintos/bioinformatics" ;
-	 doap:shortdesc "First project for Bioinformatic course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "ati-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/ati-2013-1c" ;
+	 doap:shortdesc "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinux" ;
-	 doap:homepage "https://github.com/epintos/dinux" ;
-	 doap:shortdesc "Final project for Computer Architecture course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "ati2013" ;
+	 doap:homepage "https://github.com/acrespo/ati2013" ;
+	 doap:shortdesc "Mi tp de ati y el de alvaro" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:msturla ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v1" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
-	 doap:shortdesc "First project for Web Applications Project course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "bigdata-practicas" ;
+	 doap:homepage "https://github.com/acrespo/bigdata-practicas" ;
+	 doap:shortdesc "Repositorio para las prácticas de la materia Big Data del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v2" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
-	 doap:shortdesc "Second project for Web Applications Project course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "cripto-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/cripto-2013-1c" ;
+	 doap:shortdesc "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus, _:axelwass ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dinuxpropiedades-v3" ;
-	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
-	 doap:shortdesc "Third project for Web Applications Project course at ITBA. Year 2012" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "EAC2" ;
+	 doap:homepage "https://github.com/acrespo/EAC2" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dungeon-crawler" ;
-	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
-	 doap:shortdesc "Final project for Imperative Programming course at ITBA. Year 2010." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "EDA" ;
+	 doap:homepage "https://github.com/acrespo/EDA" ;
+	 doap:shortdesc "Estructuras de Datos y Algoritmos" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "face-detection" ;
-	 doap:homepage "https://github.com/epintos/face-detection" ;
-	 doap:shortdesc "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:kshmir, _:epintos, _:mdesanti ;
+	 doap:name "ITBA_TLA_12_rg2nfa" ;
+	 doap:homepage "https://github.com/acrespo/ITBA_TLA_12_rg2nfa" ;
+	 doap:shortdesc "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "fajita" ;
-	 doap:homepage "https://github.com/epintos/fajita" ;
-	 doap:shortdesc "Final project for Software Engineering at ITBA. Year 2013-2014." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:mdesanti, _:epintos, _:FedericoHomovc ;
+	 doap:name "mgmt" ;
+	 doap:homepage "https://github.com/acrespo/mgmt" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "image-treatment" ;
-	 doap:homepage "https://github.com/epintos/image-treatment" ;
-	 doap:shortdesc "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:mdesanti, _:kshmir, _:epintos ;
+	 doap:name "MNA-TPs" ;
+	 doap:homepage "https://github.com/acrespo/MNA-TPs" ;
+	 doap:shortdesc "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:champo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "mediclink" ;
-	 doap:homepage "https://github.com/epintos/mediclink" ;
-	 doap:shortdesc "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos, _:mdesanti ;
+	 doap:name "olap-espacial" ;
+	 doap:homepage "https://github.com/acrespo/olap-espacial" ;
+	 doap:shortdesc "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p1" ;
-	 doap:homepage "https://github.com/epintos/os-p1" ;
-	 doap:shortdesc "First Project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "pod-2012" ;
+	 doap:homepage "https://github.com/acrespo/pod-2012" ;
+	 doap:shortdesc "Trabajo Práctico de Programación de Objetos Distribuidos" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p2" ;
-	 doap:homepage "https://github.com/epintos/os-p2" ;
-	 doap:shortdesc "Second Project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "sia-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/sia-2013-1c" ;
+	 doap:shortdesc "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "os-p3" ;
-	 doap:homepage "https://github.com/epintos/os-p3" ;
-	 doap:shortdesc "Third project for Operating Systems course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "Simulaciones" ;
+	 doap:homepage "https://github.com/acrespo/Simulaciones" ;
+	 doap:shortdesc "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:amarseillan ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "pipedreamsolver" ;
-	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
-	 doap:shortdesc "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "TLA_TPE2" ;
+	 doap:homepage "https://github.com/acrespo/TLA_TPE2" ;
+	 doap:shortdesc "Second assigment for TLA" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "proxy-http" ;
-	 doap:homepage "https://github.com/epintos/proxy-http" ;
-	 doap:shortdesc "Final project for Communication Protocols course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "TP1-SO-2c2011" ;
+	 doap:homepage "https://github.com/acrespo/TP1-SO-2c2011" ;
+	 doap:shortdesc "TP1 for Operating Systems in the 2nd quarter of 2011" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "shopping" ;
-	 doap:homepage "https://github.com/epintos/shopping" ;
-	 doap:shortdesc "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "TPE-PAW" ;
+	 doap:homepage "https://github.com/acrespo/TPE-PAW" ;
+	 doap:shortdesc "Trabajo practico especial para Proyectos de Aplicacion Web" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus, _:esneider ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "sia" ;
-	 doap:homepage "https://github.com/epintos/sia" ;
-	 doap:shortdesc "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:kshmir, _:mdesanti ;
+	 doap:name "tpe-pod-2c2012" ;
+	 doap:homepage "https://github.com/acrespo/tpe-pod-2c2012" ;
+	 doap:shortdesc "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "signal" ;
-	 doap:homepage "https://github.com/epintos/signal" ;
-	 doap:shortdesc "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "vj-ios-2013-2" ;
+	 doap:homepage "https://github.com/acrespo/vj-ios-2013-2" ;
+	 doap:shortdesc "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "slip-slide" ;
-	 doap:homepage "https://github.com/epintos/slip-slide" ;
-	 doap:shortdesc "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
+	 doap:name "vj-unity-2013-2" ;
+	 doap:homepage "https://github.com/acrespo/vj-unity-2013-2" ;
+	 doap:shortdesc "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
-	 doap:name "software-factory-simulator" ;
-	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
-	 doap:shortdesc "Final Project for Systems Simulation course at ITBA. Year 2013" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:mdesanti, _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "stenography" ;
-	 doap:homepage "https://github.com/epintos/stenography" ;
-	 doap:shortdesc "Final project for Cryptography and Security course at ITBA. Year 2013." ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "wogger" ;
-	 doap:homepage "https://github.com/epintos/wogger" ;
-	 doap:shortdesc "Time logger for different projects and teams" ;
-	 doap:maintainer _:epintos ;
-	 doap:developer _:epintos ;
-	 doap:repository _:repo .
-
-_:FedericoHomovc a foaf:Person ;
-	 foaf:name "null" ;
+_:fnmartinez a foaf:Person ;
+	 foaf:name "Facundo Martinez" ;
 	 foaf:mbox "null" ;
-	 foaf:homepage "https://github.com/FedericoHomovc" .
+	 foaf:homepage "https://github.com/fnmartinez" .
 
 doap:Project
-	 doap:name "pdc-2012" ;
-	 doap:homepage "https://github.com/FedericoHomovc/pdc-2012" ;
-	 doap:shortdesc "TP Protocolos de Comunicación" ;
-	 doap:maintainer _:FedericoHomovc ;
-	 doap:developer _:FedericoHomovc ;
+	 doap:name "Embebidos" ;
+	 doap:homepage "https://github.com/fnmartinez/Embebidos" ;
+	 doap:shortdesc "Playing with Atmel microcontrollers" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "tpeSO1" ;
-	 doap:homepage "https://github.com/FedericoHomovc/tpeSO1" ;
-	 doap:shortdesc "distribución de alimentos entre ciudades" ;
-	 doap:maintainer _:FedericoHomovc ;
-	 doap:developer _:FedericoHomovc, _:joseignaciosg, _:nloreti ;
-	 doap:repository _:repo .
-
-_:mdesanti a foaf:Person ;
-	 foaf:name "" ;
-	 foaf:mbox "mdesanti90@gmail.com" ;
-	 foaf:homepage "https://github.com/mdesanti" .
-
-doap:Project
-	 doap:name "arcanist-extensions" ;
-	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
-	 doap:shortdesc "Awesome Arcanist extensions!" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:reu, _:mpelos, _:mdesanti ;
+	 doap:name "HTabs" ;
+	 doap:homepage "https://github.com/fnmartinez/HTabs" ;
+	 doap:shortdesc "A Simple Haskell Tabs and Account Manager." ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "bigdata" ;
-	 doap:homepage "https://github.com/mdesanti/bigdata" ;
-	 doap:shortdesc "Trabajos Prácticos de Big Data" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:epintos ;
+	 doap:name "hyttrop" ;
+	 doap:homepage "https://github.com/fnmartinez/hyttrop" ;
+	 doap:shortdesc "An HTTP v1.1 proxy using our thorium framework" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez, _:mannias, _:facualderete ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "bioinf" ;
-	 doap:homepage "https://github.com/mdesanti/bioinf" ;
-	 doap:shortdesc "T
+	 doap:name "Jabxy" ;
+	 doap:homepage "https://github.com/fnmartinez/Jabxy" ;
+	 doap:shortdesc "A Jabber Proxy" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez, _:facualderete ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Project-POPXY" ;
+	 doap:homepage "https://github.com/fnmartinez/Project-POPXY" ;
+	 doap:shortdesc "A POP3 Proxy" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:vickymesalcorta, _:fnmartinez, _:kvnknny ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "project-sensecar" ;
+	 doap:homepage "https://github.com/fnmartinez/project-sensecar" ;
+	 doap:shortdesc "An embedded system for parking lots." ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "thorium" ;
+	 doap:homepage "https://github.com/fnmartinez/thorium" ;
+	 doap:shortdesc "A Network Server/Proxy Framework modeled with Reactor Pattern." ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TLATPE" ;
+	 doap:homepage "https://github.com/fnmartinez/TLATPE" ;
+	 doap:shortdesc "Regular Grammars - DFA converter." ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:joseignaciosg, _:fnmartinez, _:maximovs ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP-Sube" ;
+	 doap:homepage "https://github.com/fnmartinez/TP-Sube" ;
+	 doap:shortdesc "TP SUBE: Sistema Útil para Berificar Estudiantes" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP-Tweet-Wars" ;
+	 doap:homepage "https://github.com/fnmartinez/TP-Tweet-Wars" ;
+	 doap:shortdesc "TP POD Tweet Wars" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPHCI-Q2Y2011" ;
+	 doap:homepage "https://github.com/fnmartinez/TPHCI-Q2Y2011" ;
+	 doap:shortdesc "AndroidApp" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ZenithOS" ;
+	 doap:homepage "https://github.com/fnmartinez/ZenithOS" ;
+	 doap:shortdesc "Cotinuation for my own Operating System Proyect" ;
+	 doap:maintainer _:fnmartinez ;
+	 doap:developer _:fnmartinez, _:akarpovsky, _:vickymesalcorta ;
+	 doap:repository _:repo .
+
+_:gcastigl a foaf:Person ;
+	 foaf:name "Gonzalo" ;
+	 foaf:mbox "gcastigl@gmail.com" ;
+	 foaf:homepage "https://github.com/gcastigl" .
+
+doap:Project
+	 doap:name "ArquiQ1Y2011" ;
+	 doap:homepage "https://github.com/gcastigl/ArquiQ1Y2011" ;
+	 doap:shortdesc "Tp de arqui" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ATLC2011C2_TP1" ;
+	 doap:homepage "https://github.com/gcastigl/ATLC2011C2_TP1" ;
+	 doap:shortdesc "trabajo practico uno de automatas. " ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:eordano, _:dariosus, _:gcastigl ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ATLC2011C2_TP2" ;
+	 doap:homepage "https://github.com/gcastigl/ATLC2011C2_TP2" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:eordano, _:dariosus, _:gcastigl ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "intro-video-juegos" ;
+	 doap:homepage "https://github.com/gcastigl/intro-video-juegos" ;
+	 doap:shortdesc "Tps para Introduccion a videojuegos" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:Federelli ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "JavaGameDev" ;
+	 doap:homepage "https://github.com/gcastigl/JavaGameDev" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:jporsay ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "MNA-1C" ;
+	 doap:homepage "https://github.com/gcastigl/MNA-1C" ;
+	 doap:shortdesc "Trabajos practicos para MNA" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:axelwass, _:goncastrop ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "POD" ;
+	 doap:homepage "https://github.com/gcastigl/POD" ;
+	 doap:shortdesc "Trabajos precticos para POD" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SIA1C2012" ;
+	 doap:homepage "https://github.com/gcastigl/SIA1C2012" ;
+	 doap:shortdesc "TPs para materia SIA" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:akarpovsky ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SO2C2011" ;
+	 doap:homepage "https://github.com/gcastigl/SO2C2011" ;
+	 doap:shortdesc "TP 1 de S.O." ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:jporsay, _:qcho ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SO2C2011TP2" ;
+	 doap:homepage "https://github.com/gcastigl/SO2C2011TP2" ;
+	 doap:shortdesc "Scheduler that runs using GRUB" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl, _:jporsay, _:qcho ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPProtos2cuat2012" ;
+	 doap:homepage "https://github.com/gcastigl/TPProtos2cuat2012" ;
+	 doap:shortdesc "Pop 3 proxy" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:joseignaciosg, _:akarpovsky, _:gcastigl ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TrabajosPracticos" ;
+	 doap:homepage "https://github.com/gcastigl/TrabajosPracticos" ;
+	 doap:shortdesc "repositorio par guardar trabajos practicos de las distintas materias" ;
+	 doap:maintainer _:gcastigl ;
+	 doap:developer _:gcastigl ;
+	 doap:repository _:repo .
+
+_:repo a doap:GitRepository .
