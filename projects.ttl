@@ -600,5 +600,379 @@ doap:Project
 	 doap:developer _:gcastigl ;
 	 doap:repository _:repo .
 
-_:repo a doap:GitRepository .
+_:msturla a foaf:Person ;
+	 foaf:name "null" ;
+	 foaf:mbox "null" ;
+	 foaf:homepage "https://github.com/msturla" .
 
+doap:Project
+	 doap:name "ati2013" ;
+	 doap:homepage "https://github.com/msturla/ati2013" ;
+	 doap:shortdesc "Mi tp de ati y el de alvaro" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:acrespo, _:msturla ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bigdatatp1" ;
+	 doap:homepage "https://github.com/msturla/bigdatatp1" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:msturla, _:amarseillan ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bigdatatp2" ;
+	 doap:homepage "https://github.com/msturla/bigdatatp2" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:msturla, _:amarseillan ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "hciapi2014" ;
+	 doap:homepage "https://github.com/msturla/hciapi2014" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:msturla ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "htilc" ;
+	 doap:homepage "https://github.com/msturla/htilc" ;
+	 doap:shortdesc "Haskell Type Inferrer for Lambda Calculus" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:msturla ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ml2013" ;
+	 doap:homepage "https://github.com/msturla/ml2013" ;
+	 doap:shortdesc "Machine Learning 2013" ;
+	 doap:maintainer _:msturla ;
+	 doap:developer _:msturla ;
+	 doap:repository _:repo .
+
+_:nloreti a foaf:Person ;
+	 foaf:name "Nicolas Loreti" ;
+	 foaf:mbox "nloreti@gmail.com" ;
+	 foaf:homepage "https://github.com/nloreti" .
+
+doap:Project
+	 doap:name "Arqui" ;
+	 doap:homepage "https://github.com/nloreti/Arqui" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "infovis-final" ;
+	 doap:homepage "https://github.com/nloreti/infovis-final" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "memeCrack" ;
+	 doap:homepage "https://github.com/nloreti/memeCrack" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti, _:akarpovsky ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "ProtoProxyHTTP" ;
+	 doap:homepage "https://github.com/nloreti/ProtoProxyHTTP" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:amarseillan, _:maximovs ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "SIA-TP1" ;
+	 doap:homepage "https://github.com/nloreti/SIA-TP1" ;
+	 doap:shortdesc "SIA" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "tlaTP2" ;
+	 doap:homepage "https://github.com/nloreti/tlaTP2" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "tla_lex" ;
+	 doap:homepage "https://github.com/nloreti/tla_lex" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP-Players" ;
+	 doap:homepage "https://github.com/nloreti/TP-Players" ;
+	 doap:shortdesc "TP para players y referee" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE_InfoVis" ;
+	 doap:homepage "https://github.com/nloreti/TPE_InfoVis" ;
+	 doap:shortdesc "Google Charts" ;
+	 doap:maintainer _:nloreti ;
+	 doap:developer _:nloreti, _:dariosus ;
+	 doap:repository _:repo .
+
+_:eordano a foaf:Person ;
+	 foaf:name "Esteban Ordano" ;
+	 foaf:mbox "eordano@gmail.com" ;
+	 foaf:homepage "https://github.com/eordano" .
+
+doap:Project
+	 doap:name "agilefant" ;
+	 doap:homepage "https://github.com/eordano/agilefant" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:jebaldwin, _:phyper, _:bradens, _:infiro, _:jordanell, _:heinx, _:betelgeuse, _:lekksi, _:dwfennell, _:metermaid, _:jvahanii, _:DDB-, _:Sanaz, _:amcallister, _:danbolt, _:Gekkio, _:mike1072, _:Aduno, _:seanws, _:psaalton, _:djbchepe ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "backbone" ;
+	 doap:homepage "https://github.com/eordano/backbone" ;
+	 doap:shortdesc "Give your JS App some Backbone with Models, Views, Collections, and Events" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:jashkenas, _:braddunbar, _:samuelclay, _:thejefflarson, _:tbranyen, _:wookiehangover, _:iros, _:PaulUithol, _:two-bit-fool, _:caseywebdev, _:JoeGermuska, _:sstephenson, _:andrewschaaf, _:aterris, _:alexgraul, _:hswolff, _:dira, _:jasonm, _:fitzgen, _:christopherwright, _:gsamokovarov, _:jrolfs, _:jasondavies, _:lorensr, _:paulmillr, _:philfreo, _:rsim, _:tomasztunik, _:vlazzle, _:afeld ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bitcore" ;
+	 doap:homepage "https://github.com/eordano/bitcore" ;
+	 doap:shortdesc "A bitcoin library." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:ryanxcharles, _:maraoz, _:chjj, _:matiu, _:gasteve, _:jgarzik, _:olalonde, _:gordonwritescode, _:bitjson, _:martindale, _:yemel, _:MattFaus, _:eordano, _:devrandom, _:sagivo, _:rubensayshi, _:dthorpe, _:felipecsl, _:ethers, _:trapp, _:manan19, _:kyledrake, _:cmgustavo, _:curtislacy, _:bitdeli-chef, _:cimm, _:SomeoneWeird, _:yangit, _:LinusU, _:Aaron1011 ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bitcore-channel" ;
+	 doap:homepage "https://github.com/eordano/bitcore-channel" ;
+	 doap:shortdesc "A library for building payment channels smart contracts." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano, _:maraoz ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bitpay-oss-stats" ;
+	 doap:homepage "https://github.com/eordano/bitpay-oss-stats" ;
+	 doap:shortdesc "Track bitpay's open source stats" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bitpay-team" ;
+	 doap:homepage "https://github.com/eordano/bitpay-team" ;
+	 doap:shortdesc "BitPay's Team Data" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:bitjson, _:martindale, _:colkito, _:gordonwritescode, _:matiu, _:cmgustavo, _:ionux, _:tonysakich, _:unusualbob, _:Operavangelist, _:eordano, _:JoshuaEstes, _:maraoz ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "blogActivity" ;
+	 doap:homepage "https://github.com/eordano/blogActivity" ;
+	 doap:shortdesc "A collection of Android tools" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bootstrap" ;
+	 doap:homepage "https://github.com/eordano/bootstrap" ;
+	 doap:shortdesc "HTML, CSS, and JS toolkit from Twitter" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:mdo, _:fat, _:phopkins, _:smerik, _:lookfirst, _:andriijas, _:purwandi, _:Synchro, _:jacobrask, _:buraktuyan, _:caniszczyk, _:smaboshe, _:cgunther, _:SSPMark, _:rvagg, _:ansman, _:Calvein, _:MGaetan89, _:tobz, _:Lalem001, _:necolas, _:pthrasher, _:sankage, _:tinyfly, _:aaronj1335, _:benjaminoakes, _:tierra, _:DHS, _:evnm, _:wrightlabs ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "btc-simulation" ;
+	 doap:homepage "https://github.com/eordano/btc-simulation" ;
+	 doap:shortdesc "Simulation of data propagation in the Bitcoin network (spanish)" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:esneider, _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "btcd" ;
+	 doap:homepage "https://github.com/eordano/btcd" ;
+	 doap:shortdesc "An alternative full node bitcoin implementation written in Go (golang)" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:davecgh, _:dajohi, _:jrick, _:flammit, _:jcvernaleo, _:marcopeereboom, _:tsenart, _:drahn, _:toddfries, _:decred, _:jimmysong, _:gsalgado, _:tuxcanfly, _:carryforward, _:Roasbeef, _:mischief, _:ortutay ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "closure-compiler-jar" ;
+	 doap:homepage "https://github.com/eordano/closure-compiler-jar" ;
+	 doap:shortdesc "A virtual package to retrieve closure-compiler with npm." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "copay" ;
+	 doap:homepage "https://github.com/eordano/copay" ;
+	 doap:shortdesc "A multisignature wallet." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:maraoz, _:colkito, _:yemel, _:chjj, _:bechi, _:ryanxcharles, _:isocolsky, _:eordano, _:ssotomayor, _:gordonwritescode, _:greggzigler, _:marianorod, _:dthorpe, _:matiaspando, _:bitpayalan, _:robjohnson189, _:davbritt, _:martindale, _:waffle-iron, _:ethers, _:gabegattis ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "copay-mobile" ;
+	 doap:homepage "https://github.com/eordano/copay-mobile" ;
+	 doap:shortdesc "A bitcoin wallet for mobiles" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:yemel, _:eordano, _:bechi ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "cripto_tp2" ;
+	 doap:homepage "https://github.com/eordano/cripto_tp2" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "explain-git-with-d3" ;
+	 doap:homepage "https://github.com/eordano/explain-git-with-d3" ;
+	 doap:shortdesc "Use D3 to visualize simple git branching operations." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "funkytest" ;
+	 doap:homepage "https://github.com/eordano/funkytest" ;
+	 doap:shortdesc "A functional test framework to test HTTP APIs responses" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "g4-itba-hci-2010b" ;
+	 doap:homepage "https://github.com/eordano/g4-itba-hci-2010b" ;
+	 doap:shortdesc "Trabajo Práctico Número 1" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "gulp-closure-compiler" ;
+	 doap:homepage "https://github.com/eordano/gulp-closure-compiler" ;
+	 doap:shortdesc "Gulp plugin for Google Closure Compiler" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:steida, _:mCzolko, _:jrabek, _:eordano, _:Gobie, _:pvolok, _:agalazis ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "insight" ;
+	 doap:homepage "https://github.com/eordano/insight" ;
+	 doap:shortdesc "A bitcoin blockchain API for web wallets. #bitcore on Freenode." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:bechi, _:martindale, _:ryanxcharles, _:Eveiv, _:ionux, _:drak, _:jyap808, _:Lennie, _:pierrerochard, _:slavik0329, _:yemel, _:sandakersmann, _:wozz ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "insight-api" ;
+	 doap:homepage "https://github.com/eordano/insight-api" ;
+	 doap:shortdesc "A bitcoin blockchain API for web wallets" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:eordano, _:bechi, _:martindale, _:ryanxcharles, _:iancoleman, _:Eveiv, _:lordhelmut, _:pelim, _:updatesthepoolist, _:koirikivi, _:ionux, _:abbshr, _:drak, _:bitstein, _:shesek, _:olalonde, _:skddc, _:slavik0329, _:wtogami, _:yemel, _:devlo, _:igarciaes, _:periodic1236, _:ralphtheninja, _:ssotomayor ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "iol2-flaws" ;
+	 doap:homepage "https://github.com/eordano/iol2-flaws" ;
+	 doap:shortdesc "Informe sobre fallas encontradas en IOL²" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "itba-ss-2014a" ;
+	 doap:homepage "https://github.com/eordano/itba-ss-2014a" ;
+	 doap:shortdesc "" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "lch" ;
+	 doap:homepage "https://github.com/eordano/lch" ;
+	 doap:shortdesc "Lightweight C Httpserver" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "node-corsproxy" ;
+	 doap:homepage "https://github.com/eordano/node-corsproxy" ;
+	 doap:shortdesc "über-simple node.js-Proxy to enable CORS request for any website." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:gr2m, _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "node-style-guide" ;
+	 doap:homepage "https://github.com/eordano/node-style-guide" ;
+	 doap:shortdesc "A guide for styling your node.js / JavaScript code. Fork & adjust to your taste." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:felixge, _:kentcdodds, _:wilmoore, _:mathieug, _:mitogh, _:branneman, _:caffeinewriter, _:alanjames1987, _:coderangerdan, _:esneider, _:ooflorent, _:matthewpalmer, _:nolanlawson, _:focusaurus, _:tanepiper ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "node-traderbot-bitcoin" ;
+	 doap:homepage "https://github.com/eordano/node-traderbot-bitcoin" ;
+	 doap:shortdesc "A trading bot with bitcoin" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano, _:slezica ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "nophp" ;
+	 doap:homepage "https://github.com/eordano/nophp" ;
+	 doap:shortdesc "NoPHP Framework" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "olap-espacial" ;
+	 doap:homepage "https://github.com/eordano/olap-espacial" ;
+	 doap:shortdesc "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "OpenTLD" ;
+	 doap:homepage "https://github.com/eordano/OpenTLD" ;
+	 doap:shortdesc "Official source code for TLD" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "paystream" ;
+	 doap:homepage "https://github.com/eordano/paystream" ;
+	 doap:shortdesc "Decentralized trustless video streaming using bitcoin payment channels" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:maraoz, _:yemel, _:fortefranco, _:eordano, _:esneider ;
+	 doap:repository _:repo .
+
+_:repo a doap:GitRepository .
