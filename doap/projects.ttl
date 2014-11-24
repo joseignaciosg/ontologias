@@ -2,233 +2,256 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:mdesanti a foaf:Person ;
-	 foaf:name "" ;
-	 foaf:mbox "mdesanti90@gmail.com" ;
-	 foaf:homepage "https://github.com/mdesanti" .
+_:eordano a foaf:Person ;
+	 foaf:name "Esteban Ordano" ;
+	 foaf:mbox "eordano@gmail.com" ;
+	 foaf:homepage "https://github.com/eordano" .
 
 doap:Project
-	 doap:name "arcanist-extensions" ;
-	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
-	 doap:description "Awesome Arcanist extensions!" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:reu, _:mpelos, _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "bigdata" ;
-	 doap:homepage "https://github.com/mdesanti/bigdata" ;
-	 doap:description "Trabajos Prácticos de Big Data" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "bioinf" ;
-	 doap:homepage "https://github.com/mdesanti/bioinf" ;
-	 doap:description "Trabajo práctico de Introducción a la BioInformática" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "file_management" ;
-	 doap:homepage "https://github.com/mdesanti/file_management" ;
+	 doap:name "agilefant" ;
+	 doap:homepage "https://github.com/eordano/agilefant" ;
 	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript> ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:jebaldwin, _:phyper, _:bradens, _:infiro, _:jordanell, _:heinx, _:betelgeuse, _:lekksi, _:dwfennell, _:metermaid, _:jvahanii, _:DDB-, _:Sanaz, _:amcallister, _:danbolt, _:Gekkio, _:mike1072, _:Aduno, _:seanws, _:psaalton, _:djbchepe ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "funcional" ;
-	 doap:homepage "https://github.com/mdesanti/funcional" ;
-	 doap:description "Programación Funcional" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "backbone" ;
+	 doap:homepage "https://github.com/eordano/backbone" ;
+	 doap:description "Give your JS App some Backbone with Models, Views, Collections, and Events" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:jashkenas, _:braddunbar, _:samuelclay, _:thejefflarson, _:tbranyen, _:wookiehangover, _:iros, _:PaulUithol, _:two-bit-fool, _:caseywebdev, _:JoeGermuska, _:sstephenson, _:andrewschaaf, _:aterris, _:alexgraul, _:hswolff, _:dira, _:jasonm, _:fitzgen, _:christopherwright, _:gsamokovarov, _:jrolfs, _:jasondavies, _:lorensr, _:paulmillr, _:philfreo, _:rsim, _:tomasztunik, _:vlazzle, _:afeld ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "Hackathon_2_1" ;
-	 doap:homepage "https://github.com/mdesanti/Hackathon_2_1" ;
-	 doap:description "Repo test para hackathon 2" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "bitcore" ;
+	 doap:homepage "https://github.com/eordano/bitcore" ;
+	 doap:description "A bitcoin library." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:ryanxcharles, _:maraoz, _:chjj, _:matiu, _:gasteve, _:jgarzik, _:olalonde, _:gordonwritescode, _:bitjson, _:martindale, _:yemel, _:MattFaus, _:eordano, _:devrandom, _:sagivo, _:rubensayshi, _:dthorpe, _:felipecsl, _:ethers, _:trapp, _:manan19, _:kyledrake, _:cmgustavo, _:curtislacy, _:bitdeli-chef, _:cimm, _:SomeoneWeird, _:yangit, _:LinusU, _:Aaron1011 ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "jQuery-Knob" ;
-	 doap:homepage "https://github.com/mdesanti/jQuery-Knob" ;
-	 doap:description "Nice, downward compatible, touchable, jQuery dial" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:aterrien, _:eskimoblood, _:jaketrent, _:mal, _:amuino, _:fidothe, _:pioul, _:jwalton, _:T2L, _:NinjaTux, _:brunjo, _:fadomire ;
+	 doap:name "bitcore-channel" ;
+	 doap:homepage "https://github.com/eordano/bitcore-channel" ;
+	 doap:description "A library for building payment channels smart contracts." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano, _:maraoz ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "mgmt" ;
-	 doap:homepage "https://github.com/mdesanti/mgmt" ;
+	 doap:name "bitpay-oss-stats" ;
+	 doap:homepage "https://github.com/eordano/bitpay-oss-stats" ;
+	 doap:description "Track bitpay's open source stats" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bitpay-team" ;
+	 doap:homepage "https://github.com/eordano/bitpay-team" ;
+	 doap:description "BitPay's Team Data" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:bitjson, _:martindale, _:colkito, _:gordonwritescode, _:matiu, _:cmgustavo, _:ionux, _:tonysakich, _:unusualbob, _:Operavangelist, _:eordano, _:JoshuaEstes, _:maraoz ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "blogActivity" ;
+	 doap:homepage "https://github.com/eordano/blogActivity" ;
+	 doap:description "A collection of Android tools" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "bootstrap" ;
+	 doap:homepage "https://github.com/eordano/bootstrap" ;
+	 doap:description "HTML, CSS, and JS toolkit from Twitter" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:mdo, _:fat, _:phopkins, _:smerik, _:lookfirst, _:andriijas, _:purwandi, _:Synchro, _:jacobrask, _:buraktuyan, _:caniszczyk, _:smaboshe, _:cgunther, _:SSPMark, _:rvagg, _:ansman, _:Calvein, _:MGaetan89, _:tobz, _:Lalem001, _:necolas, _:pthrasher, _:sankage, _:tinyfly, _:aaronj1335, _:benjaminoakes, _:tierra, _:DHS, _:evnm, _:wrightlabs ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "btc-simulation" ;
+	 doap:homepage "https://github.com/eordano/btc-simulation" ;
+	 doap:description "Simulation of data propagation in the Bitcoin network (spanish)" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:esneider, _:eordano ;
+	 doap:programming-language  <http://dbpedia.org/resource/AppleScript>, <http://dbpedia.org/resource/Python> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "btcd" ;
+	 doap:homepage "https://github.com/eordano/btcd" ;
+	 doap:description "An alternative full node bitcoin implementation written in Go (golang)" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:davecgh, _:dajohi, _:jrick, _:flammit, _:jcvernaleo, _:marcopeereboom, _:tsenart, _:drahn, _:toddfries, _:decred, _:jimmysong, _:gsalgado, _:tuxcanfly, _:carryforward, _:Roasbeef, _:mischief, _:ortutay ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "closure-compiler-jar" ;
+	 doap:homepage "https://github.com/eordano/closure-compiler-jar" ;
+	 doap:description "A virtual package to retrieve closure-compiler with npm." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "copay" ;
+	 doap:homepage "https://github.com/eordano/copay" ;
+	 doap:description "A multisignature wallet." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:maraoz, _:colkito, _:yemel, _:chjj, _:bechi, _:ryanxcharles, _:isocolsky, _:eordano, _:ssotomayor, _:gordonwritescode, _:greggzigler, _:marianorod, _:dthorpe, _:matiaspando, _:bitpayalan, _:robjohnson189, _:davbritt, _:martindale, _:waffle-iron, _:ethers, _:gabegattis ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "copay-mobile" ;
+	 doap:homepage "https://github.com/eordano/copay-mobile" ;
+	 doap:description "A bitcoin wallet for mobiles" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:yemel, _:eordano, _:bechi ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "cripto_tp2" ;
+	 doap:homepage "https://github.com/eordano/cripto_tp2" ;
 	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "pf" ;
-	 doap:homepage "https://github.com/mdesanti/pf" ;
-	 doap:description "Trabajo Practico Final - Programación Funcional" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:epintos ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "explain-git-with-d3" ;
+	 doap:homepage "https://github.com/eordano/explain-git-with-d3" ;
+	 doap:description "Use D3 to visualize simple git branching operations." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "pod-2012-client" ;
-	 doap:homepage "https://github.com/mdesanti/pod-2012-client" ;
-	 doap:description "Client code for the pod tp" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "funkytest" ;
+	 doap:homepage "https://github.com/eordano/funkytest" ;
+	 doap:description "A functional test framework to test HTTP APIs responses" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "Practicas-EDA" ;
-	 doap:homepage "https://github.com/mdesanti/Practicas-EDA" ;
+	 doap:name "g4-itba-hci-2010b" ;
+	 doap:homepage "https://github.com/eordano/g4-itba-hci-2010b" ;
+	 doap:description "Trabajo Práctico Número 1" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "gulp-closure-compiler" ;
+	 doap:homepage "https://github.com/eordano/gulp-closure-compiler" ;
+	 doap:description "Gulp plugin for Google Closure Compiler" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:steida, _:mCzolko, _:jrabek, _:eordano, _:Gobie, _:pvolok, _:agalazis ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "insight" ;
+	 doap:homepage "https://github.com/eordano/insight" ;
+	 doap:description "A bitcoin blockchain API for web wallets. #bitcore on Freenode." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:bechi, _:martindale, _:ryanxcharles, _:Eveiv, _:ionux, _:drak, _:jyap808, _:Lennie, _:pierrerochard, _:slavik0329, _:yemel, _:sandakersmann, _:wozz ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "insight-api" ;
+	 doap:homepage "https://github.com/eordano/insight-api" ;
+	 doap:description "A bitcoin blockchain API for web wallets" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:eordano, _:bechi, _:martindale, _:ryanxcharles, _:iancoleman, _:Eveiv, _:lordhelmut, _:pelim, _:updatesthepoolist, _:koirikivi, _:ionux, _:abbshr, _:drak, _:bitstein, _:shesek, _:olalonde, _:skddc, _:slavik0329, _:wtogami, _:yemel, _:devlo, _:igarciaes, _:periodic1236, _:ralphtheninja, _:ssotomayor ;
+	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "iol2-flaws" ;
+	 doap:homepage "https://github.com/eordano/iol2-flaws" ;
+	 doap:description "Informe sobre fallas encontradas en IOL²" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "itba-ss-2014a" ;
+	 doap:homepage "https://github.com/eordano/itba-ss-2014a" ;
 	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "rspecfromphp" ;
-	 doap:homepage "https://github.com/mdesanti/rspecfromphp" ;
-	 doap:description "Rspec tests from php for phabricator" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "lch" ;
+	 doap:homepage "https://github.com/eordano/lch" ;
+	 doap:description "Lightweight C Httpserver" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "sdk-ruby" ;
-	 doap:homepage "https://github.com/mdesanti/sdk-ruby" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:hcasatti, _:matiascompiano, _:chrismo, _:fpiruzi ;
+	 doap:name "node-corsproxy" ;
+	 doap:homepage "https://github.com/eordano/node-corsproxy" ;
+	 doap:description "über-simple node.js-Proxy to enable CORS request for any website." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:gr2m, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "SIA-TP2" ;
-	 doap:homepage "https://github.com/mdesanti/SIA-TP2" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:kshmir, _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:name "node-style-guide" ;
+	 doap:homepage "https://github.com/eordano/node-style-guide" ;
+	 doap:description "A guide for styling your node.js / JavaScript code. Fork & adjust to your taste." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:felixge, _:kentcdodds, _:wilmoore, _:mathieug, _:mitogh, _:branneman, _:caffeinewriter, _:alanjames1987, _:coderangerdan, _:esneider, _:ooflorent, _:matthewpalmer, _:nolanlawson, _:focusaurus, _:tanepiper ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "simulacion" ;
-	 doap:homepage "https://github.com/mdesanti/simulacion" ;
-	 doap:description "Simulación De Sistemas" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:epintos ;
+	 doap:name "node-traderbot-bitcoin" ;
+	 doap:homepage "https://github.com/eordano/node-traderbot-bitcoin" ;
+	 doap:description "A trading bot with bitcoin" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano, _:slezica ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "SimuladorColas" ;
-	 doap:homepage "https://github.com/mdesanti/SimuladorColas" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "nophp" ;
+	 doap:homepage "https://github.com/eordano/nophp" ;
+	 doap:description "NoPHP Framework" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "SocialNetworksJam" ;
-	 doap:homepage "https://github.com/mdesanti/SocialNetworksJam" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
+	 doap:name "olap-espacial" ;
+	 doap:homepage "https://github.com/eordano/olap-espacial" ;
+	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "test_talk" ;
-	 doap:homepage "https://github.com/mdesanti/test_talk" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
+	 doap:name "OpenTLD" ;
+	 doap:homepage "https://github.com/eordano/OpenTLD" ;
+	 doap:description "Official source code for TLD" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "TP2-Cripto" ;
-	 doap:homepage "https://github.com/mdesanti/TP2-Cripto" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
+	 doap:name "paystream" ;
+	 doap:homepage "https://github.com/eordano/paystream" ;
+	 doap:description "Decentralized trustless video streaming using bitcoin payment channels" ;
+	 doap:maintainer _:eordano ;
+	 doap:developer _:maraoz, _:yemel, _:fortefranco, _:eordano, _:esneider ;
+	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
-	 doap:name "TPE-Protos" ;
-	 doap:homepage "https://github.com/mdesanti/TPE-Protos" ;
-	 doap:description "TPE - Protocolos de comunicación - Proxy HTTP" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TPE1-TLA" ;
-	 doap:homepage "https://github.com/mdesanti/TPE1-TLA" ;
-	 doap:description "Trabajo práctico especial 1 de Teoria de Lenguajes, Autómatas y Compiladores" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TPE3-SO" ;
-	 doap:homepage "https://github.com/mdesanti/TPE3-SO" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "TPS-ATI" ;
-	 doap:homepage "https://github.com/mdesanti/TPS-ATI" ;
-	 doap:description "Trabajos prácticos de análisis y tratamiento de imágenes" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:kshmir ;
-	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "trello-release-manager" ;
-	 doap:homepage "https://github.com/mdesanti/trello-release-manager" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti, _:epintos, _:santisamra ;
-	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "Twitter" ;
-	 doap:homepage "https://github.com/mdesanti/Twitter" ;
-	 doap:description "Twitter Tests" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "twitter-client" ;
-	 doap:homepage "https://github.com/mdesanti/twitter-client" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "unstackme" ;
-	 doap:homepage "https://github.com/mdesanti/unstackme" ;
-	 doap:description "" ;
-	 doap:maintainer _:mdesanti ;
-	 doap:developer _:mdesanti ;
-	 doa
+_:repo a doap:GitRepository .
