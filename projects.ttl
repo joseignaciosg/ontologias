@@ -7,7 +7,7 @@ _:acrespo a foaf:Person ;
 	 foaf:mbox "alvaro.andres.crespo@gmail.com" ;
 	 foaf:homepage "https://github.com/acrespo" .
 
-doap:Project
+[]
 	 doap:name "ArqvengerOS" ;
 	 doap:homepage "https://github.com/acrespo/ArqvengerOS" ;
 	 doap:description "The Arqvengers" ;
@@ -15,7 +15,7 @@ doap:Project
 	 doap:developer _:champo, _:dariosus, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "ati-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/ati-2013-1c" ;
 	 doap:description "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
@@ -24,7 +24,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "ati2013" ;
 	 doap:homepage "https://github.com/acrespo/ati2013" ;
 	 doap:description "Mi tp de ati y el de alvaro" ;
@@ -32,7 +32,7 @@ doap:Project
 	 doap:developer _:acrespo, _:msturla ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bigdata-practicas" ;
 	 doap:homepage "https://github.com/acrespo/bigdata-practicas" ;
 	 doap:description "Repositorio para las prácticas de la materia Big Data del ITBA." ;
@@ -40,7 +40,7 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "cripto-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/cripto-2013-1c" ;
 	 doap:description "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
@@ -48,7 +48,7 @@ doap:Project
 	 doap:developer _:champo, _:acrespo, _:dariosus, _:axelwass ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "EAC2" ;
 	 doap:homepage "https://github.com/acrespo/EAC2" ;
 	 doap:description "" ;
@@ -56,7 +56,7 @@ doap:Project
 	 doap:developer _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "EDA" ;
 	 doap:homepage "https://github.com/acrespo/EDA" ;
 	 doap:description "Estructuras de Datos y Algoritmos" ;
@@ -64,7 +64,7 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "ITBA_TLA_12_rg2nfa" ;
 	 doap:homepage "https://github.com/acrespo/ITBA_TLA_12_rg2nfa" ;
 	 doap:description "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
@@ -72,7 +72,7 @@ doap:Project
 	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "mgmt" ;
 	 doap:homepage "https://github.com/acrespo/mgmt" ;
 	 doap:description "" ;
@@ -81,7 +81,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "MNA-TPs" ;
 	 doap:homepage "https://github.com/acrespo/MNA-TPs" ;
 	 doap:description "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
@@ -90,7 +90,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "olap-espacial" ;
 	 doap:homepage "https://github.com/acrespo/olap-espacial" ;
 	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
@@ -98,7 +98,7 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pod-2012" ;
 	 doap:homepage "https://github.com/acrespo/pod-2012" ;
 	 doap:description "Trabajo Práctico de Programación de Objetos Distribuidos" ;
@@ -106,7 +106,7 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "sia-2013-1c" ;
 	 doap:homepage "https://github.com/acrespo/sia-2013-1c" ;
 	 doap:description "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
@@ -115,7 +115,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Simulaciones" ;
 	 doap:homepage "https://github.com/acrespo/Simulaciones" ;
 	 doap:description "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
@@ -124,7 +124,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TLA_TPE2" ;
 	 doap:homepage "https://github.com/acrespo/TLA_TPE2" ;
 	 doap:description "Second assigment for TLA" ;
@@ -132,7 +132,7 @@ doap:Project
 	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TP1-SO-2c2011" ;
 	 doap:homepage "https://github.com/acrespo/TP1-SO-2c2011" ;
 	 doap:description "TP1 for Operating Systems in the 2nd quarter of 2011" ;
@@ -140,7 +140,7 @@ doap:Project
 	 doap:developer _:champo, _:acrespo, _:dariosus ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPE-PAW" ;
 	 doap:homepage "https://github.com/acrespo/TPE-PAW" ;
 	 doap:description "Trabajo practico especial para Proyectos de Aplicacion Web" ;
@@ -148,7 +148,7 @@ doap:Project
 	 doap:developer _:champo, _:acrespo, _:dariosus, _:esneider ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "tpe-pod-2c2012" ;
 	 doap:homepage "https://github.com/acrespo/tpe-pod-2c2012" ;
 	 doap:description "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
@@ -156,7 +156,7 @@ doap:Project
 	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "vj-ios-2013-2" ;
 	 doap:homepage "https://github.com/acrespo/vj-ios-2013-2" ;
 	 doap:description "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
@@ -165,7 +165,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "vj-unity-2013-2" ;
 	 doap:homepage "https://github.com/acrespo/vj-unity-2013-2" ;
 	 doap:description "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
@@ -178,7 +178,7 @@ _:ConcoMB a foaf:Person ;
 	 foaf:mbox "null" ;
 	 foaf:homepage "https://github.com/ConcoMB" .
 
-doap:Project
+[]
 	 doap:name "ATI" ;
 	 doap:homepage "https://github.com/ConcoMB/ATI" ;
 	 doap:description "AT-AT" ;
@@ -187,7 +187,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "CF-OS" ;
 	 doap:homepage "https://github.com/ConcoMB/CF-OS" ;
 	 doap:description "" ;
@@ -196,7 +196,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Racket>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "ChileGames" ;
 	 doap:homepage "https://github.com/ConcoMB/ChileGames" ;
 	 doap:description "Videogames with earthquakes" ;
@@ -205,7 +205,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C#>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "DungeonDesktops" ;
 	 doap:homepage "https://github.com/ConcoMB/DungeonDesktops" ;
 	 doap:description "Tp de Programacion orientada a objetos" ;
@@ -214,7 +214,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "esteganography" ;
 	 doap:homepage "https://github.com/ConcoMB/esteganography" ;
 	 doap:description "" ;
@@ -222,7 +222,7 @@ doap:Project
 	 doap:developer _:ConcoMB, _:FedericoHomovc ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "FanClub" ;
 	 doap:homepage "https://github.com/ConcoMB/FanClub" ;
 	 doap:description "" ;
@@ -230,7 +230,7 @@ doap:Project
 	 doap:developer _:ConcoMB ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Haster" ;
 	 doap:homepage "https://github.com/ConcoMB/Haster" ;
 	 doap:description "Twitter like app in Haskell" ;
@@ -239,7 +239,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "HCI" ;
 	 doap:homepage "https://github.com/ConcoMB/HCI" ;
 	 doap:description "" ;
@@ -247,7 +247,7 @@ doap:Project
 	 doap:developer _:ConcoMB, _:vickymesalcorta, _:framundo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "iOS-2D" ;
 	 doap:homepage "https://github.com/ConcoMB/iOS-2D" ;
 	 doap:description "gilada iOS" ;
@@ -256,7 +256,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C++>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "mgmt" ;
 	 doap:homepage "https://github.com/ConcoMB/mgmt" ;
 	 doap:description "" ;
@@ -265,7 +265,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Multiparty" ;
 	 doap:homepage "https://github.com/ConcoMB/Multiparty" ;
 	 doap:description "" ;
@@ -273,7 +273,7 @@ doap:Project
 	 doap:developer _:ConcoMB ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "NoSQL" ;
 	 doap:homepage "https://github.com/ConcoMB/NoSQL" ;
 	 doap:description "TP Neo4j" ;
@@ -281,7 +281,7 @@ doap:Project
 	 doap:developer _:ConcoMB ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "olap-spatial" ;
 	 doap:homepage "https://github.com/ConcoMB/olap-spatial" ;
 	 doap:description "dOLAPe" ;
@@ -290,7 +290,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "POPeye" ;
 	 doap:homepage "https://github.com/ConcoMB/POPeye" ;
 	 doap:description "" ;
@@ -299,7 +299,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SS" ;
 	 doap:homepage "https://github.com/ConcoMB/SS" ;
 	 doap:description "" ;
@@ -308,7 +308,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SuperMongo" ;
 	 doap:homepage "https://github.com/ConcoMB/SuperMongo" ;
 	 doap:description "" ;
@@ -317,7 +317,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "w-prixes" ;
 	 doap:homepage "https://github.com/ConcoMB/w-prixes" ;
 	 doap:description "" ;
@@ -331,7 +331,7 @@ _:mannias a foaf:Person ;
 	 foaf:mbox "mannias@gmail.com" ;
 	 foaf:homepage "https://github.com/mannias" .
 
-doap:Project
+[]
 	 doap:name "Cripto" ;
 	 doap:homepage "https://github.com/mannias/Cripto" ;
 	 doap:description "Trabajo Practico de Criptografia y Seguridad" ;
@@ -340,7 +340,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "EDA" ;
 	 doap:homepage "https://github.com/mannias/EDA" ;
 	 doap:description "Ejercicios - Estructura de Datos y Algoritmos" ;
@@ -348,7 +348,7 @@ doap:Project
 	 doap:developer _:mannias ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "hyttrop" ;
 	 doap:homepage "https://github.com/mannias/hyttrop" ;
 	 doap:description "An HTTP v1.1 proxy using our thorium framework" ;
@@ -356,7 +356,7 @@ doap:Project
 	 doap:developer _:fnmartinez, _:mannias, _:facualderete ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "MNA" ;
 	 doap:homepage "https://github.com/mannias/MNA" ;
 	 doap:description "Trabajo Practico Especial de Métodos Numéricos Avanzados" ;
@@ -365,7 +365,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "olap" ;
 	 doap:homepage "https://github.com/mannias/olap" ;
 	 doap:description "Trabajo Practico Especial - OLAP Espacial" ;
@@ -373,7 +373,7 @@ doap:Project
 	 doap:developer _:mannias ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "paw" ;
 	 doap:homepage "https://github.com/mannias/paw" ;
 	 doap:description "Trabajo Practico Especial Proyecto de Aplicaciones Web" ;
@@ -382,7 +382,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SIA" ;
 	 doap:homepage "https://github.com/mannias/SIA" ;
 	 doap:description "Sistemas de Inteligencia Artificial" ;
@@ -390,7 +390,7 @@ doap:Project
 	 doap:developer _:fnmartinez, _:TereFDS, _:mannias ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SO" ;
 	 doap:homepage "https://github.com/mannias/SO" ;
 	 doap:description "Trabajo Practico Especial - Sistemas Operativos" ;
@@ -399,7 +399,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TLA-1C2013" ;
 	 doap:homepage "https://github.com/mannias/TLA-1C2013" ;
 	 doap:description "Trabajo Practico Especial - Teoria de Lenguajes, Automatas y Compiladores" ;
@@ -408,7 +408,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "tp-eda-2011" ;
 	 doap:homepage "https://github.com/mannias/tp-eda-2011" ;
 	 doap:description "Trabajo Practico Especial - Estructura de Datos y Algoritmos" ;
@@ -416,7 +416,7 @@ doap:Project
 	 doap:developer _:mannias, _:vickymesalcorta, _:SebaMaio ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPEArqui-2C2012" ;
 	 doap:homepage "https://github.com/mannias/TPEArqui-2C2012" ;
 	 doap:description "Trabajo Practico Especial - Arquitecturas de Computadoras" ;
@@ -430,7 +430,7 @@ _:daniel-lobo a foaf:Person ;
 	 foaf:mbox "dlobo@itba.edu.ar" ;
 	 foaf:homepage "https://github.com/daniel-lobo" .
 
-doap:Project
+[]
 	 doap:name "cheatsheets" ;
 	 doap:homepage "https://github.com/daniel-lobo/cheatsheets" ;
 	 doap:description "My cheatsheets" ;
@@ -438,7 +438,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "craigscraper" ;
 	 doap:homepage "https://github.com/daniel-lobo/craigscraper" ;
 	 doap:description "" ;
@@ -446,7 +446,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "cwwav" ;
 	 doap:homepage "https://github.com/daniel-lobo/cwwav" ;
 	 doap:description "Command line tool to generate morse code sound files from text or stdin" ;
@@ -454,7 +454,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "domaincli" ;
 	 doap:homepage "https://github.com/daniel-lobo/domaincli" ;
 	 doap:description "A simple command-line interface for registering domain names" ;
@@ -462,7 +462,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "first_app" ;
 	 doap:homepage "https://github.com/daniel-lobo/first_app" ;
 	 doap:description "Learning Rails" ;
@@ -471,7 +471,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "fnordmetric" ;
 	 doap:homepage "https://github.com/daniel-lobo/fnordmetric" ;
 	 doap:description "FnordMetric is a redis/ruby-based realtime Event-Tracking app" ;
@@ -479,7 +479,7 @@ doap:Project
 	 doap:developer _:paulasmuth, _:lgierth, _:mborromeo, _:kazjote, _:fd, _:alindeman, _:nono, _:kirs, _:jurriaan, _:DamianCaruso, _:JohnMurray, _:oleriesenberg, _:laserlemon, _:l4u ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "gdn" ;
 	 doap:homepage "https://github.com/daniel-lobo/gdn" ;
 	 doap:description " A command line program that encodes mathematical notation into a Gödel numbers and decodes Gödel numbers into mathematical notation. " ;
@@ -487,7 +487,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "learnstreet" ;
 	 doap:homepage "https://github.com/daniel-lobo/learnstreet" ;
 	 doap:description "Coding starts here" ;
@@ -495,7 +495,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "lightsaber" ;
 	 doap:homepage "https://github.com/daniel-lobo/lightsaber" ;
 	 doap:description "An elegant stack to ship civic apps that are mobile and open" ;
@@ -503,7 +503,7 @@ doap:Project
 	 doap:developer _:html5cat, _:wolfmat, _:davo, _:Quadramma, _:p4bloch ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "parser-of-C-declarations" ;
 	 doap:homepage "https://github.com/daniel-lobo/parser-of-C-declarations" ;
 	 doap:description "The Piece of Code that Understandeth All Parsing" ;
@@ -511,7 +511,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "play" ;
 	 doap:homepage "https://github.com/daniel-lobo/play" ;
 	 doap:description "play ► — your company's dj" ;
@@ -519,7 +519,7 @@ doap:Project
 	 doap:developer _:holman, _:medwards, _:tmm1, _:bleikamp, _:tombell, _:defunkt, _:dtorres, _:mtodd, _:dhiemstra, _:benburkert, _:paulcbetts, _:trobrock ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pyrdiostream" ;
 	 doap:homepage "https://github.com/daniel-lobo/pyrdiostream" ;
 	 doap:description "Python library for streaming content from Rdio" ;
@@ -527,7 +527,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Silversphere2" ;
 	 doap:homepage "https://github.com/daniel-lobo/Silversphere2" ;
 	 doap:description "Silversphere game for an OOP course assignment at ITBA." ;
@@ -535,7 +535,7 @@ doap:Project
 	 doap:developer _:asciglia, _:fmart318 ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "smaz" ;
 	 doap:homepage "https://github.com/daniel-lobo/smaz" ;
 	 doap:description "Small strings encryption library" ;
@@ -543,7 +543,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "smoke.js" ;
 	 doap:homepage "https://github.com/daniel-lobo/smoke.js" ;
 	 doap:description "framework-agnostic styled alert system for javascript" ;
@@ -551,7 +551,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "sms-fu" ;
 	 doap:homepage "https://github.com/daniel-lobo/sms-fu" ;
 	 doap:description "Allows you to send an SMS in the form of an e-mail to a cell phone." ;
@@ -559,7 +559,7 @@ doap:Project
 	 doap:developer _:jezdez, _:medwards ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Sokoban" ;
 	 doap:homepage "https://github.com/daniel-lobo/Sokoban" ;
 	 doap:description "Sokoban game for an OOP course assignment at ITBA." ;
@@ -567,7 +567,7 @@ doap:Project
 	 doap:developer _:daniel-lobo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "util" ;
 	 doap:homepage "https://github.com/daniel-lobo/util" ;
 	 doap:description "Utilities that I'd want to carry around." ;
@@ -580,7 +580,7 @@ _:akarpovsky a foaf:Person ;
 	 foaf:mbox "" ;
 	 foaf:homepage "https://github.com/akarpovsky" .
 
-doap:Project
+[]
 	 doap:name "Estructuras-de-Datos-y-Algoritmos" ;
 	 doap:homepage "https://github.com/akarpovsky/Estructuras-de-Datos-y-Algoritmos" ;
 	 doap:description "Algunos ejercicios de guias, parciales y finales resueltos." ;
@@ -588,7 +588,7 @@ doap:Project
 	 doap:developer _:akarpovsky ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SharedSecret" ;
 	 doap:homepage "https://github.com/akarpovsky/SharedSecret" ;
 	 doap:description "Shared secret algorithm, using steganography." ;
@@ -596,7 +596,7 @@ doap:Project
 	 doap:developer _:paulballesty, _:nicomagni ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SO_TPE" ;
 	 doap:homepage "https://github.com/akarpovsky/SO_TPE" ;
 	 doap:description "Fantasy league implementation in C using IPCs, filesystems and concurrent servers" ;
@@ -605,7 +605,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPFinal-QOS" ;
 	 doap:homepage "https://github.com/akarpovsky/TPFinal-QOS" ;
 	 doap:description "Medición de la calidad de servicio de internet. TP Final - ITBA" ;
@@ -619,7 +619,7 @@ _:Dinuuu a foaf:Person ;
 	 foaf:mbox "null" ;
 	 foaf:homepage "https://github.com/Dinuuu" .
 
-doap:Project
+[]
 	 doap:name "JavaDFS" ;
 	 doap:homepage "https://github.com/Dinuuu/JavaDFS" ;
 	 doap:description "Sistemas de Ficheros Distribuidos usando JavaDFS" ;
@@ -628,7 +628,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "JavaDSM" ;
 	 doap:homepage "https://github.com/Dinuuu/JavaDSM" ;
 	 doap:description "Sistema de memoria compartida distribuida en Java" ;
@@ -637,7 +637,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "MiddlewareProyect" ;
 	 doap:homepage "https://github.com/Dinuuu/MiddlewareProyect" ;
 	 doap:description "Aplicacion tipo Facebook distribuida." ;
@@ -645,7 +645,7 @@ doap:Project
 	 doap:developer _:Dinuuu ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SDSockets" ;
 	 doap:homepage "https://github.com/Dinuuu/SDSockets" ;
 	 doap:description "Arquitectura Editor/Suscriptor son Sockets en C" ;
@@ -654,7 +654,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPE3-SO" ;
 	 doap:homepage "https://github.com/Dinuuu/TPE3-SO" ;
 	 doap:description "" ;
@@ -662,7 +662,7 @@ doap:Project
 	 doap:developer _:Dinuuu ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "woloxBlog" ;
 	 doap:homepage "https://github.com/Dinuuu/woloxBlog" ;
 	 doap:description "Tutorial de training para Wolox" ;
@@ -676,7 +676,7 @@ _:farolfo a foaf:Person ;
 	 foaf:mbox "francoarolfo@hotmail.com" ;
 	 foaf:homepage "https://github.com/farolfo" .
 
-doap:Project
+[]
 	 doap:name ".zshrc" ;
 	 doap:homepage "https://github.com/farolfo/.zshrc" ;
 	 doap:description "My personal modification to the robbyrussel(oh-my-zsh) theme for the zsh terminal" ;
@@ -685,7 +685,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/VimL>, <http://dbpedia.org/resource/Emacs>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "al.fa.jor--OperatingSystem" ;
 	 doap:homepage "https://github.com/farolfo/al.fa.jor--OperatingSystem" ;
 	 doap:description "Sistema operativo desarrollado para distintas cátedras del ITBA. Primera iteracion: sistema booteable, uso de syscalls e interrupciones, paginacion de memoria y otras funcionalidades. Seg. iteracion: multitasking, terminales y uso de estados en los procesos. Tercera iteracion: filesystem. Desarrollado junto a Jorge Mozzino y Alan Pomerantz (1ra iteracion) y junto a Jorge Mozzino (2da y 3ra iteracion)." ;
@@ -694,7 +694,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "angular.js" ;
 	 doap:homepage "https://github.com/farolfo/angular.js" ;
 	 doap:description "" ;
@@ -703,7 +703,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "david-www" ;
 	 doap:homepage "https://github.com/farolfo/david-www" ;
 	 doap:description "David helps keep your Nodejs project dependencies up to date." ;
@@ -711,7 +711,7 @@ doap:Project
 	 doap:developer _:alanshaw, _:XhmikosR, _:olizilla ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "donde-ensayo-beta" ;
 	 doap:homepage "https://github.com/farolfo/donde-ensayo-beta" ;
 	 doap:description "Aplicación web que brinda servicios para bandas de garage . Mediante APIs encuentra servicios tales como lugares para tocar, salas de ensayo, estudios de grabación o profesores de música. Desarrollado en Java con Spring MVC." ;
@@ -720,7 +720,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "fantasy-league--SO-TPE1" ;
 	 doap:homepage "https://github.com/farolfo/fantasy-league--SO-TPE1" ;
 	 doap:description "Una liga de fantasía desarrollada en C para la cátedra de Sistemas Operativos del ITBA, con el propósito de practicar servidores concurrentes, IPCs y filesystems. Desarrollado con Jorge Mozzino." ;
@@ -729,7 +729,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "fill-zone" ;
 	 doap:homepage "https://github.com/farolfo/fill-zone" ;
 	 doap:description "Implementación de un motor de inferencias para resolver el juego Fill Zone. Utiliza algoritmos no informados (DFS, BFS, ID) y informados (A* y Greedy Search). Desarrollado junto a Francisco Pagliaricci y Jorge Mozzino para la cátedra de Sistemas de Inteligencia Artificial del ITBA" ;
@@ -737,7 +737,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "foolsCracker-API" ;
 	 doap:homepage "https://github.com/farolfo/foolsCracker-API" ;
 	 doap:description "A  RestAPI that tries 'ids' and 'passwords' in many authentication systems, such as Facebook, Twitter, etc. If you have one person's password of a site and this person REPEATS that password in another account, this API will help you cracking the fool" ;
@@ -745,7 +745,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "functional-tps" ;
 	 doap:homepage "https://github.com/farolfo/functional-tps" ;
 	 doap:description "TPs for the functional programming subject at ITBA, using Haskell" ;
@@ -753,7 +753,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "gemfury-updater" ;
 	 doap:homepage "https://github.com/farolfo/gemfury-updater" ;
 	 doap:description "Automatic updater for your private remote NPM registry (that runs in Gemfury)" ;
@@ -762,7 +762,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "github-recruiter" ;
 	 doap:homepage "https://github.com/farolfo/github-recruiter" ;
 	 doap:description "Recruiting tool that searches for the persons that got involved with some particular GitHub™ repos of yours" ;
@@ -771,7 +771,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "hackathons-api" ;
 	 doap:homepage "https://github.com/farolfo/hackathons-api" ;
 	 doap:description "A public API that provides upcomming hackathons based on data from Twitter, Facebook, Eventbrite, etc." ;
@@ -779,7 +779,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "harmonica-tunner" ;
 	 doap:homepage "https://github.com/farolfo/harmonica-tunner" ;
 	 doap:description "A web app to display which note is played in a harmonica" ;
@@ -788,7 +788,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "houseOfHorror--iOS-game" ;
 	 doap:homepage "https://github.com/farolfo/houseOfHorror--iOS-game" ;
 	 doap:description "iOS game developed with cocos2d for the iOS development subject at ITBA" ;
@@ -797,7 +797,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "IOL-Hacker" ;
 	 doap:homepage "https://github.com/farolfo/IOL-Hacker" ;
 	 doap:description "(THIS APP HAS EVOLVED TO THE uCracker https://github.com/farolfo/uCracker )A basic IOL (ITBA-On-Line) hacker, a program that sniffs the network and shows the plain text in the POST HTTP requests. " ;
@@ -805,7 +805,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "mahout" ;
 	 doap:homepage "https://github.com/farolfo/mahout" ;
 	 doap:description "Mirror of Apache Mahout" ;
@@ -813,7 +813,7 @@ doap:Project
 	 doap:developer _:srowen, _:gsingers, _:tdunning, _:robinanil, _:bimargulies, _:dlyubimov, _:jakemannix, _:MaineC, _:pferrel, _:andrewpalumbo, _:andrewmusselman, _:smarthi ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "music-fiddle" ;
 	 doap:homepage "https://github.com/farolfo/music-fiddle" ;
 	 doap:description "Share music online in a simple and quick way, record with multitracks at the same time and share it without even being logged in. (The jsfiddle for music)" ;
@@ -821,7 +821,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pop3proxy" ;
 	 doap:homepage "https://github.com/farolfo/pop3proxy" ;
 	 doap:description "A pop3 proxy developed in java for Networking Protocols (ITBA), with Jorge Mozzino & Tomas Mehdi. It can transform messages if needed, as l33t, rotate images in the body of the mail, set the mail as anon, restrict some IPs, etc." ;
@@ -830,7 +830,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "subasta-ya" ;
 	 doap:homepage "https://github.com/farolfo/subasta-ya" ;
 	 doap:description "Mobile app desarrollada para el Desafio Mobile 2014 de MercadoLibre.com." ;
@@ -838,7 +838,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "the-Dorian-Gray-Experiment" ;
 	 doap:homepage "https://github.com/farolfo/the-Dorian-Gray-Experiment" ;
 	 doap:description "Open source experiment to reach an interactive experience where the user can interact with video and music in the browser" ;
@@ -846,7 +846,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TP-Players" ;
 	 doap:homepage "https://github.com/farolfo/TP-Players" ;
 	 doap:description "TP para players y referee" ;
@@ -855,7 +855,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "uCracker" ;
 	 doap:homepage "https://github.com/farolfo/uCracker" ;
 	 doap:description "A very simple sniffer app that displays passwords of many sites that deliver their data without any encoding" ;
@@ -863,7 +863,7 @@ doap:Project
 	 doap:developer _:farolfo ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "zombies-shooter--iOS-game" ;
 	 doap:homepage "https://github.com/farolfo/zombies-shooter--iOS-game" ;
 	 doap:description "" ;
@@ -877,7 +877,7 @@ _:epintos a foaf:Person ;
 	 foaf:mbox "epintos7@gmail.com" ;
 	 foaf:homepage "https://github.com/epintos" .
 
-doap:Project
+[]
 	 doap:name "auctions-dci" ;
 	 doap:homepage "https://github.com/epintos/auctions-dci" ;
 	 doap:description "Rails example app applying Data Context Interaction (DCI) paradigm" ;
@@ -886,7 +886,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bioinformatics" ;
 	 doap:homepage "https://github.com/epintos/bioinformatics" ;
 	 doap:description "First project for Bioinformatic course at ITBA. Year 2013." ;
@@ -894,7 +894,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "dinux" ;
 	 doap:homepage "https://github.com/epintos/dinux" ;
 	 doap:description "Final project for Computer Architecture course at ITBA. Year 2011." ;
@@ -903,7 +903,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "dinuxpropiedades-v1" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v1" ;
 	 doap:description "First project for Web Applications Project course at ITBA. Year 2012." ;
@@ -911,7 +911,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "dinuxpropiedades-v2" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v2" ;
 	 doap:description "Second project for Web Applications Project course at ITBA. Year 2012." ;
@@ -919,7 +919,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "dinuxpropiedades-v3" ;
 	 doap:homepage "https://github.com/epintos/dinuxpropiedades-v3" ;
 	 doap:description "Third project for Web Applications Project course at ITBA. Year 2012" ;
@@ -928,7 +928,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "dungeon-crawler" ;
 	 doap:homepage "https://github.com/epintos/dungeon-crawler" ;
 	 doap:description "Final project for Imperative Programming course at ITBA. Year 2010." ;
@@ -937,7 +937,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "face-detection" ;
 	 doap:homepage "https://github.com/epintos/face-detection" ;
 	 doap:description "Final project for Image Analysis and Treatment course at ITBA. Year 2013" ;
@@ -946,7 +946,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "fajita" ;
 	 doap:homepage "https://github.com/epintos/fajita" ;
 	 doap:description "Final project for Software Engineering at ITBA. Year 2013-2014." ;
@@ -955,7 +955,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Alloy>, <http://dbpedia.org/resource/GAP>, <http://dbpedia.org/resource/Perl>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "image-treatment" ;
 	 doap:homepage "https://github.com/epintos/image-treatment" ;
 	 doap:description "Project for Image Analysis and Treatment course at ITBA. Year 2013" ;
@@ -964,7 +964,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "mediclink" ;
 	 doap:homepage "https://github.com/epintos/mediclink" ;
 	 doap:description "Web application that organizes your medic profile, medic consultations and medicine. It also shows blood work stadistics." ;
@@ -973,7 +973,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "os-p1" ;
 	 doap:homepage "https://github.com/epintos/os-p1" ;
 	 doap:description "First Project for Operating Systems course at ITBA. Year 2011." ;
@@ -982,7 +982,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "os-p2" ;
 	 doap:homepage "https://github.com/epintos/os-p2" ;
 	 doap:description "Second Project for Operating Systems course at ITBA. Year 2011." ;
@@ -991,7 +991,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/D>, <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "os-p3" ;
 	 doap:homepage "https://github.com/epintos/os-p3" ;
 	 doap:description "Third project for Operating Systems course at ITBA. Year 2011." ;
@@ -1000,7 +1000,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Assembly>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pipedreamsolver" ;
 	 doap:homepage "https://github.com/epintos/pipedreamsolver" ;
 	 doap:description "Final project for Algorithms and Data Structure course at ITBA. Year 2011." ;
@@ -1008,7 +1008,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "proxy-http" ;
 	 doap:homepage "https://github.com/epintos/proxy-http" ;
 	 doap:description "Final project for Communication Protocols course at ITBA. Year 2012." ;
@@ -1016,7 +1016,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "shopping" ;
 	 doap:homepage "https://github.com/epintos/shopping" ;
 	 doap:description "Final project for Human Computer Interaction (HCI) course at ITBA. Year 2011." ;
@@ -1024,7 +1024,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "sia" ;
 	 doap:homepage "https://github.com/epintos/sia" ;
 	 doap:description "Projects for Artificial Intelligence Systems course at ITBA. Year 2013." ;
@@ -1033,7 +1033,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "signal" ;
 	 doap:homepage "https://github.com/epintos/signal" ;
 	 doap:description "Final project for Distributed Objects Programming course at ITBA. Year 2012." ;
@@ -1041,7 +1041,7 @@ doap:Project
 	 doap:developer _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "slip-slide" ;
 	 doap:homepage "https://github.com/epintos/slip-slide" ;
 	 doap:description "Final project for Object Oriented Programming course at ITBA. Year 2010." ;
@@ -1050,7 +1050,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "software-factory-simulator" ;
 	 doap:homepage "https://github.com/epintos/software-factory-simulator" ;
 	 doap:description "Final Project for Systems Simulation course at ITBA. Year 2013" ;
@@ -1058,7 +1058,7 @@ doap:Project
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "stenography" ;
 	 doap:homepage "https://github.com/epintos/stenography" ;
 	 doap:description "Final project for Cryptography and Security course at ITBA. Year 2013." ;
@@ -1067,7 +1067,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Shell> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "wogger" ;
 	 doap:homepage "https://github.com/epintos/wogger" ;
 	 doap:description "Time logger for different projects and teams" ;
@@ -1081,7 +1081,7 @@ _:FedericoHomovc a foaf:Person ;
 	 foaf:mbox "null" ;
 	 foaf:homepage "https://github.com/FedericoHomovc" .
 
-doap:Project
+[]
 	 doap:name "pdc-2012" ;
 	 doap:homepage "https://github.com/FedericoHomovc/pdc-2012" ;
 	 doap:description "TP Protocolos de Comunicación" ;
@@ -1089,7 +1089,7 @@ doap:Project
 	 doap:developer _:FedericoHomovc ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "tpeSO1" ;
 	 doap:homepage "https://github.com/FedericoHomovc/tpeSO1" ;
 	 doap:description "distribución de alimentos entre ciudades" ;
@@ -1103,7 +1103,7 @@ _:mdesanti a foaf:Person ;
 	 foaf:mbox "mdesanti90@gmail.com" ;
 	 foaf:homepage "https://github.com/mdesanti" .
 
-doap:Project
+[]
 	 doap:name "arcanist-extensions" ;
 	 doap:homepage "https://github.com/mdesanti/arcanist-extensions" ;
 	 doap:description "Awesome Arcanist extensions!" ;
@@ -1111,7 +1111,7 @@ doap:Project
 	 doap:developer _:reu, _:mpelos, _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bigdata" ;
 	 doap:homepage "https://github.com/mdesanti/bigdata" ;
 	 doap:description "Trabajos Prácticos de Big Data" ;
@@ -1120,7 +1120,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bioinf" ;
 	 doap:homepage "https://github.com/mdesanti/bioinf" ;
 	 doap:description "Trabajo práctico de Introducción a la BioInformática" ;
@@ -1128,7 +1128,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "file_management" ;
 	 doap:homepage "https://github.com/mdesanti/file_management" ;
 	 doap:description "" ;
@@ -1137,7 +1137,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "funcional" ;
 	 doap:homepage "https://github.com/mdesanti/funcional" ;
 	 doap:description "Programación Funcional" ;
@@ -1145,7 +1145,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Hackathon_2_1" ;
 	 doap:homepage "https://github.com/mdesanti/Hackathon_2_1" ;
 	 doap:description "Repo test para hackathon 2" ;
@@ -1153,7 +1153,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "jQuery-Knob" ;
 	 doap:homepage "https://github.com/mdesanti/jQuery-Knob" ;
 	 doap:description "Nice, downward compatible, touchable, jQuery dial" ;
@@ -1161,7 +1161,7 @@ doap:Project
 	 doap:developer _:aterrien, _:eskimoblood, _:jaketrent, _:mal, _:amuino, _:fidothe, _:pioul, _:jwalton, _:T2L, _:NinjaTux, _:brunjo, _:fadomire ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "mgmt" ;
 	 doap:homepage "https://github.com/mdesanti/mgmt" ;
 	 doap:description "" ;
@@ -1170,7 +1170,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pf" ;
 	 doap:homepage "https://github.com/mdesanti/pf" ;
 	 doap:description "Trabajo Practico Final - Programación Funcional" ;
@@ -1179,7 +1179,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Haskell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "pod-2012-client" ;
 	 doap:homepage "https://github.com/mdesanti/pod-2012-client" ;
 	 doap:description "Client code for the pod tp" ;
@@ -1187,7 +1187,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Practicas-EDA" ;
 	 doap:homepage "https://github.com/mdesanti/Practicas-EDA" ;
 	 doap:description "" ;
@@ -1195,7 +1195,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "rspecfromphp" ;
 	 doap:homepage "https://github.com/mdesanti/rspecfromphp" ;
 	 doap:description "Rspec tests from php for phabricator" ;
@@ -1203,7 +1203,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "sdk-ruby" ;
 	 doap:homepage "https://github.com/mdesanti/sdk-ruby" ;
 	 doap:description "" ;
@@ -1211,7 +1211,7 @@ doap:Project
 	 doap:developer _:hcasatti, _:matiascompiano, _:chrismo, _:fpiruzi ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SIA-TP2" ;
 	 doap:homepage "https://github.com/mdesanti/SIA-TP2" ;
 	 doap:description "" ;
@@ -1220,7 +1220,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "simulacion" ;
 	 doap:homepage "https://github.com/mdesanti/simulacion" ;
 	 doap:description "Simulación De Sistemas" ;
@@ -1228,7 +1228,7 @@ doap:Project
 	 doap:developer _:mdesanti, _:epintos ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SimuladorColas" ;
 	 doap:homepage "https://github.com/mdesanti/SimuladorColas" ;
 	 doap:description "" ;
@@ -1236,7 +1236,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "SocialNetworksJam" ;
 	 doap:homepage "https://github.com/mdesanti/SocialNetworksJam" ;
 	 doap:description "" ;
@@ -1245,7 +1245,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "test_talk" ;
 	 doap:homepage "https://github.com/mdesanti/test_talk" ;
 	 doap:description "" ;
@@ -1253,7 +1253,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TP2-Cripto" ;
 	 doap:homepage "https://github.com/mdesanti/TP2-Cripto" ;
 	 doap:description "" ;
@@ -1262,7 +1262,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/C++> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPE-Protos" ;
 	 doap:homepage "https://github.com/mdesanti/TPE-Protos" ;
 	 doap:description "TPE - Protocolos de comunicación - Proxy HTTP" ;
@@ -1270,7 +1270,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPE1-TLA" ;
 	 doap:homepage "https://github.com/mdesanti/TPE1-TLA" ;
 	 doap:description "Trabajo práctico especial 1 de Teoria de Lenguajes, Autómatas y Compiladores" ;
@@ -1278,7 +1278,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPE3-SO" ;
 	 doap:homepage "https://github.com/mdesanti/TPE3-SO" ;
 	 doap:description "" ;
@@ -1287,7 +1287,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Assembly> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "TPS-ATI" ;
 	 doap:homepage "https://github.com/mdesanti/TPS-ATI" ;
 	 doap:description "Trabajos prácticos de análisis y tratamiento de imágenes" ;
@@ -1296,7 +1296,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "trello-release-manager" ;
 	 doap:homepage "https://github.com/mdesanti/trello-release-manager" ;
 	 doap:description "" ;
@@ -1305,7 +1305,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "Twitter" ;
 	 doap:homepage "https://github.com/mdesanti/Twitter" ;
 	 doap:description "Twitter Tests" ;
@@ -1313,7 +1313,7 @@ doap:Project
 	 doap:developer _:mdesanti ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "twitter-client" ;
 	 doap:homepage "https://github.com/mdesanti/twitter-client" ;
 	 doap:description "" ;
@@ -1326,7 +1326,7 @@ _:eordano a foaf:Person ;
 	 foaf:mbox "eordano@gmail.com" ;
 	 foaf:homepage "https://github.com/eordano" .
 
-doap:Project
+[]
 	 doap:name "agilefant" ;
 	 doap:homepage "https://github.com/eordano/agilefant" ;
 	 doap:description "" ;
@@ -1334,7 +1334,7 @@ doap:Project
 	 doap:developer _:jebaldwin, _:phyper, _:bradens, _:infiro, _:jordanell, _:heinx, _:betelgeuse, _:lekksi, _:dwfennell, _:metermaid, _:jvahanii, _:DDB-, _:Sanaz, _:amcallister, _:danbolt, _:Gekkio, _:mike1072, _:Aduno, _:seanws, _:psaalton, _:djbchepe ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "backbone" ;
 	 doap:homepage "https://github.com/eordano/backbone" ;
 	 doap:description "Give your JS App some Backbone with Models, Views, Collections, and Events" ;
@@ -1342,7 +1342,7 @@ doap:Project
 	 doap:developer _:jashkenas, _:braddunbar, _:samuelclay, _:thejefflarson, _:tbranyen, _:wookiehangover, _:iros, _:PaulUithol, _:two-bit-fool, _:caseywebdev, _:JoeGermuska, _:sstephenson, _:andrewschaaf, _:aterris, _:alexgraul, _:hswolff, _:dira, _:jasonm, _:fitzgen, _:christopherwright, _:gsamokovarov, _:jrolfs, _:jasondavies, _:lorensr, _:paulmillr, _:philfreo, _:rsim, _:tomasztunik, _:vlazzle, _:afeld ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bitcore" ;
 	 doap:homepage "https://github.com/eordano/bitcore" ;
 	 doap:description "A bitcoin library." ;
@@ -1351,7 +1351,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/C++>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bitcore-channel" ;
 	 doap:homepage "https://github.com/eordano/bitcore-channel" ;
 	 doap:description "A library for building payment channels smart contracts." ;
@@ -1359,7 +1359,7 @@ doap:Project
 	 doap:developer _:eordano, _:maraoz ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bitpay-oss-stats" ;
 	 doap:homepage "https://github.com/eordano/bitpay-oss-stats" ;
 	 doap:description "Track bitpay's open source stats" ;
@@ -1367,7 +1367,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bitpay-team" ;
 	 doap:homepage "https://github.com/eordano/bitpay-team" ;
 	 doap:description "BitPay's Team Data" ;
@@ -1375,7 +1375,7 @@ doap:Project
 	 doap:developer _:bitjson, _:martindale, _:colkito, _:gordonwritescode, _:matiu, _:cmgustavo, _:ionux, _:tonysakich, _:unusualbob, _:Operavangelist, _:eordano, _:JoshuaEstes, _:maraoz ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "blogActivity" ;
 	 doap:homepage "https://github.com/eordano/blogActivity" ;
 	 doap:description "A collection of Android tools" ;
@@ -1383,7 +1383,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "bootstrap" ;
 	 doap:homepage "https://github.com/eordano/bootstrap" ;
 	 doap:description "HTML, CSS, and JS toolkit from Twitter" ;
@@ -1391,7 +1391,7 @@ doap:Project
 	 doap:developer _:mdo, _:fat, _:phopkins, _:smerik, _:lookfirst, _:andriijas, _:purwandi, _:Synchro, _:jacobrask, _:buraktuyan, _:caniszczyk, _:smaboshe, _:cgunther, _:SSPMark, _:rvagg, _:ansman, _:Calvein, _:MGaetan89, _:tobz, _:Lalem001, _:necolas, _:pthrasher, _:sankage, _:tinyfly, _:aaronj1335, _:benjaminoakes, _:tierra, _:DHS, _:evnm, _:wrightlabs ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "btc-simulation" ;
 	 doap:homepage "https://github.com/eordano/btc-simulation" ;
 	 doap:description "Simulation of data propagation in the Bitcoin network (spanish)" ;
@@ -1400,7 +1400,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/AppleScript>, <http://dbpedia.org/resource/Python> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "btcd" ;
 	 doap:homepage "https://github.com/eordano/btcd" ;
 	 doap:description "An alternative full node bitcoin implementation written in Go (golang)" ;
@@ -1408,7 +1408,7 @@ doap:Project
 	 doap:developer _:davecgh, _:dajohi, _:jrick, _:flammit, _:jcvernaleo, _:marcopeereboom, _:tsenart, _:drahn, _:toddfries, _:decred, _:jimmysong, _:gsalgado, _:tuxcanfly, _:carryforward, _:Roasbeef, _:mischief, _:ortutay ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "closure-compiler-jar" ;
 	 doap:homepage "https://github.com/eordano/closure-compiler-jar" ;
 	 doap:description "A virtual package to retrieve closure-compiler with npm." ;
@@ -1416,7 +1416,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "copay" ;
 	 doap:homepage "https://github.com/eordano/copay" ;
 	 doap:description "A multisignature wallet." ;
@@ -1425,7 +1425,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "copay-mobile" ;
 	 doap:homepage "https://github.com/eordano/copay-mobile" ;
 	 doap:description "A bitcoin wallet for mobiles" ;
@@ -1434,7 +1434,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/CSS>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "cripto_tp2" ;
 	 doap:homepage "https://github.com/eordano/cripto_tp2" ;
 	 doap:description "" ;
@@ -1442,7 +1442,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "explain-git-with-d3" ;
 	 doap:homepage "https://github.com/eordano/explain-git-with-d3" ;
 	 doap:description "Use D3 to visualize simple git branching operations." ;
@@ -1450,7 +1450,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "funkytest" ;
 	 doap:homepage "https://github.com/eordano/funkytest" ;
 	 doap:description "A functional test framework to test HTTP APIs responses" ;
@@ -1458,7 +1458,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "g4-itba-hci-2010b" ;
 	 doap:homepage "https://github.com/eordano/g4-itba-hci-2010b" ;
 	 doap:description "Trabajo Práctico Número 1" ;
@@ -1467,7 +1467,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/JavaScript>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "gulp-closure-compiler" ;
 	 doap:homepage "https://github.com/eordano/gulp-closure-compiler" ;
 	 doap:description "Gulp plugin for Google Closure Compiler" ;
@@ -1475,7 +1475,7 @@ doap:Project
 	 doap:developer _:steida, _:mCzolko, _:jrabek, _:eordano, _:Gobie, _:pvolok, _:agalazis ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "insight" ;
 	 doap:homepage "https://github.com/eordano/insight" ;
 	 doap:description "A bitcoin blockchain API for web wallets. #bitcore on Freenode." ;
@@ -1483,7 +1483,7 @@ doap:Project
 	 doap:developer _:matiu, _:cmgustavo, _:colkito, _:maraoz, _:bechi, _:martindale, _:ryanxcharles, _:Eveiv, _:ionux, _:drak, _:jyap808, _:Lennie, _:pierrerochard, _:slavik0329, _:yemel, _:sandakersmann, _:wozz ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "insight-api" ;
 	 doap:homepage "https://github.com/eordano/insight-api" ;
 	 doap:description "A bitcoin blockchain API for web wallets" ;
@@ -1492,7 +1492,7 @@ doap:Project
 	 doap:programming-language  <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "iol2-flaws" ;
 	 doap:homepage "https://github.com/eordano/iol2-flaws" ;
 	 doap:description "Informe sobre fallas encontradas en IOL²" ;
@@ -1500,7 +1500,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "itba-ss-2014a" ;
 	 doap:homepage "https://github.com/eordano/itba-ss-2014a" ;
 	 doap:description "" ;
@@ -1508,7 +1508,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "lch" ;
 	 doap:homepage "https://github.com/eordano/lch" ;
 	 doap:description "Lightweight C Httpserver" ;
@@ -1516,7 +1516,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "node-corsproxy" ;
 	 doap:homepage "https://github.com/eordano/node-corsproxy" ;
 	 doap:description "über-simple node.js-Proxy to enable CORS request for any website." ;
@@ -1524,7 +1524,7 @@ doap:Project
 	 doap:developer _:gr2m, _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "node-style-guide" ;
 	 doap:homepage "https://github.com/eordano/node-style-guide" ;
 	 doap:description "A guide for styling your node.js / JavaScript code. Fork & adjust to your taste." ;
@@ -1532,7 +1532,7 @@ doap:Project
 	 doap:developer _:felixge, _:kentcdodds, _:wilmoore, _:mathieug, _:mitogh, _:branneman, _:caffeinewriter, _:alanjames1987, _:coderangerdan, _:esneider, _:ooflorent, _:matthewpalmer, _:nolanlawson, _:focusaurus, _:tanepiper ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "node-traderbot-bitcoin" ;
 	 doap:homepage "https://github.com/eordano/node-traderbot-bitcoin" ;
 	 doap:description "A trading bot with bitcoin" ;
@@ -1540,7 +1540,7 @@ doap:Project
 	 doap:developer _:eordano, _:slezica ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "nophp" ;
 	 doap:homepage "https://github.com/eordano/nophp" ;
 	 doap:description "NoPHP Framework" ;
@@ -1548,7 +1548,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "olap-espacial" ;
 	 doap:homepage "https://github.com/eordano/olap-espacial" ;
 	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
@@ -1556,7 +1556,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "OpenTLD" ;
 	 doap:homepage "https://github.com/eordano/OpenTLD" ;
 	 doap:description "Official source code for TLD" ;
@@ -1564,7 +1564,7 @@ doap:Project
 	 doap:developer _:eordano ;
 	 doap:repository _:repo .
 
-doap:Project
+[]
 	 doap:name "paystream" ;
 	 doap:homepage "https://github.com/eordano/paystream" ;
 	 doap:description "Decentralized trustless video streaming using bitcoin payment channels" ;
