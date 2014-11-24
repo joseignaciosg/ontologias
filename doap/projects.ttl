@@ -2,219 +2,175 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
 
-_:kshmir a foaf:Person ;
-	 foaf:name "Cristian Pereyra" ;
-	 foaf:mbox "criis.pereyra@gmail.com" ;
-	 foaf:homepage "https://github.com/kshmir" .
+_:acrespo a foaf:Person ;
+	 foaf:name "acrespo" ;
+	 foaf:mbox "alvaro.andres.crespo@gmail.com" ;
+	 foaf:homepage "https://github.com/acrespo" .
 
 doap:Project
-	 doap:name "aimage" ;
-	 doap:homepage "https://github.com/kshmir/aimage" ;
-	 doap:shortdesc "An Android library that makes image loading, down sampling, and caching very easy." ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:name "ArqvengerOS" ;
+	 doap:homepage "https://github.com/acrespo/ArqvengerOS" ;
+	 doap:description "The Arqvengers" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:dariosus, _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "Arqui-2011" ;
-	 doap:homepage "https://github.com/kshmir/Arqui-2011" ;
-	 doap:shortdesc "Arquitectura de computadoras 2011" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:ezeortiz, _:kshmir, _:maximovs ;
+	 doap:name "ati-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/ati-2013-1c" ;
+	 doap:description "Repositorio para los trabajos de la materia Análisis y Tratamiento de Imágenes del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
+	 doap:programming-language  <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Java> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "bitcoin-hackaton-graphs" ;
-	 doap:homepage "https://github.com/kshmir/bitcoin-hackaton-graphs" ;
-	 doap:shortdesc "Graph Visualization for Bitcoin Hackaton" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:name "ati2013" ;
+	 doap:homepage "https://github.com/acrespo/ati2013" ;
+	 doap:description "Mi tp de ati y el de alvaro" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:msturla ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "capistrano-zen" ;
-	 doap:homepage "https://github.com/kshmir/capistrano-zen" ;
-	 doap:shortdesc "Capistrano server install/manage recipes used on Ubuntu at zenhacks.org" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:yangchenyun, _:ryancheung ;
+	 doap:name "bigdata-practicas" ;
+	 doap:homepage "https://github.com/acrespo/bigdata-practicas" ;
+	 doap:description "Repositorio para las prácticas de la materia Big Data del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "codegen" ;
-	 doap:homepage "https://github.com/kshmir/codegen" ;
-	 doap:shortdesc "Ruby code that writes more code, useful for generating the base entities for interacting with APIs on mobile devices." ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:name "cripto-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/cripto-2013-1c" ;
+	 doap:description "Repositorio para los trabajos de la materia Criptografía y Seguridad del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus, _:axelwass ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "dotfiles" ;
-	 doap:homepage "https://github.com/kshmir/dotfiles" ;
-	 doap:shortdesc "My dotfiles" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:name "EAC2" ;
+	 doap:homepage "https://github.com/acrespo/EAC2" ;
+	 doap:description "" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:eordano ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "eda-2011" ;
-	 doap:homepage "https://github.com/kshmir/eda-2011" ;
-	 doap:shortdesc "TP EDA 2011" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir, _:ezeortiz, _:maximovs ;
+	 doap:name "EDA" ;
+	 doap:homepage "https://github.com/acrespo/EDA" ;
+	 doap:description "Estructuras de Datos y Algoritmos" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "fields" ;
-	 doap:homepage "https://github.com/kshmir/fields" ;
-	 doap:shortdesc "A fields API for automatic migrations in Active Record ***WIP***" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir, _:rrrene ;
+	 doap:name "ITBA_TLA_12_rg2nfa" ;
+	 doap:homepage "https://github.com/acrespo/ITBA_TLA_12_rg2nfa" ;
+	 doap:description "Utility to convert regular grammars to non-deterministic finite automata and vice versa" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:esneider, _:champo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "flatui-rails" ;
-	 doap:homepage "https://github.com/kshmir/flatui-rails" ;
-	 doap:shortdesc "This is the Designmodo flat ui bootstrap in sass" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:pkurek, _:colinrymer, _:shemerey, _:kshmir, _:artemeff ;
+	 doap:name "mgmt" ;
+	 doap:homepage "https://github.com/acrespo/mgmt" ;
+	 doap:description "" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
+	 doap:programming-language  <http://dbpedia.org/resource/Ruby>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/CoffeeScript>, <http://dbpedia.org/resource/JavaScript> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "getfood" ;
-	 doap:homepage "https://github.com/kshmir/getfood" ;
-	 doap:shortdesc "" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:name "MNA-TPs" ;
+	 doap:homepage "https://github.com/acrespo/MNA-TPs" ;
+	 doap:description "A few assignments from the course of Advanced Numerical Methods of ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo, _:champo, _:eordano ;
+	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/Matlab> ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "hci-2011" ;
-	 doap:homepage "https://github.com/kshmir/hci-2011" ;
-	 doap:shortdesc "TP HCI 2011" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir, _:maximovs, _:ezeortiz ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "hci-2011-2" ;
-	 doap:homepage "https://github.com/kshmir/hci-2011-2" ;
-	 doap:shortdesc "HCI android" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir, _:maximovs, _:ezeortiz ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "hotelapp-paw" ;
-	 doap:homepage "https://github.com/kshmir/hotelapp-paw" ;
-	 doap:shortdesc "Demo app, with heroku deploy configuration" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "i18n-js" ;
-	 doap:homepage "https://github.com/kshmir/i18n-js" ;
-	 doap:shortdesc "It's a small library to provide the I18n translations on the Javascript. It comes with Rails support." ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:fnando, _:ZenCocoon, _:PikachuEXE, _:mjtko, _:bloveridge, _:leifbladt, _:route, _:yabawock, _:rbgrouleff, _:tomhughes, _:umairsiddique, _:rupurt, _:bspaulding, _:cblavier, _:Gazler, _:DefV, _:lencioni, _:lucianosousa, _:rejacobson, _:ugisozols, _:haosu, _:mikemee, _:williamcodes ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "i18n-tasks" ;
-	 doap:homepage "https://github.com/kshmir/i18n-tasks" ;
-	 doap:shortdesc "Manage translations in ruby applications with the awesome power of static analysis" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:glebm, _:natano, _:dmke, _:legal90, _:bitdeli-chef, _:AlexVPopov, _:paulfioravanti, _:PikachuEXE, _:salimane, _:tamtamchik ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "inch-pages" ;
-	 doap:homepage "https://github.com/kshmir/inch-pages" ;
-	 doap:shortdesc "Jekyll Page generator for Inch Pages" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:rrrene, _:sferik, _:splattael, _:thejchap, _:soulcutter, _:jwaldrip, _:alakra, _:ElMassimo, _:pboling, _:SmallLars, _:voanhduy1512, _:yasuhito, _:lucasmartins, _:bf4, _:hajee, _:docwhat, _:webhat, _:ddfreyne, _:estimancy, _:iliabylich, _:jamesrwhite, _:jodosha, _:avdi, _:ms-ati, _:mattgray, _:msdark, _:miah, _:Muriel-Salvan, _:nledez, _:njonsson ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "iol-humanizer" ;
-	 doap:homepage "https://github.com/kshmir/iol-humanizer" ;
-	 doap:shortdesc "Finally making the IOL experience something easy and simple" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "ios-2013-2" ;
-	 doap:homepage "https://github.com/kshmir/ios-2013-2" ;
-	 doap:shortdesc "TP2 de videojuegos iOS" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "ios-calc" ;
-	 doap:homepage "https://github.com/kshmir/ios-calc" ;
-	 doap:shortdesc "Simple calculator app for learning iOS, might never ever reach the App Store" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "ios-videogames-2013-1" ;
-	 doap:homepage "https://github.com/kshmir/ios-videogames-2013-1" ;
-	 doap:shortdesc "My First Videogames University Project with iOS" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "kmeans-clustering" ;
-	 doap:homepage "https://github.com/kshmir/kmeans-clustering" ;
-	 doap:shortdesc "A simple Ruby gem for parallelized k-means clustering." ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "oauth-ruby" ;
-	 doap:homepage "https://github.com/kshmir/oauth-ruby" ;
-	 doap:shortdesc "OAuth for Ruby" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:mojodna, _:quirkey, _:pelle, _:afeld, _:bkocik, _:ecavazos, _:andrehjr, _:lackac, _:Sutto, _:kshmir, _:mrflip, _:qoobaa, _:til, _:shaliko, _:yenif, _:chrismear, _:ehartmann, _:hayeah, _:jdsiegel, _:jimmyz, _:JonathonMA, _:jurisgalang, _:shammond42, _:xaviershay, _:kellan, _:aconbere, _:dieu, _:ernie, _:graaff, _:ibtaylor ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "olap-2013" ;
-	 doap:homepage "https://github.com/kshmir/olap-2013" ;
-	 doap:shortdesc "Repository for our OLAP Course's Project" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "PagerSlidingTabStrip" ;
-	 doap:homepage "https://github.com/kshmir/PagerSlidingTabStrip" ;
-	 doap:shortdesc "An interactive indicator to navigate between the different pages of a ViewPager" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:astuetz, _:antoniolg, _:guillermolechuga, _:Shusshu, _:HenriqueRocha ;
-	 doap:repository _:repo .
-
-doap:Project
-	 doap:name "pdc-2012" ;
-	 doap:homepage "https://github.com/kshmir/pdc-2012" ;
-	 doap:shortdesc "TP Protocolos de Comunicación" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir, _:joseignaciosg, _:FedericoHomovc ;
+	 doap:name "olap-espacial" ;
+	 doap:homepage "https://github.com/acrespo/olap-espacial" ;
+	 doap:description "Repositorio para el trabajo final de la materia OLAP Espacial del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
 	 doap:name "pod-2012" ;
-	 doap:homepage "https://github.com/kshmir/pod-2012" ;
-	 doap:shortdesc "Trabajo Práctico de Programación de Objetos Distribuidos" ;
-	 doap:maintainer _:kshmir ;
-	 doap:developer _:kshmir ;
+	 doap:homepage "https://github.com/acrespo/pod-2012" ;
+	 doap:description "Trabajo Práctico de Programación de Objetos Distribuidos" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
 	 doap:repository _:repo .
 
 doap:Project
-	 doap:name "pod-2012-client" ;
-	 do
+	 doap:name "sia-2013-1c" ;
+	 doap:homepage "https://github.com/acrespo/sia-2013-1c" ;
+	 doap:description "Repositorio para los trabajos de la materia Sistemas de Inteligencia Artificial del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:eordano ;
+	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Shell>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "Simulaciones" ;
+	 doap:homepage "https://github.com/acrespo/Simulaciones" ;
+	 doap:description "Repositorio para los trabajos de la materia Simulación de Sistemas del ITBA, incluyendo el Trabajo Práctico Especial." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:amarseillan ;
+	 doap:programming-language  <http://dbpedia.org/resource/M>, <http://dbpedia.org/resource/Python>, <http://dbpedia.org/resource/Matlab> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TLA_TPE2" ;
+	 doap:homepage "https://github.com/acrespo/TLA_TPE2" ;
+	 doap:description "Second assigment for TLA" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:esneider, _:champo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TP1-SO-2c2011" ;
+	 doap:homepage "https://github.com/acrespo/TP1-SO-2c2011" ;
+	 doap:description "TP1 for Operating Systems in the 2nd quarter of 2011" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "TPE-PAW" ;
+	 doap:homepage "https://github.com/acrespo/TPE-PAW" ;
+	 doap:description "Trabajo practico especial para Proyectos de Aplicacion Web" ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:champo, _:acrespo, _:dariosus, _:esneider ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "tpe-pod-2c2012" ;
+	 doap:homepage "https://github.com/acrespo/tpe-pod-2c2012" ;
+	 doap:description "Trabajo Práctico Especial para la materia Programación de Objetos Distribuidos del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "vj-ios-2013-2" ;
+	 doap:homepage "https://github.com/acrespo/vj-ios-2013-2" ;
+	 doap:description "Repositorio para la materia Desarrollo de Videojuegos para Iphone del ITBA." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
+	 doap:programming-language  <http://dbpedia.org/resource/Objective-C>, <http://dbpedia.org/resource/C>, <http://dbpedia.org/resource/Matlab>, <http://dbpedia.org/resource/C++> ;
+	 doap:repository _:repo .
+
+doap:Project
+	 doap:name "vj-unity-2013-2" ;
+	 doap:homepage "https://github.com/acrespo/vj-unity-2013-2" ;
+	 doap:description "Repositorio para la materia Introducción al desarrollo de Videojuegos del Instituto Tecnológico de Buenos Aires. Repository for the course Introduction to video game development of Instituto Tecnologico de Buenos Aires." ;
+	 doap:maintainer _:acrespo ;
+	 doap:developer _:acrespo ;
+	 doap:repository _:repo .
+
+_:repo a doap:GitRepository .
